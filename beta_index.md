@@ -18,7 +18,13 @@ Built on the IBM Cloud Monitoring Service, this beta monitoring application for 
 
 To participate in this Beta program, you must meet these requirements.
 1. Your SoftLayer account must be linked to an IBM BlueMix account. To link an account, the Master User on your SoftLayer account must login to the {{site.data.keyword.slportal_full}}, and click **Link a Bluemix Account!**.
-2. Each user to view the Beta, must be linked to an IBM ID. For more information, see [Linking IBMid user accounts](../../cloud-platform/accounts/softlayerlink.html#link_user_accounts)
+2. Each user to view the Beta must be linked to an IBM ID. For more information, see [Linking IBMid user accounts](../../cloud-platform/accounts/softlayerlink.html#link_user_accounts)
+3. Each user to view the Beta must have an IAM policy that allows access to the metrics service. 
+   1. From the BlueMix Console,  select **Manage -> Account -> Users**.
+   2. Invite the user to the account or select the user from the list.
+   3. Select **Assign Policy** to the user.
+   4. From **Service**, select **IBM Cloud Monitoring Service**. 
+   5. Select the **Role** to be granted to the user.
 
 If you do not meet these requisites, you are not able to access the Beta monitoring at this time.
 
