@@ -10,7 +10,7 @@ lastupdated: "2017-12-20"
 
 {: #gettingstartedbeta}
 
-Built on the IBM Cloud Monitoring Service, this Beta monitoring application for virtual servers is native to the IBM Cloud infrastructure, agentless, and is available on both current and future architectures. For updates on the development of this Beta program, see the [IBM Cloud Blog] (https://www.ibm.com/blogs/bluemix/2017/12/beta-release-new-vsi-monitoring-tool-ibm-cloud/).
+Built on the IBM Cloud Monitoring Service, this Beta monitoring application for virtual servers is native to the IBM Cloud infrastructure, agentless, and is available on both current and future architectures. For updates on the development of this Beta program, see the [IBM Cloud Blog](https://www.ibm.com/blogs/bluemix/2017/12/beta-release-new-vsi-monitoring-tool-ibm-cloud/).
 
 {:shortdesc}
 
