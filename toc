@@ -6,6 +6,7 @@ Monitoring
 
     {: .navgroup id="learn"}
     monitoring_index.md
+    vuln_scan.md
     beta_index.md
     {: .navgroup-end}
 
