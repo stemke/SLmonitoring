@@ -95,6 +95,6 @@ Only 10 monitoring policies can exist at one time. However, a policy can be appl
 To view some metrics, like memory utilization, xen tools are required on your server. For information on installing xen tools, see [Preparing and importing images](../image-templates/import-image.html#preparing-and-importing-images).
 
 ## Feedback 
-To provide feedback on this Beta, select **Devices -> Monitoring** or the device details page and click **Leave feedback** to complete a short survey. To leave the Beta and return to the standard view, click the **Leave the Beta** link at the bottom of the **Devices -> Monitoring** page.
+To provide feedback on this Beta, select **Devices -> Monitoring** or the device details page and click **Leave feedback** to complete a short survey. To leave the Beta and return to the standard view, click the **Leave the Beta** link on the **Devices -> Monitoring** page.
 
 
