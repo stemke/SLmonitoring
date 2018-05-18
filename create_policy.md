@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018
-lastupdated: "2018-03-29"
+lastupdated: "2018-05-18"
 ---
 
 {:shortdesc: .shortdesc}
@@ -17,7 +17,7 @@ Follow these steps to work with your system policies.
 2. Click the **System Policies** tab.
 
 <table>
-   <CAPTION>Table 1.Create and manage system policies</CAPTION>
+   <CAPTION>Table 1. Create and manage system policies</CAPTION>
    <THEAD>
    <TR>
    <th>If the action to be taken is...</th>
@@ -109,7 +109,7 @@ Follow these steps to work with your system policies.
   <td>
     <ol>
       <li>Click <b>Manage devices</b>.</li>
-      <li>Select or deselect devices to assign the policy.</li>
+      <li>Select or clear devices to assign the policy.</li>
        <li>Click <b>OK</b> to accept your changes.</li>
       </td>
   </tr>
