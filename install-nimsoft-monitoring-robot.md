@@ -24,6 +24,8 @@ Additionally, open ports tcp/48003 through tcp/50000 for the private network to 
 * **openjdk** is required for certain monitoring agents, such as the Tomcat Monitoring Agent.
 * Some 64-bit Linux distributions require **glibc.i686** and **nss-softtokn-freebl.i686**.
 * The monitoring system is not supported in **FreeBSD**.
+* The monitoring system is not supported in **Ubuntu 16**.
+* The monitoring system is not supported in **Windows 2016**.
 
 If there is an error configuring the monitoring service due to communication errors with the Nimsoft robot, the configuration process can be paused due to the limited connectivity. Limited connectivity is often caused by firewall or other security software that is blocking access to the system from the Nimsoft management servers.  Follow these steps to restart provisioning of the monitoring service:
 
