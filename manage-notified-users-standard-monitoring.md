@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-06-09"
+lastupdated: "2018-05-18"
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,6 +15,7 @@ Notified users for the standard monitoring service receive automated notificatio
 3. Click the **Expand** icon next to **Manage Notified users** to expand the section.
 4. Determine whether a **Managed User** should be added or removed.
 
+<caption>Table 1. Adding or removing a Managed User</caption>
 |If a Managed user should be...|Then...|
 |---|---|
 |Added |<ul><li>Select the new **Notified User** from the **Users to Notify** drop down list.</li><li>Click **Add User**.</li></ul>
