@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018
-lastupdated: "2018-05-18"
+lastupdated: "2018-06-28"
 ---
 
 {:shortdesc: .shortdesc}
@@ -110,7 +110,7 @@ Follow these steps to work with your system policies.
     <ol>
       <li>Click <b>Manage devices</b>.</li>
       <li>Select or clear devices to assign the policy.</li>
-       <li>Click <b>OK</b> to accept your changes.</li>
+      <li>Click <b>OK</b> to accept your changes.</li></ol>
       </td>
   </tr>
    <tr>
@@ -119,7 +119,7 @@ Follow these steps to work with your system policies.
     <ol>
       <li>Click <b>Actions->Duplicate policy</b>.</li>
       <li>Enter any changed information for your new policy.</li>
-       <li>Click <b>OK</b> to accept your changes.</li>
+      <li>Click <b>OK</b> to accept your changes.</li></ol>
       </td>
   </tr>
   
