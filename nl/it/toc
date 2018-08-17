@@ -1,0 +1,30 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="slmonitoring" audience="compute" href="/docs/infrastructure/slmonitoring/monitoring_index.html"}
+Monitoraggio
+
+    {: .navgroup id="learn"}
+    monitoring_index.md
+    beta_index.md
+    metrics.md
+    vuln_scan.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    vsi_viewing_monitors.md
+    manage-notified-users-standard-monitoring.md
+    install-nimsoft-monitoring-robot.md
+    configure-agent-report-nimsoft-monitoring.md
+    view-agent-report-nimsoft-monitoring.md
+    install_observer.md
+    manage_baremetal_agent.md
+    create_notification.md
+    create_policy.md
+    view_alerts.md
+    advanced_query.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    monitoring-faq.md
+    {: .navgroup-end}
