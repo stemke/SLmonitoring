@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-08-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -31,34 +31,20 @@ Follow these steps to work with your system policies.
    <ol>
      <li>Click <b>Create Notification</b>.</li>
      <li>Enter the information for your new system policy. 
-
-<table>
-  <caption>System policy details</caption>
-  <tr>
-     <th>Field</th>
-     <th>Description</th>
-  </tr>
-  <tr>
-    <td>Name</td>
-    <td>Enter a unique identifier for your new system policy. This is a required field.</td>
-  </tr>
-  <tr>
-    <td>Trigger</td>
-    <td>Select the details that trigger your system policy. This can be different metric levels for warnings and errors. For example, <i>Average</i>.</td>
-  </tr>
-   <tr>
-    <td>Duration</td>
-     <td>Select how long an event occurs to trigger your policy.</td>
-  </tr>
-   <tr>
-    <td>Device</td>
-    <td>The device monitored for the policy.</td>
-  </tr>
-   <tr>
-    <td>Default Notification</td>
-    <td>Define the default notification for your policy.</td>
-  </tr>
-</table>
+       <dl>
+         <dt>Name</dt>
+         <dd>Enter a unique identifier for your new system policy. This is a required field.</dd>
+         <dt>Trigger</dt>
+         <dd>Select the details that trigger your system policy. This can be different metric levels for warnings and errors. For example, <i>Average</i>.</dd>
+         <dt>Duration</dt>
+         <dd>elect how long an event occurs to trigger your policy.</dd>
+         <dt>Device</dt>
+         <dd>elect how long an event occurs to trigger your policy.</dd>
+         <dt>Device</dt>
+         <dd>he device monitored for the policy.</dd>
+         <dt>Default Notification</dt>
+         <dd>Define the default notification for your policy.</dd>
+       </dl>
 </li>
 <li>Click <b>OK</b> to accept your changes.</li>
    </ol>
@@ -70,26 +56,14 @@ Follow these steps to work with your system policies.
    <ol>
      <li>Click <b>Edit a Policy</b>.</li>
     <li>Enter the changed information for your system policy. 
-
-<table>
-  <caption>System policy details</caption>
-  <tr>
-     <th>Field</th>
-     <th>Description</th>
-  </tr>
-  <tr>
-    <td>Name</td>
-    <td>Enter a unique identifier for your new system policy. This is a required field</td>
-  </tr>
-  <tr>
-    <td>Trigger</td>
-    <td>Select the details that trigger your system policy. This can be different metric levels for warnings and errors.</td>
-  </tr>
-   <tr>
-    <td>Duration</td>
-     <td>Select how long an event occurs to trigger your policy.</td>
-  </tr>
-</table>
+      <dl>
+        <dt>Name</dt>
+        <dd>Enter a unique identifier for your new system policy. This is a required field.</dd>
+        <dt>Trigger</dt>
+        <dd>Select the details that trigger your system policy. This can be different metric levels for warnings and errors.</dd>
+        <dt>Duration</dt>
+        <dd>Select how long an event occurs to trigger your policy.</dd>
+      </dl>
 </li>
 <li>Click <b>Ok</b> to accept your changes.</li>
    </ol>
