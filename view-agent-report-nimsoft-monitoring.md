@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-06-09"
+  years: 1994, 2018
+lastupdated: "2018-11-15"
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,7 +15,7 @@ Monitoring details for Nimsoft Monitoring are available in agent reports, which 
 2. Select the agent to view from the **Agents** list.
   * **Note:** Available agents vary by device and are dependent on the monitoring package applied to the device.
 3. Complete all remaining sections, including one or more of the following actions:
-  * **Note:** Each agent varies and does not include each section or metric. Available options on this screen are dependent on the configuration options available for each agent.
+  * **Note:** Each agent varies and doesn't include each section or metric. Available options on this screen are dependent on the configuration options available for each agent.
   * Select the section report from the **Sections** list.
   * Select the time period for the report from the **View By** list.
   * Click the check box for each metric you want to report in the **Select metrics to report on:** section.
@@ -24,4 +24,4 @@ Monitoring details for Nimsoft Monitoring are available in agent reports, which 
 
 ## Next steps
 
-After drawing the graph for the agent report, the graph can be redrawn at any time to view different metrics by repeating these steps. There is no limit to the number of agent reports that can be generated within a set amount of time.
+After drawing the graph for the agent report, the graph can be redrawn at any time to view different metrics by repeating these steps. There's no limit to the number of agent reports that can be generated within a set amount of time.

@@ -1,16 +1,15 @@
 ---
 copyright:
   years: 2017, 2018
-lastupdated: "2018-11-15"
+lastupdated: "2018-03-29"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 # Getting started with IBM Cloud Monitoring (Beta)
-
 {: #gettingstartedbeta}
-This beta monitoring application, built on the {{site.data.keyword.BluSoftlayer_full}} Monitoring Service is available for virtual and bare metal servers. For updates on the development of this Beta program, see the [IBM Cloud Blog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2017/12/beta-release-new-vsi-monitoring-tool-ibm-cloud/){: new_window}.
 
+This beta monitoring application, built on the {{site.data.keyword.BluSoftlayer_full}} Monitoring Service is available for virtual and bare metal servers. For updates on the development of this Beta program, see the [IBM Cloud Blog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2017/12/beta-release-new-vsi-monitoring-tool-ibm-cloud/){: new_window}.
 {:shortdesc}
 
 ## Prerequisites
@@ -18,20 +17,20 @@ This beta monitoring application, built on the {{site.data.keyword.BluSoftlayer_
 To participate in this Beta program, you must meet these requirements.
 1. Your SoftLayer account must be linked to an IBM Cloud account with IBMid authentication. To link an account, the Master User on your SoftLayer account must log in to the [{{site.data.keyword.slportal_full}}](https://control.softlayer.com), and from the **Account** menu, click **Link a Bluemix Account!**.
 2. Each user to view the Beta must be linked to an IBM ID. For more information, see [Linking IBMid user accounts](../../account/softlayerlink.html#link_customer_accounts).
-3. Each user to view the Beta must have access to the IBM Cloud Monitoring Service. 
-   1. From the [BlueMix Console](https://console.bluemix.net),  select **Manage -> Account -> Users**.
+3. Each user to view the Beta must have access to the IBM Cloud Monitoring Service.
+   1. From the [IBM Cloud console](https://console.bluemix.net),  select **Manage -> Account -> Users**.
    2. Invite the user to the account or select the user from the list.
    3. Select **Assign Access to Resources** to the user.
-   4. From **Service**, select **IBM Cloud Monitoring Service**. 
+   4. From **Service**, select **IBM Cloud Monitoring Service**.
    5. Select the **Role** to be granted to the user for all regions.
 
 If you do not meet these prerequisites, you are not able to access the Beta monitoring at this time.
 
 
-## Joining the beta 
+## Joining the beta
 
 Follow these steps to get started with the monitoring Beta program. Joining the Beta enables the service for all eligible virtual and bare metal servers in your account. Clicking join does not affect existing Nimsoft monitoring or data.
-1. (Bare metal only) [Install the monitoring agent on your bare metal server](install_observer.html). 
+1. (Bare metal only) [Install the monitoring agent on your bare metal server](install_observer.html).
 <table>
    <CAPTION>Table 1. Choose a log in location</CAPTION>
    <THEAD>
@@ -76,15 +75,15 @@ Follow these steps to get started with the monitoring Beta program. Joining the 
 
 |              Metrics                                      |  Description                                        |
 | --------------------------------------------------------- | --------------------------------------------------- |
-|CPU Utilization                                            |   View the % CPU utilization for each core and an average across cores. Click each    metric in the key to turn the data on or off on the graph.
-|Public Network                                             |   View inbound and outbound data for your public network. Click each metric in the key to turn the data on or off on the graph.       |
-|Private Network                                            |   View inbound and outbound data for your private network. Click each metric in the key to turn the data on or off on the graph.           |
+|CPU utilization                                            |   View the % CPU utilization for each core and an average across cores. Click each    metric in the key to turn the data on or off on the graph.
+|Public network                                             |   View inbound and outbound data for your public network. Click each metric in the key to turn the data on or off on the graph.       |
+|Private network                                            |   View inbound and outbound data for your private network. Click each metric in the key to turn the data on or off on the graph.           |
 |Memory utilization    | View the % of memory utilization for your server     |
 |Disk usage    | View the average amount of data being read or written from or to disk in bytes or the disk latency. Click each metric in the key to turn the data on or off on the graph.    |
 |Temperature                                                 |View the temperature of your bare metal device in degrees Celsius. This data is not available for all devices.
 {: caption="Table 1. Beta metrics" caption-side="top"}   
 
-## Limitations 
+## Limitations
 If a device is deleted, associated monitoring policies are not deleted. Be aware that you must manually delete the device for these policies.
 
 Metrics data is available for 15 days only.
@@ -92,9 +91,7 @@ Metrics data is available for 15 days only.
 Only 10 monitoring policies can exist at one time. However, a policy can be applied to multiple devices.
 
 ## Troubleshooting
-To view some metrics, like memory utilization, xen tools are required on your server. For information on installing xen tools, see [Preparing and importing images](../image-templates/import-image.html#preparing-and-importing-images).
+To view some metrics, like memory utilization, Xen tools are required on your server. For information on installing Xen tools, see [Preparing and importing images](../image-templates/import-image.html#preparing-and-importing-images).
 
-## Feedback 
-To provide feedback on this Beta, select **Devices -> Monitoring** or the device details page and click **Leave feedback** to complete a short survey. To leave the Beta and return to the standard view, click the **Leave the Beta** link on the **Devices -> Monitoring** page.
-
-
+## Feedback
+To provide feedback on this Beta, select **Devices -> Monitoring** or the device details page and click **Leave feedback** to complete a short survey. To leave the Beta and return to the standard view, click the **Leave the Beta** link at the bottom of the **Devices -> Monitoring** page.

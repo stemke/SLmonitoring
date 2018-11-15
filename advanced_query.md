@@ -9,12 +9,12 @@ lastupdated: "2018-03-29"
 
 # Creating an advanced monitoring query (Beta)
 
-In the {{site.data.keyword.cloud}}, you can use Grafana, an open source analytics and visualization platform, to monitor, search, analyze, and visualize your metrics in a variety of graphs, for example charts and tables. You can use Grafana to perform advanced analytical tasks. 
+In the {{site.data.keyword.cloud}}, you can use Grafana, an open source analytics and visualization platform to monitor, search, analyze, and visualize your metrics in various graphs, for example charts and tables. You can use Grafana to perform advanced analytical tasks.
 {:shortdesc}
 
 If you use Grafana, you can use the dashboard to create graphs using the metric query.
 1. [Navigate to the Grafana dashboard](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/navigating_grafana.html#navigating_grafana).
-2. Select the domain `account` and a user account with an IBMid linked to the bare metal device. 
+2. Select the domain `account` and a user account with an IBMid linked to the bare metal device.
 3. Use this format to create your queries.
 `ibmcloud.public.iaas-telemetry.region.<DATACENTER_BAREMETAL_LIVES_IN>.<MACHINE_GUID>.<METRIC_TYPE>`
 4. Here are the available metric types:
@@ -111,7 +111,7 @@ net-private-out-bps-agg`</td>
      </tr>
     <tr>
        <td>`temperature-celsius-<id>` <br>`temperature-celsius-avg`
-         <br>This metric is not available for all devices.</td>
+         <br>This metric isn't available for all devices.</td>
        <td>degrees Celsius</td>
      </tr>
    </TBODY>

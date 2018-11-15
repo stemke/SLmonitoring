@@ -20,11 +20,11 @@ This topic covers all metrics available through Grafana queries. For more inform
 * Disk Read and Write latency
 * Public network throughput (in/out)
 * Private network throughput (in/out)
-* Public network packets (in/out) (Baremetal only)
-* Private network packets(in/out) (Baremetal only)
-* Public network errors(in/out) (Baremetal only)
-* Private network errors (in/out) (Baremetal only)
-* Temperature (Baremetal only)
+* Public network packets (in/out) (Bare metal only)
+* Private network packets(in/out) (Bare metal only)
+* Public network errors(in/out) (Bare metal only)
+* Private network errors (in/out) (Bare metal only)
+* Temperature (Bare metal only)
 
 
 ## CPU metrics
@@ -33,12 +33,12 @@ This topic covers all metrics available through Grafana queries. For more inform
 ## Memory metrics
 * Bytes used/Average used: The amount of memory being used at a given time, available in both bytes and percentage of the total.
 * Swap Bytes used/Average used: The percentage of swap memory being used during a given period. This metric is an indication of how often you have to retrieve data that is not in memory. This metric is available only on bare metal devices.
-  
+
 ## Disk metrics
 
-* Disk Total: The total amount of bytes available to the disk. This metric should be constant.
-* Disk Used (Bytes): The amount of bytes being used by the disk at the given time.
-* Disk Used (Percentage): The percentage of the total amount of bytes being used over the total amount of bytes available to the disk.
+* Disk Total: The total number of bytes available to the disk. This metric should be constant.
+* Disk Used (Bytes): The number of bytes being used by the disk at the given time.
+* Disk Used (Percentage): The percentage of the total number of bytes being used over the total number of bytes available to the disk.
 * Disk Read/Write (bytes per sec): The average amount of data being read/written from/to disk in bytes over a given time period.
 * Disk Read/Write (operations per sec): Read/write operations per second
 * Disk Read/Write (latency in ms per operation): Latency in ms per read/write
@@ -52,6 +52,3 @@ This topic covers all metrics available through Grafana queries. For more inform
 
 ## Temperature metrics
 * Average temperature of the system measured in degrees Celsius. This metric is available only on select bare metal devices.
-
-
-

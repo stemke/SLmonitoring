@@ -24,7 +24,7 @@ lastupdated: "2017-06-09"
    <ol>
    <li>From the <b>Monitoring</b> tab of the Device Details page, click <b>Manage Monitors</b> on the right side of the page to manage monitors that are associated with this device.</li>
    <li>On the Monitors page, click the <b>Add Monitor</b> tab.
-   * **Note:** Public and Private IP addresses are available for monitoring. Each IP address is identified on the **Server Info** tab.</li>
+   * **Note:** Public and Private IP addresses are available for monitoring. Each IP address is identified on the **Server Info** tab at the top of the screen.</li>
    <li>Select the IP address to monitor from the <b>IP Address</b> drop down list.</li>
    <li>Select the monitor type from the <b>Monitor Type</b> drop down list.</li>
    <li>Set up the notification options. From the <b>Notify?</b> drop down list, select <b>Notify Users</b>  notify users of issues, or <b>Do Nothing</b> to bypass user notification.</li>
