@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-16"
+lastupdated: "2018-11-15"
 ---
 
 {:shortdesc: .shortdesc}
@@ -16,7 +16,7 @@ This beta monitoring application, built on the {{site.data.keyword.BluSoftlayer_
 ## Prerequisites
 
 To participate in this Beta program, you must meet these requirements.
-1. Your SoftLayer account must be linked to an IBM BlueMix account. To link an account, the Master User on your SoftLayer account must log in to the [{{site.data.keyword.slportal_full}}](https://control.softlayer.com), and from the **Account** menu, click **Link a Bluemix Account!**.
+1. Your SoftLayer account must be linked to an IBM Cloud account with IBMid authentication. To link an account, the Master User on your SoftLayer account must log in to the [{{site.data.keyword.slportal_full}}](https://control.softlayer.com), and from the **Account** menu, click **Link a Bluemix Account!**.
 2. Each user to view the Beta must be linked to an IBM ID. For more information, see [Linking IBMid user accounts](../../account/softlayerlink.html#link_customer_accounts).
 3. Each user to view the Beta must have access to the IBM Cloud Monitoring Service. 
    1. From the [BlueMix Console](https://console.bluemix.net),  select **Manage -> Account -> Users**.
