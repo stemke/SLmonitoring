@@ -48,6 +48,6 @@ lastupdated: "2017-06-09"
 
 ## Next steps
 
-- If a new monitor is added, the monitor appears on the **Monitoring** tab. The monitor sends a ping to the device every 5 minutes, expecting a response based on the selected ping type. If the expected response is not received, an email is sent to the notification email address for the account in the specified time frame, if notification is selected.
+- If a new monitor is added, the monitor appears on the **Monitoring** tab. The monitor sends a ping to the device every 5 minutes, expecting a response based on the selected ping type. If the expected response isn't received, an email is sent to the notification email address for the account in the specified time frame, if notification is selected.
 
 - If a monitor is removed, the monitor will no longer function for the device. All monitoring that is associated with the removed monitor ceases, and the monitor no longer appears on the Monitoring tab.
