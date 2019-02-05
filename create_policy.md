@@ -111,6 +111,7 @@ Follow these steps to work with your system policies.
       <li>Click <b>Manage devices</b>.</li>
       <li>Select or unselect devices to assign the policy.</li>
        <li>Click <b>OK</b> to accept your changes.</li>
+    </ol>
       </td>
   </tr>
    <tr>
@@ -120,6 +121,7 @@ Follow these steps to work with your system policies.
       <li>Click <b>Actions->Duplicate policy</b>.</li>
       <li>Enter any changed information for your new policy.</li>
        <li>Click <b>OK</b> to accept your changes.</li>
+    </ol>
       </td>
   </tr>
 
