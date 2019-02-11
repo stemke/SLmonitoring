@@ -16,19 +16,19 @@ You must be connected to your bare metal device to download and run the installe
 
 ## Installing in Windows
 
-1. Download the Windows IBM Cloud Monitoring Agent installer. [Download](http://downloads.service.softlayer.com/ibm-monitoring-baremetal-agent/latest/baremetal-monitoring-agent-windows-amd64.msi)
+1. Download the Windows IBM Cloud Monitoring Agent installer. [Download ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/ibm-monitoring-baremetal-agent/latest/baremetal-monitoring-agent-windows-amd64.msi){: new_window}
 2. Run the installer on the target machine.
 
 ## Installing in Linux
 
-1. Download the Linux IBM Cloud Monitoring Agent installer. [Download](http://downloads.service.softlayer.com/ibm-monitoring-baremetal-agent/latest/baremetal-monitoring-agent-linux-amd64.tgz)
+1. Download the Linux IBM Cloud Monitoring Agent installer. [Download ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/ibm-monitoring-baremetal-agent/latest/baremetal-monitoring-agent-linux-amd64.tgz){: new_window}
 2. Extract it on the target machine.
   `tar –vxf baremetal-monitoring-agent-linux-amd64.tgz`
 3. Run the linux_install.sh script.
 
 
 ## Installing in FreeBSD
-1. Download the FreeBSD IBM Cloud Monitoring Agent installer. [Download](http://downloads.service.softlayer.com/ibm-monitoring-baremetal-agent/latest/baremetal-monitoring-agent-freebsd-amd64.tgz)
+1. Download the FreeBSD IBM Cloud Monitoring Agent installer. [Download ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/ibm-monitoring-baremetal-agent/latest/baremetal-monitoring-agent-freebsd-amd64.tgz){: new_window}
 2. Extract it on the target machine.
        `tar -xvf baremetal-monitoring-agent-freebsd-amd64.tgz`
 3. Run the freebsd_install.sh script.
