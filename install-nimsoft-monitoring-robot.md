@@ -37,7 +37,7 @@ If there is an error configuring the monitoring service due to communication err
 
 ## Installing in Windows
 
-1. See http://downloads.service.softlayer.com/nimsoft to download the latest version of the Windows Installer to the device for installation (You must be connected to the customer VPN).
+1. See http://downloads.service.softlayer.com/nimsoft/ to download the latest version of the Windows Installer to the device for installation (You must be connected to the customer VPN).
 * Run the Nimsoft Monitoring Robot file as an Administrator.
 
 ## Installing in Linux
