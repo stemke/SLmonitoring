@@ -16,7 +16,7 @@ This beta monitoring application, built on the {{site.data.keyword.BluSoftlayer_
 
 To participate in this Beta program, you must meet these requirements.
 1. Your SoftLayer account must be linked to an IBM Cloud account with IBMid authentication. To link an account, the Master User on your SoftLayer account must log in to the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com){: new_window}, and from the **Account** menu, click **Link a Bluemix Account!**.
-2. Each user to view the Beta must be linked to an IBM ID. For more information, see [Linking IBMid user accounts](../../account/softlayerlink.html#link_customer_accounts).
+2. Each user to view the Beta must be linked to an IBM ID. For more information, see [Linking IBMid user accounts](/docs/account/softlayerlink.html#link_customer_accounts).
 3. Each user to view the Beta must have access to the IBM Cloud Monitoring Service.
    1. From the [IBM Cloud console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net){: new_window},  select **Manage -> Account -> Users**.
    2. Invite the user to the account or select the user from the list.
@@ -30,7 +30,7 @@ If you do not meet these prerequisites, you are not able to access the Beta moni
 ## Joining the beta
 
 Follow these steps to get started with the monitoring Beta program. Joining the Beta enables the service for all eligible virtual and bare metal servers in your account. Clicking join does not affect existing Nimsoft monitoring or data.
-1. (Bare metal only) [Install the monitoring agent on your bare metal server](install_observer.html).
+1. (Bare metal only) [Install the monitoring agent on your bare metal server](/docs/infrastructure/SLmonitoring/install_observer.html).
 <table>
    <CAPTION>Table 1. Choose a log in location</CAPTION>
    <THEAD>
@@ -67,10 +67,10 @@ Follow these steps to get started with the monitoring Beta program. Joining the 
 2. Select **Devices -> Monitoring**. Click **Join the beta** to view the system policies and notifications beta tabs.
 
 ## Next steps
-1. Review the details of collected [metrics](metrics.html).
-2. [Create or manage](create_notification.html) a monitor notification.
-3. [Create or manage](create_policy.html) a system policy.
-4. [View alerts](view_alerts.html).
+1. Review the details of collected [metrics](/docs/infrastructure/SLmonitoring/metrics.html).
+2. [Create or manage](/docs/infrastructure/SLmonitoring/create_notification.html) a monitor notification.
+3. [Create or manage](/docs/infrastructure/SLmonitoring/create_policy.html) a system policy.
+4. [View alerts](/docs/infrastructure/SLmonitoring/view_alerts.html).
 5. Review the currently available Beta monitoring graph data for a selected device.
 
 |              Metrics                                      |  Description                                        |
@@ -91,7 +91,7 @@ Metrics data is available for 15 days only.
 Only 10 monitoring policies can exist at one time. However, a policy can be applied to multiple devices.
 
 ## Troubleshooting
-To view some metrics, like memory utilization, Xen tools are required on your server. For information on installing Xen tools, see [Preparing and importing images](../image-templates/import-image.html#preparing-and-importing-images).
+To view some metrics, like memory utilization, Xen tools are required on your server. For information on installing Xen tools, see [Preparing and importing images](/docs/infrastructure/image-templates/import-image.html#preparing-and-importing-images).
 
 ## Feedback
 To provide feedback on this Beta, select **Devices -> Monitoring** or the device details page and click **Leave feedback** to complete a short survey. To leave the Beta and return to the standard view, click the **Leave the Beta** link at the bottom of the **Devices -> Monitoring** page.
