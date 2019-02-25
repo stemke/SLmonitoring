@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2014, 2019
 lastupdated: "2019-02-11"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,7 +23,7 @@ Before you install, these ports must be open on the private network:
 * tcp/48001
 * tcp/48002
 
-Additionally, open ports tcp/48003 through tcp/50000 for the private network to allow for full functionality that is used by the API. If you do not open these ports, some monitoring agents are affected. If errors are encountered during configuration, ensure that these ports are open before you open a ticket for escalation. 
+Additionally, open ports tcp/48003 through tcp/50000 for the private network to allow for full functionality that is used by the API. If you do not open these ports, some monitoring agents are affected. If errors are encountered during configuration, ensure that these ports are open before you open a ticket for escalation.
 
 * **openjdk** is required for certain monitoring agents, such as the Tomcat Monitoring Agent.
 * Some 64-bit Linux distributions require **glibc.i686** and **nss-softtokn-freebl.i686**.

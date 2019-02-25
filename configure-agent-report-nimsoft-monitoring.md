@@ -1,7 +1,11 @@
 ---
+
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-10-30"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -29,4 +33,4 @@ lastupdated: "2017-10-30"
 
 ## Next steps
 
-After you successfully save the configuration, a confirmation message appears. If the configuration was unsuccessful, an error message appears with details about the error that occurred and how to fix the error. You can reconfigure agents at any time by repeating these steps. 
+After you successfully save the configuration, a confirmation message appears. If the configuration was unsuccessful, an error message appears with details about the error that occurred and how to fix the error. You can reconfigure agents at any time by repeating these steps.

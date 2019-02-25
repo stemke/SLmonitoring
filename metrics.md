@@ -4,6 +4,8 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
 
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,7 +15,7 @@ lastupdated: "2018-03-29"
 This topic covers the metrics collected for this beta monitoring application on virtual and bare metal servers.
 {:shortdesc}
 
-This topic covers all metrics available through Grafana queries. For more information, see [Creating an advanced monitoring query (Beta)](advanced_query.html). Graphs are available in the user interface for the following metrics only:
+This topic covers all metrics available through Grafana queries. For more information, see [Creating an advanced monitoring query (Beta)](/docs/infrastructure/SLmonitoring?topic=slmonitoring-creating-an-advanced-monitoring-query-beta-#creating-an-advanced-monitoring-query-beta-). Graphs are available in the user interface for the following metrics only:
 * CPU utilization
 * Memory Usage
 * Disk Read and Write (bytes/seconds and IO per second)

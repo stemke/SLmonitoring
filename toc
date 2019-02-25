@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="slmonitoring" audience="compute" href="/docs/infrastructure/SLmonitoring/monitoring_index.html" path="infrastructure/SLmonitoring"}
+{: .toc subcollection="slmonitoring" audience="compute" href="docs/infrastructure/SLmonitoring?topic=SLmonitoring-gettingstartedbeta" path="infrastructure/SLmonitoring"}
 Monitoring
 
     {: .navgroup id="learn"}

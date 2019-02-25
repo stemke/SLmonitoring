@@ -1,7 +1,11 @@
 ---
+
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-06-09"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -22,4 +26,4 @@ Notified users for the standard monitoring service receive automated notificatio
 
 ## Next steps
 
-If a notified user was added with these steps, the user is notified in the event of a missed ping response. If a notified user was removed, the user no longer receives a notification regarding a missed ping response that is associated with the device. 
+If a notified user was added with these steps, the user is notified in the event of a missed ping response. If a notified user was removed, the user no longer receives a notification regarding a missed ping response that is associated with the device.

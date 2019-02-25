@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+subcollection: slmonitoring
 
 ---
 
@@ -21,7 +20,7 @@ lastupdated: "2017-09-28"
 Monitoring a device allows users to initiate service and slow pings to ensure that the device is online and responsive.
 {:shortdesc}
 
-If an echo is not received in the allotted time frame (1 second for service pings, 5 seconds for slow pings) an alert is sent to the email 
+If an echo is not received in the allotted time frame (1 second for service pings, 5 seconds for slow pings) an alert is sent to the email
 address on the account. A status of **Up** in the **Status** field indicates that an echo was received, while **Down**
 indicates that the echo was not received. If you have a configured basic monitor, follow these steps to view and manage monitoring for a device.
 
@@ -78,9 +77,9 @@ indicates that the echo was not received. If you have a configured basic monitor
    </tr>
    </TBODY>
    </table>
-   
+
 ## Next steps
-   
+
 - If a new monitor is added, the monitor appears on the **Monitoring** tab. The monitor sends a ping to the device every 5 minutes, expecting a response based on the selected ping type. If the expected response is not received, an email is sent to the notification email address for the account in the specified time frame, if notification is selected.
 - If a monitor is edited, the monitor continues to function as specified in the monitor details. If type is changed, the amount of time to receive the expected ping is different. If notification options changed, the way users are notified of a failed attempt is changed based on the new selections. The monitor remains accessible from the **Monitoring** tab.
 - If a monitor is removed, the monitor no longer functions for the device. All monitoring that is associated with the removed monitor stops, and the monitor no longer appears on the **Monitoring** tab.

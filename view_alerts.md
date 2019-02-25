@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,14 +13,14 @@ lastupdated: "2018-03-29"
 
 # Viewing monitoring alerts (Beta)
 To view any warnings or errors triggered by your monitoring policies, complete these steps.
-{:shortdesc} 
+{:shortdesc}
 
 ## To view all the alerts for a device:
- 1. After you have joined the beta, select **Device details -> *Device name***. 
+ 1. After you have joined the beta, select **Device details -> *Device name***.
  2. Click the **Monitoring Feed** tab.
  3. All of the warning and error alerts for the device are displayed.
- 
+
 ## To view all the alerts across devices:
- 1. After you have joined the beta, select **Device -> Monitoring**. 
+ 1. After you have joined the beta, select **Device -> Monitoring**.
  2. Click the **Alerts** tab.
  3. The warning and error alerts for all devices are displayed.

@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
 lastupdated: "2018-04-20"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -37,4 +41,4 @@ You must be connected to your bare metal device to download and run the installe
 
 After you run the installation, the system automatically completes the process. In Windows, a message appears with a confirmation of a successful install or with information about any errors that occurred.
 
-If you're using a firewall, you might need to allow the IBM Cloud Monitoring Agent to pass data through it. The agent uses port 8090 for outbound HTTPS communication. For more information on IP addresses you might need to allow, see [Load balancer IP ranges](https://console.bluemix.net/docs/infrastructure/hardware-firewall-dedicated/ips.html#load-balancer-ips).
+If you're using a firewall, you might need to allow the IBM Cloud Monitoring Agent to pass data through it. The agent uses port 8090 for outbound HTTPS communication. For more information on IP addresses you might need to allow, see [Load balancer IP ranges](/docs/infrastructure/hardware-firewall-dedicated?topic=hardware-firewall-dedicated-load-balancer-ips#load-balancer-ips).

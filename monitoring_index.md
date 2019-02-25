@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2014, 2018
 lastupdated: "2018-11-15"
 
+subcollection: slmonitoring
 
 ---
 
@@ -19,7 +18,7 @@ Monitoring a device allows users to initiate service and slow pings to ensure th
 
 If an echo isn't received in the allotted time frame (1 second for service pings, 5 seconds for slow pings) an alert is sent to the email
 address on the account. A status of **Up** in the **Status** field indicates that an echo was received, while **Down**
-indicates that the echo wasn't received. 
+indicates that the echo wasn't received.
 
 To view configured monitors, follow these steps:
 

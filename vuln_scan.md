@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-02"
 
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}

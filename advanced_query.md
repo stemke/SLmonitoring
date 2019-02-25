@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,7 +17,7 @@ In the {{site.data.keyword.cloud}}, you can use Grafana, an open source analytic
 {:shortdesc}
 
 If you use Grafana, you can use the dashboard to create graphs using the metric query.
-1. [Navigate to the Grafana dashboard](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/navigating_grafana.html#navigating_grafana).
+1. [Navigate to the Grafana dashboard](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-navigating_grafana#navigating_grafana).
 2. Select the domain `account` and a user account with an IBMid linked to the bare metal device.
 3. Use this format to create your queries.
 `ibmcloud.public.iaas-telemetry.region.<DATACENTER_BAREMETAL_LIVES_IN>.<MACHINE_GUID>.<METRIC_TYPE>`
@@ -117,4 +121,4 @@ net-private-out-bps-agg`</td>
    </TBODY>
    </table>
 
-For more information, see [Configuring a metric query in Grafana](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/define_query.html#define_query).
+For more information, see [Configuring a metric query in Grafana](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-define_query#define_query).
