@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2018
-lastupdated: "2018-03-29"
+  years: 2018, 2019
+lastupdated: "2019-02-27"
 
 subcollection: slmonitoring
 
@@ -90,7 +90,7 @@ A notification describes the method and details that is used to notify when an a
   </tr>
   <tr>
     <td>API Key</td>
-    <td>Enter the enter the APIKey for pager duty notifications.</td>
+    <td>Enter the APIKey for pager duty notifications.</td>
   </tr>
 </table>
 
