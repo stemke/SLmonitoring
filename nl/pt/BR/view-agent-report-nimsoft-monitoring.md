@@ -1,7 +1,11 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-06-09"
+  years: 2014, 2018
+lastupdated: "2018-11-15"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -25,4 +29,5 @@ pacote de monitoramento aplicado ao dispositivo.
 
 ## Próximos passos
 
-Depois de desenhar o gráfico para o relatório do agente, o gráfico poderá ser redesenhado a qualquer momento para visualizar diferentes métricas ao repetir essas etapas. Não há limite para o número de relatórios do agente que podem ser gerados dentro de um período de tempo configurado.
+Depois de desenhar o gráfico para o relatório do agente, o gráfico poderá ser redesenhado a qualquer momento para visualizar diferentes métricas ao repetir essas etapas. Não
+há limite para o número de relatórios do agente que podem ser gerados dentro de um prazo configurado.

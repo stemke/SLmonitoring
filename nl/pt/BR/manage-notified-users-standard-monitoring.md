@@ -1,7 +1,11 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2018-05-18"
+  years: 2014, 2017
+lastupdated: "2017-06-09"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,7 +19,6 @@ Os usuários notificados para o serviço de monitoramento padrão receberão not
 3. Clique no ícone **Expandir** próximo a **Gerenciar usuários notificados** para expandir a seção.
 4. Determine se um **Usuário gerenciado** deve ser incluído ou removido.
 
-<caption>Tabela 1. Incluindo ou removendo um usuário gerenciado</caption>
 |Se um usuário Gerenciado tiver que ser...|Então...|
 |---|---|
 |Incluído |<ul><li>Selecione o novo **Usuário notificado** na lista suspensa **Usuários a serem notificados**.</li><li>Clique em **Incluir usuário**.</li></ul>
@@ -23,4 +26,4 @@ Os usuários notificados para o serviço de monitoramento padrão receberão not
 
 ## Próximos passos
 
-Se um usuário notificado tiver sido incluído com essas etapas, ele será notificado no caso de uma resposta de ping ausente. Se um usuário notificado tiver sido removido, ele não receberá mais uma notificação sobre uma resposta de ping ausente que está associada ao dispositivo. 
+Se um usuário notificado tiver sido incluído com essas etapas, ele será notificado no caso de uma resposta de ping ausente. Se um usuário notificado tiver sido removido, ele não receberá mais uma notificação sobre uma resposta de ping ausente que está associada ao dispositivo.

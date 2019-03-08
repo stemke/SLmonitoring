@@ -1,7 +1,11 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-01"
+  years: 2014, 2019
+lastupdated: "2019-02-11"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,15 +23,13 @@ Antes de instalar, estas portas devem ser abertas na rede privada:
 * tcp/48001
 * tcp/48002
 
-Além disso, abra as portas tcp/48003 a tcp/50000 da rede privada para permitir a funcionalidade completa usada pela API. Se você não abrir essas portas, alguns agentes de monitoramento serão afetados. Se forem encontrados erros durante a configuração, assegure-se de que essas portas estejam abertas antes de abrir um chamado para escalação. 
+Além disso, abra as portas tcp/48003 a tcp/50000 da rede privada para permitir a funcionalidade completa usada pela API. Se você não abrir essas portas, alguns agentes de monitoramento serão afetados. Se forem encontrados erros durante a configuração, assegure-se de que essas portas estejam abertas antes de abrir um chamado para escalação.
 
 * **openjdk** necessário para alguns agentes de monitoramento, como o Tomcat Monitoring Agent.
 * Algumas distribuições Linux de 64 bits requerem **glibc.i686** e **nss-softtokn-freebl.i686**.
 * O sistema de monitoramento não é suportado no **FreeBSD**.
-* O sistema de monitoramento não é suportado no **Ubuntu 16**.
-* O sistema de monitoramento não é suportado no **Windows 2016**.
 
-Se houver um erro ao configurar o serviço de monitoramento devido a erros de comunicação com o robô Nimsoft, o processo de configuração poderá ser pausado devido à conectividade limitada. A conectividade limitada é muitas vezes causada pelo firewall ou outro software de segurança que está bloqueando o acesso ao sistema por meio dos servidores de gerenciamento Nimsoft. Siga estas etapas para reiniciar o fornecimento do serviço de monitoramento:
+Se houver um erro ao configurar o serviço de monitoramento devido a erros de comunicação com o robô Nimsoft, o processo de configuração poderá ser pausado devido à conectividade limitada. A conectividade limitada é muitas vezes causada pelo firewall ou outro software de segurança que está bloqueando o acesso ao sistema por meio dos servidores de gerenciamento Nimsoft.  Siga estas etapas para reiniciar o fornecimento do serviço de monitoramento:
 
 ## Reiniciando o fornecimento de um agente de monitoramento
 
@@ -39,13 +41,13 @@ Se houver um erro ao configurar o serviço de monitoramento devido a erros de co
 
 ## Instalando no Windows
 
-1. Veja http://downloads.service.softlayer.com/nimsoft para fazer download da versão mais recente do Windows Installer no dispositivo para instalação (Deve-se estar conectado à VPN).
+1. Consulte http://downloads.service.softlayer.com/nimsoft/ para fazer download da versão mais recente do Windows Installer para o dispositivo a ser instalado (deve-se estar conectado à VPN do cliente).
 * Execute o arquivo Nimsoft Monitoring Robot como um Administrador.
 
 ## Instalando no Linux
 
-1. Conecte-se à rede privada por meio da VPN.
-* Faça download do Linux Installer de [32 bits](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz) ou [64 bits](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz) no dispositivo para instalação. As versões Debian e Ubuntu também estão disponíveis no [Nimsoft Installer](http://downloads.service.softlayer.com/nimsoft/).
+1. Conecte-se à rede privada por meio da VPN do cliente.
+* Faça download do [de 32 bits ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz){: new_window} ou do [ ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz){: new_window} Linux Installer de 64 bits para o dispositivo a ser instalado. As versões Debian e Ubuntu também estão disponíveis no [Nimsoft Installer ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://downloads.service.softlayer.com/nimsoft/){: new_window}.
 * Execute estes comandos para concluir a instalação, substituindo 32 por 64, se você estiver executando uma instalação de 64 bits:
 
         $ tar –xzvf NIMSOFT_LINUX_32.tar.gz

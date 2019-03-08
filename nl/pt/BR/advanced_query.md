@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,12 +13,14 @@ lastupdated: "2018-03-29"
 
 # Criando uma consulta de monitoramento avançada (Beta)
 
-No {{site.data.keyword.cloud}}, é possível usar o Grafana, uma plataforma de software livre para análise e visualização, para monitorar, procurar, analisar e visualizar suas métricas em uma variedade de gráficos, por exemplo, gráficos e tabelas. É possível usar o Grafana para executar tarefas analíticas avançadas.
+No {{site.data.keyword.cloud}}, é possível usar o Grafana, uma plataforma de análise de dados e de visualização de
+software livre para monitorar, procurar, analisar e visualizar suas métricas em vários gráficos, por
+exemplo, gráficos e tabelas. É possível usar o Grafana para executar tarefas analíticas avançadas.
 {:shortdesc}
 
 Se você usar o Grafana, será possível usar o painel para criar gráficos usando a consulta de métrica.
-1. [Navegue para o painel do Grafana](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/navigating_grafana.html#navigating_grafana).
-2. Selecione o domínio `account` e uma conta do usuário com um IBMid vinculado ao dispositivo bare metal. 
+1. [Navegue para o painel do Grafana](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-navigating_grafana#navigating_grafana).
+2. Selecione o domínio `account` e uma conta do usuário com um IBMid vinculado ao dispositivo bare metal.
 3. Use esse formato para criar suas consultas.
 `ibmcloud.public.iaas-telemetry.region.<DATACENTER_BAREMETAL_LIVES_IN>.<MACHINE_GUID>.<METRIC_TYPE>`
 4. Aqui estão os tipos de métricas disponíveis:
@@ -117,4 +123,4 @@ net-private-out-bps-agg`</td>
    </TBODY>
    </table>
 
-Para obter mais informações, veja [Configurando uma consulta de métrica no Grafana](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/define_query.html#define_query).
+Para obter mais informações, veja [Configurando uma consulta de métrica no Grafana](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-define_query#define_query).

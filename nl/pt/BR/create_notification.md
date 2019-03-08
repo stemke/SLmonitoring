@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
-lastupdated: "2018-05-18"
+lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,14 +13,14 @@ lastupdated: "2018-05-18"
 
 # Criando e gerenciando as notificações do monitor (Beta)
 Uma notificação descreve o método e os detalhes usados para notificar quando um alerta é acionado. Por exemplo, para obter uma notificação de aviso e uma notificação de erro para uma métrica, defina uma regra que monitore o limite de aviso e defina uma regra que monitore o limite de erro.
-{:shortdesc} 
+{:shortdesc}
 
 ## Criar uma notificação
- 
- 1. Depois de instalar a versão beta, selecione **Dispositivos -> Monitoramento**. 
+
+ 1. Depois de instalar a versão beta, selecione **Dispositivos -> Monitoramento**.
  2. Clique na guia **Notificações**.
  3. Clique em **Criar notificação**.
- 4. Insira as informações para sua nova notificação. 
+ 4. Insira as informações para sua nova notificação.
 
 <table>
   <caption>Detalhes de notificação por e-mail</caption>
@@ -86,22 +90,22 @@ Uma notificação descreve o método e os detalhes usados para notificar quando 
   </tr>
   <tr>
     <td>Chave API</td>
-    <td>Insira a chave API para notificações de obrigação do pager.</td>
+    <td>Insira a chave de API para notificações de obrigação de pager.</td>
   </tr>
 </table>
 
 
-5. Clique em **OK** para criar as novas notificações com a configuração especificada.
+5. Clique em **OK** para criar as novas notificações com a configuração que você especificou.
 
 ## Editar uma notificação
- 1. Depois de instalar a versão beta, selecione **Dispositivos -> Monitoramento**. 
+ 1. Depois de instalar a versão beta, selecione **Dispositivos -> Monitoramento**.
  2. Clique na guia **Notificações**.
 3. Clique em **Ações -> Editar notificação**.
 4. Edite qualquer um dos detalhes de notificação.
 5. Clique em **OK** para aceitar suas mudanças.
 
 ## Excluir uma notificação
-1. Depois de instalar a versão beta, selecione **Dispositivos -> Monitoramento**. 
+1. Depois de instalar a versão beta, selecione **Dispositivos -> Monitoramento**.
 2. Clique na guia **Notificações**.
 3. Clique em **Ações -> Excluir notificação**.
 4. Clique em **Excluir** para confirmar sua opção.
@@ -110,4 +114,3 @@ Uma notificação descreve o método e os detalhes usados para notificar quando 
 1. Selecione **Infraestrutura->Lista de dispositivo->*Nome do dispositivo*** para acessar os detalhes do dispositivo.
 2. Clique em **Ações -> Gerenciar notificações**.
 4. Clique para designar ou remover notificações de seu dispositivo.
-

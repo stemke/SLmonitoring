@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -30,7 +34,7 @@ Siga estas etapas para trabalhar com as políticas do sistema.
    <td>
    <ol>
      <li>Clique em <b>Criar notificação</b>.</li>
-     <li>Insira as informações para sua nova política do sistema. 
+     <li>Insira as informações para sua nova política do sistema.
 
 <table>
   <caption>Detalhes da política do sistema</caption>
@@ -69,7 +73,7 @@ Siga estas etapas para trabalhar com as políticas do sistema.
    <td>
    <ol>
      <li>Clique em <b>Editar uma política</b>.</li>
-    <li>Insira as informações mudadas para sua política do sistema. 
+    <li>Insira as informações mudadas para sua política do sistema.
 
 <table>
   <caption>Detalhes da política do sistema</caption>
@@ -99,7 +103,7 @@ Siga estas etapas para trabalhar com as políticas do sistema.
    <td>Remover uma política</td>
    <td>
    <ol>
-     <li>Clique em <b>Ações -> Excluir política</b>.</li> 
+     <li>Clique em <b>Ações -> Excluir política</b>.</li>
      <li>Clique em <b>Excluir</b> para confirmar sua opção.</li>
    </ol>
    </td>
@@ -109,8 +113,9 @@ Siga estas etapas para trabalhar com as políticas do sistema.
   <td>
     <ol>
       <li>Clique em <b>Gerenciar dispositivos</b>.</li>
-      <li>Selecione ou limpe os dispositivos para designar a política.</li>
-      <li>Clique em <b>OK</b> para aceitar suas mudanças.</li></ol>
+      <li>Selecione ou desmarque os dispositivos para designar a política.</li>
+       <li>Clique em <b>OK</b> para aceitar suas mudanças.</li>
+    </ol>
       </td>
   </tr>
    <tr>
@@ -119,10 +124,10 @@ Siga estas etapas para trabalhar com as políticas do sistema.
     <ol>
       <li>Clique em <b>Ações -> Duplicar política</b>.</li>
       <li>Insira quaisquer informações mudadas para sua nova política.</li>
-      <li>Clique em <b>OK</b> para aceitar suas mudanças.</li></ol>
+       <li>Clique em <b>OK</b> para aceitar suas mudanças.</li>
+    </ol>
       </td>
   </tr>
-  
+
    </TBODY>
    </table>
-

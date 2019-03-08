@@ -4,6 +4,8 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
 
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,18 +15,18 @@ lastupdated: "2018-03-29"
 Este tópico abrange as métricas coletadas para este aplicativo de monitoramento beta em servidores virtuais e bare metal.
 {:shortdesc}
 
-Este tópico abrange todas as métricas disponíveis por meio de consultas no Grafana. Para obter mais informações, veja [Criando uma consulta de monitoramento avançada (Beta)](advanced_query.html). Há gráficos disponíveis na interface com o usuário somente para as métricas a seguir:
+Este tópico abrange todas as métricas disponíveis por meio de consultas no Grafana. Para obter mais informações, veja [Criando uma consulta de monitoramento avançada (Beta)](/docs/infrastructure/SLmonitoring?topic=slmonitoring-creating-an-advanced-monitoring-query-beta-#creating-an-advanced-monitoring-query-beta-). Há gráficos disponíveis na interface com o usuário somente para as métricas a seguir:
 * Utilização da CPU
 * Uso de memória
 * Leitura e gravação do disco (bytes/segundos e E/S por segundo)
 * Latência de leitura e gravação do disco
 * Rendimento da rede pública (entrada/saída)
 * Rendimento da rede privada (entrada/saída)
-* Pacotes da rede pública (entrada/saída) (Bare metal somente)
-* Pacotes da rede privada (entrada/saída) (Bare metal somente)
-* Erros da rede pública (entrada/saída) (Bare metal somente)
-* Erros da rede privada (entrada/saída) (Bare metal somente)
-* Temperatura (Bare metal somente)
+* Pacotes de rede pública (entrada/saída) (apenas bare metal)
+* Pacotes de rede privada (entrada/saída) (apenas bare metal)
+* Erros de rede pública (entrada/saída) (apenas bare metal)
+* Erros de rede privada (entrada/saída) (apenas bare metal)
+* Temperatura (apenas bare metal)
 
 
 ## Métricas de CPU
@@ -33,12 +35,13 @@ Este tópico abrange todas as métricas disponíveis por meio de consultas no Gr
 ## Métricas de memória
 * Bytes usados/Média usada: a quantia de memória que está sendo usada em um determinado momento, disponível tanto em bytes quanto na porcentagem do total.
 * Bytes de troca usados/Média usada: a porcentagem de memória de troca que está sendo usada durante um determinado período. Essa métrica é uma indicação de quantas vezes você tem que recuperar dados que não estão na memória. Essa métrica está disponível somente em dispositivos bare metal.
-  
+
 ## Métricas de disco
 
-* Total do disco: a quantia total de bytes disponíveis para o disco. Essa métrica deve ser constante.
-* Disco usado (Bytes): a quantia de bytes que estão sendo usados pelo disco no momento especificado.
-* Disco usado (Porcentagem): a porcentagem da quantia total de bytes que estão sendo usados sobre a quantia total de bytes disponíveis para o disco.
+* Total do disco: o número total de bytes disponíveis para o disco. Essa métrica deve ser constante.
+* Disco usado (bytes): o número de bytes que estão sendo usados pelo disco no momento determinado.
+* Disco usado (porcentagem): a porcentagem do número total de bytes que estão sendo usados sobre o número total de
+bytes disponíveis para o disco.
 * Leitura/gravação de disco (bytes por segundo): a quantia média de dados que estão sendo lidos/gravados do disco/no disco, em bytes, por um determinado período.
 * Leitura/gravação de disco (operações por segundo): operações de leitura/gravação por segundo
 * Leitura/gravação de disco (latência em ms por operação): latência em ms por leitura/gravação
@@ -52,6 +55,3 @@ Este tópico abrange todas as métricas disponíveis por meio de consultas no Gr
 
 ## Métricas de temperatura
 * A temperatura média do sistema medida em graus Celsius. Essa métrica está disponível apenas em dispositivos bare metal selecionados.
-
-
-
