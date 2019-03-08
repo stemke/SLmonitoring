@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -30,7 +34,7 @@ Attieniti alla seguente procedura per gestire le tue politiche di sistema.
    <td>
    <ol>
      <li>Fai clic su <b>Create Notification</b>.</li>
-     <li>Immetti le informazioni per la nuova politica di sistema. 
+     <li>Immetti le informazioni per la nuova politica di sistema.
 
 <table>
   <caption>Dettagli della politica di sistema</caption>
@@ -69,7 +73,7 @@ Attieniti alla seguente procedura per gestire le tue politiche di sistema.
    <td>
    <ol>
      <li>Fai clic su <b>Edit a Policy</b>.</li>
-    <li>Immetti le informazioni modificate per la tua politica di sistema. 
+    <li>Immetti le informazioni modificate per la tua politica di sistema.
 
 <table>
   <caption>Dettagli della politica di sistema</caption>
@@ -83,7 +87,7 @@ Attieniti alla seguente procedura per gestire le tue politiche di sistema.
   </tr>
   <tr>
     <td>Trigger</td>
-    <td>Seleziona i dettagli che attivano la tua politica di sistema. Può trattarsi di diversi livelli di metrica per le avvertenze e gli errori. </td>
+    <td>Seleziona i dettagli che attivano la tua politica di sistema. Può trattarsi di diversi livelli di metrica per le avvertenze e gli errori.</td>
   </tr>
    <tr>
     <td>Duration</td>
@@ -99,7 +103,7 @@ Attieniti alla seguente procedura per gestire le tue politiche di sistema.
    <td>Rimuovere una politica</td>
    <td>
    <ol>
-     <li>Fai clic su <b>Actions->Delete policy</b>.</li> 
+     <li>Fai clic su <b>Actions->Delete policy</b>.</li>
      <li>Fai clic su <b>Delete</b> per confermare la tua scelta.</li>
    </ol>
    </td>
@@ -110,7 +114,8 @@ Attieniti alla seguente procedura per gestire le tue politiche di sistema.
     <ol>
       <li>Fai clic su <b>Manage devices</b>.</li>
       <li>Seleziona o deseleziona i dispositivi per assegnare la politica.</li>
-      <li>Fai clic su <b>OK</b> per accettare le tue modifiche.</li></ol>
+       <li>Fai clic su <b>OK</b> per accettare le tue modifiche.</li>
+    </ol>
       </td>
   </tr>
    <tr>
@@ -119,10 +124,10 @@ Attieniti alla seguente procedura per gestire le tue politiche di sistema.
     <ol>
       <li>Fai clic su <b>Actions->Duplicate policy</b>.</li>
       <li>Immetti qualsiasi informazione modificata per la tua nuova politica.</li>
-      <li>Fai clic su <b>OK</b> per accettare le tue modifiche.</li></ol>
+       <li>Fai clic su <b>OK</b> per accettare le tue modifiche.</li>
+    </ol>
       </td>
   </tr>
-  
+
    </TBODY>
    </table>
-

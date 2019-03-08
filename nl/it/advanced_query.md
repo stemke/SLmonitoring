@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,8 +17,8 @@ In {{site.data.keyword.cloud}}, puoi utilizzare Grafana, una piattaforma di anal
 {:shortdesc}
 
 Se utilizzi Grafana, puoi utilizzare il dashboard per creare grafici utilizzando la query della metrica.
-1. [Vai al dashboard Grafana](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/navigating_grafana.html#navigating_grafana).
-2. Selezionare il dominio `account` e un account utente con un IBMid collegato al dispositivo bare metal. 
+1. [Vai al dashboard Grafana](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-navigating_grafana#navigating_grafana).
+2. Selezionare il dominio `account` e un account utente con un ID IBM collegato al dispositivo bare metal.
 3. Utilizza questo formato per creare le query.
 `ibmcloud.public.iaas-telemetry.region.<DATACENTER_BAREMETAL_LIVES_IN>.<MACHINE_GUID>.<METRIC_TYPE>`
 4. Questi sono i tipi di metrica disponibili:
@@ -111,10 +115,10 @@ net-private-out-bps-agg`</td>
      </tr>
     <tr>
        <td>`temperature-celsius-<id>` <br>`temperature-celsius-avg`
-         <br>Questa metrica non è disponibile per tutti i dispositivi.</td>
+         <br>Questa metrica non è disponibile per tutti i dispositivi. </td>
        <td>gradi Celsius</td>
      </tr>
    </TBODY>
    </table>
 
-Per ulteriori informazioni, vedi [Configuring a metric query in Grafana](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/define_query.html#define_query).
+Per ulteriori informazioni, vedi [Configuring a metric query in Grafana](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-define_query#define_query).

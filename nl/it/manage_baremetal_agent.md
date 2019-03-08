@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -86,6 +90,3 @@ Se stai utilizzando IBM Cloud Monitoring Service for IaaS Bare Metal Agent, atti
    </tr>
    </TBODY>
    </table>
-
-
-

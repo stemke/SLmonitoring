@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+subcollection: slmonitoring
 
 ---
 
@@ -77,9 +76,9 @@ indica che la risposta echo non è stata ricevuta. Se hai un monitoraggio di bas
    </tr>
    </TBODY>
    </table>
-   
+
 ## Passi successivi
-   
-- Se viene aggiunto un nuovo monitoraggio, esso compare nella scheda **Monitoring**. Il monitoraggio invia un ping al dispositivo ogni 5 minuti, aspettando una risposta basata sul tipo di ping selezionato. Se la risposta prevista non viene ricevuta, viene inviata una email all'indirizzo email di notifica per l'account nell'intervallo di tempo specificato, se viene selezionata la notifica.
+
+- Se viene aggiunto un nuovo monitoraggio, esso compare nella scheda **Monitoring**. Il monitoraggio invia un ping al dispositivo ogni 5 minuti, aspettando una risposta basata sul tipo di ping selezionato. Se la risposta prevista non viene ricevuta, viene inviata una email all'indirizzo email di notifica per l'account nell'intervallo di tempo specificato, se la notifica è selezionata.
 - Se viene modificato, un monitoraggio continua a funzionare come specificato nei dettagli del monitoraggio. Se viene modificato il tipo, la quantità di tempo per ricevere il ping previsto è differente. Se le opzioni di notifica hanno subito modifiche, il modo in cui agli utenti viene notificato un tentativo non riuscito viene modificato in base alle nuove selezioni. Il monitoraggio rimane accessibile dalla scheda **Monitoring**.
 - Se viene rimosso, il monitoraggio non funziona più per il dispositivo. Tutto il monitoraggio associato al monitoraggio rimosso viene arrestato e il monitoraggio non compare più nella scheda **Monitoring**.

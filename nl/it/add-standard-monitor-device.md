@@ -1,7 +1,10 @@
 ---
+
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-06-09"
+
+subcollection: slmonitoring
 ---
 
 {:shortdesc: .shortdesc}
@@ -24,7 +27,7 @@ lastupdated: "2017-06-09"
    <ol>
    <li>Dalla scheda <b>Monitoring</b> della pagina Device Details, fai clic su <b>Manage Monitors</b> sul lato destro della pagina per gestire i monitoraggi associati a questo dispositivo.</li>
    <li>Nella pagina Monitors, fai clic sulla scheda <b>Add Monitor</b>.
-   * **Nota:** per il monitoraggio sono disponibili indirizzi IP pubblici e privati. Ogni indirizzo IP è identificato nella scheda **Server Info**.</li>
+   * **Nota:** per il monitoraggio sono disponibili indirizzi IP pubblici e privati. Ogni indirizzo IP è identificato nella scheda **Server Info** all'inizio della schermata. </li>
    <li>Seleziona l'indirizzo IP da monitorare dall'elenco a discesa <b>IP Address</b>.</li>
    <li>Seleziona il tipo di monitoraggio dall'elenco a discesa <b>Monitor Type</b>.</li>
    <li>Configura le opzioni di notifica. Dall'elenco a discesa <b>Notify?</b>, seleziona <b>Notify Users</b> per notificare gli utenti di problemi oppure <b>Do Nothing</b> per tralasciare la notifica utente.</li>
@@ -48,6 +51,6 @@ lastupdated: "2017-06-09"
 
 ## Passi successivi
 
-- Se viene aggiunto un nuovo monitoraggio, esso compare nella scheda **Monitoring**. Il monitoraggio invia un ping al dispositivo ogni 5 minuti, aspettando una risposta basata sul tipo di ping selezionato. Se la risposta prevista non viene ricevuta, viene inviata una email all'indirizzo email di notifica per l'account nell'intervallo di tempo specificato, se viene selezionata la notifica.
+- Se viene aggiunto un nuovo monitoraggio, esso compare nella scheda **Monitoring**. Il monitoraggio invia un ping al dispositivo ogni 5 minuti, aspettando una risposta basata sul tipo di ping selezionato. Se la risposta prevista non viene ricevuta, viene inviata una email all'indirizzo email di notifica per l'account nell'intervallo di tempo specificato, se la notifica è selezionata. 
 
 - Se viene rimosso, il monitoraggio non funzionerà più per il dispositivo. Tutto il monitoraggio associato al monitoraggio rimosso smette e il monitoraggio non compare più nella scheda Monitoring.

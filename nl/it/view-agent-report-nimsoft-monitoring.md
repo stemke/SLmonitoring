@@ -1,7 +1,11 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-06-09"
+  years: 2014, 2018
+lastupdated: "2018-11-15"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -24,4 +28,4 @@ I dettagli del monitoraggio per il monitoraggio Nimsoft sono disponibili nei rep
 
 ## Passi successivi
 
-Dopo che il grafico per il report agent è stato tracciato, è possibile tracciarlo nuovamente in qualsiasi momento per visualizzare delle metriche differenti ripetendo la procedura indicata. Non c'è alcun limite al numero di report agent che può essere generato entro uno specifico lasso di tempo.
+Dopo che il grafico per il report agent è stato tracciato, è possibile tracciarlo nuovamente in qualsiasi momento per visualizzare delle metriche differenti ripetendo la procedura indicata. Non c'è alcun limite al numero di report agent che possono essere generati entro uno specifico lasso di tempo. 

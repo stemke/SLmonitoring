@@ -1,7 +1,11 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2018-05-18"
+  years: 2014, 2017
+lastupdated: "2017-06-09"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,12 +19,11 @@ Gli utenti notificati per il servizio di monitoraggio standard ricevono delle no
 3. Fai clic sull'icona **Expand** accanto a **Manage Notified users** per espandere la sezione.
 4. Determina se deve essere aggiunto o rimosso un utente gestito (**Managed User**).
 
-<caption>Tabella 1. Aggiunta o rimozione di un utente gestito</caption>
 |Se un utente gestito deve essere...|Allora...|
 |---|---|
-|Aggiunto |<ul><li>Seleziona il nuovo utente notificato (**Notified User**) dall'elenco a discesa **Users to Notify**. </li><li>Fai clic su **Add User**.</li></ul>
+|Aggiunto |<ul><li>Seleziona il nuovo utente notificato (**Notified User**) dall'elenco a discesa **Users to Notify**.</li><li>Fai clic su **Add User**.</li></ul>
 |Rimosso|<ul><li>Fai clic sull'icona **Remove** accanto all'utente notificato esistente.</li><li>Fai clic su **Yes** nella casella di conferma per rimuovere l'utente.</li><li>Fai clic su **No** per annullare l'azione.</li></ul>|
 
 ## Passi successivi
 
-Se un utente notificato è stato aggiunto con questa procedura, l'utente viene notificato in caso di una risposta ping mancata. Se un utente notificato è stato rimosso, l'utente non riceve più una notifica relativa a una risposta ping mancata che è associata al dispositivo. 
+Se un utente notificato è stato aggiunto con questa procedura, l'utente viene notificato in caso di una risposta ping mancata. Se un utente notificato è stato rimosso, l'utente non riceve più una notifica relativa a una risposta ping mancata che è associata al dispositivo.

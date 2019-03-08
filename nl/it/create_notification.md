@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
-lastupdated: "2018-05-18"
+lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,14 +13,14 @@ lastupdated: "2018-05-18"
 
 # Creazione e gestione delle notifiche di monitoraggio (Beta)
 Una notifica descrive il metodo e i dettagli utilizzati per notificare quando viene attivato un avviso. Ad esempio, per ottenere una notifica di avvertenza e una notifica di errore per una metrica, definisci una regola che monitora la soglia di avvertenza e definisci una regola che monitora la soglia di errore.
-{:shortdesc} 
+{:shortdesc}
 
 ## Crea una notifica
- 
- 1. Dopo che hai aderito al programma beta, seleziona **Devices -> Monitoring**. 
+
+ 1. Dopo che hai aderito al programma beta, seleziona **Devices -> Monitoring**.
  2. Fai clic sulla scheda **Notifications**.
  3. Fai clic su **Create Notification**.
- 4. Immetti le informazioni per la tua nuova notifica. 
+ 4. Immetti le informazioni per la tua nuova notifica.
 
 <table>
   <caption>Dettagli della notifica email</caption>
@@ -29,7 +33,7 @@ Una notifica descrive il metodo e i dettagli utilizzati per notificare quando vi
     <td>Un identificativo univoco della notifica. Questo campo è obbligatorio.</td>
   </tr>
   <tr>
-    <td>Type</td>
+    <td>Tipo</td>
     <td>Seleziona **Email**</td>
   </tr>
   <tr>
@@ -49,7 +53,7 @@ Una notifica descrive il metodo e i dettagli utilizzati per notificare quando vi
     <td>Un identificativo univoco della notifica. Questo campo è obbligatorio.</td>
   </tr>
   <tr>
-    <td>Type</td>
+    <td>Tipo</td>
     <td>Seleziona **Webhook**</td>
   </tr>
   <tr>
@@ -81,27 +85,27 @@ Una notifica descrive il metodo e i dettagli utilizzati per notificare quando vi
     <td>Un identificativo univoco della notifica. Questo campo è obbligatorio.</td>
   </tr>
   <tr>
-    <td>Type</td>
+    <td>Tipo</td>
     <td>Seleziona **Pager duty**</td>
   </tr>
   <tr>
     <td>API Key</td>
-    <td>Immetti la chiave API per le notifiche pager duty.</td>
+    <td>Immetti la chiave API per le notifiche pager duty. </td>
   </tr>
 </table>
 
 
-5. Fai clic su **Ok** per creare le nuove notifiche con l'impostazione che hai specificato.
+5. Fai clic su **Ok** per creare le nuove notifiche con l'impostazione che hai specificato. 
 
 ## Modifica una notifica
- 1. Dopo che hai aderito al programma beta, seleziona **Devices -> Monitoring**. 
+ 1. Dopo che hai aderito al programma beta, seleziona **Devices -> Monitoring**.
  2. Fai clic sulla scheda **Notifications**.
 3. Fai clic su **Actions->Edit Notification**.
 4. Modifica qualsiasi dettaglio di notifica.
 5. Fai clic su **Ok** per accettare le tue modifiche.
 
 ## Elimina una notifica
-1. Dopo che hai aderito al programma beta, seleziona **Devices -> Monitoring**. 
+1. Dopo che hai aderito al programma beta, seleziona **Devices -> Monitoring**.
 2. Fai clic sulla scheda **Notifications**.
 3. Fai clic su **Actions->Delete Notification**.
 4. Fai clic su **Delete** per confermare la tua scelta.
@@ -110,4 +114,3 @@ Una notifica descrive il metodo e i dettagli utilizzati per notificare quando vi
 1. Seleziona **Infrastructure->Device List->*Device Name*** per accedere ai dettagli del dispositivo.
 2. Fai clic su **Actions->Manage notifications**.
 4. Fai clic per assegnare o rimuovere notifiche per il tuo dispositivo.
-
