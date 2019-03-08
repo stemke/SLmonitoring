@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,15 +13,15 @@ lastupdated: "2018-03-29"
 
 # 고급 모니터링 조회 작성(베타)
 
-{{site.data.keyword.cloud}}에서 오픈 소스 분석 및 시각화 플랫폼인 Grafana를 사용하여 차트 및 표와 같은 다양한 그래프로 지표를 모니터, 검색, 분석 및 시각화할 수 있습니다. Grafana를 사용하여 고급 분석 태스크를 수행할 수 있습니다.
+{{site.data.keyword.cloud}}에서 오픈 소스 분석 및 시각화 플랫폼인 Grafana를 사용하여 차트 및 표와 같은 다양한 그래프로 메트릭을 모니터, 검색, 분석 및 시각화할 수 있습니다. Grafana를 사용하여 고급 분석 태스크를 수행할 수 있습니다.
 {:shortdesc}
 
-Grafana를 사용하는 경우 대시보드를 사용하여 지표 조회를 사용하는 그래프를 작성할 수 있습니다.
-1. [Grafana 대시보드로 이동](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/navigating_grafana.html#navigating_grafana)하십시오.
-2. `account` 도메인 및 베어메탈 디바이스에 연결된 IBM ID가 있는 사용자 계정을 선택하십시오. 
+Grafana를 사용하는 경우 대시보드를 사용하여 메트릭 조회를 사용하는 그래프를 작성할 수 있습니다.
+1. [Grafana 대시보드로 이동](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-navigating_grafana#navigating_grafana)하십시오.
+2. `account` 도메인 및 베어메탈 디바이스에 연결된 IBM ID가 있는 사용자 계정을 선택하십시오.
 3. 다음 형식을 사용하여 조회를 작성하십시오.
 `ibmcloud.public.iaas-telemetry.region.<DATACENTER_BAREMETAL_LIVES_IN>.<MACHINE_GUID>.<METRIC_TYPE>`
-4. 다음은 사용 가능한 지표 유형입니다.
+4. 다음은 사용 가능한 메트릭 유형입니다.
 <table>
    <CAPTION>표 1. IBM Cloud Monitoring Service for IaaS Bare Metal Agent</CAPTION>
    <THEAD>
@@ -111,10 +115,10 @@ net-private-out-bps-agg`</td>
      </tr>
     <tr>
        <td>`temperature-celsius-<id>` <br>`temperature-celsius-avg`
-         <br>이 지표는 일부 디바이스에서만 사용 가능합니다.</td>
+         <br>이 메트릭은 일부 디바이스에서만 사용 가능합니다.</td>
        <td>섭씨 온도</td>
      </tr>
    </TBODY>
    </table>
 
-자세한 정보는 [Grafana에서 지표 조회 구성](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/define_query.html#define_query)을 참조하십시오.
+자세한 정보는 [Grafana에서 메트릭 조회 구성](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-define_query#define_query)을 참조하십시오.
