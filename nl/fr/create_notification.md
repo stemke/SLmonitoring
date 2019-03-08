@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
-lastupdated: "2018-05-18"
+lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,14 +13,14 @@ lastupdated: "2018-05-18"
 
 # Création et gestion de notifications de moniteur (Bêta)
 Une notification décrit la méthode et les détails qui sont utilisés pour envoyer une notification lorsqu'une alerte est déclenchée. Par exemple, afin d'obtenir une notification d'avertissement et une notification d'erreur pour une métrique, définissez une règle qui surveille le seuil d'avertissement et une règle qui surveille le seuil d'erreur.
-{:shortdesc} 
+{:shortdesc}
 
 ## Création d'une notification
- 
- 1. Après avoir rejoint le programme bêta, sélectionnez **Unités -> Surveillance**. 
+
+ 1. Après avoir rejoint le programme bêta, sélectionnez **Unités -> Surveillance**.
  2. Cliquez sur l'onglet **Notifications**.
  3. Cliquez sur **Créer une notification**.
- 4. Entrez les informations relatives à votre nouvelle notification. 
+ 4. Entrez les informations relatives à votre nouvelle notification.
 
 <table>
   <caption>Détails de notification par courrier électronique</caption>
@@ -34,7 +38,7 @@ Une notification décrit la méthode et les détails qui sont utilisés pour env
   </tr>
   <tr>
     <td>Email Address</td>
-    <td>Entrez l'adresse électronique du destinataire. </td>
+    <td>Entrez l'adresse électronique du destinataire.</td>
   </tr>
 </table>
 
@@ -94,20 +98,19 @@ Une notification décrit la méthode et les détails qui sont utilisés pour env
 5. Cliquez sur **Ok** pour créer les nouvelles notifications avec le paramètre que vous avez spécifié. 
 
 ## Edition d'une notification
- 1. Après avoir rejoint le programme bêta, sélectionnez **Unités -> Surveillance**. 
+ 1. Après avoir rejoint le programme bêta, sélectionnez **Unités -> Surveillance**.
  2. Cliquez sur l'onglet **Notifications**.
 3. Cliquez sur **Actions->Editer une notification**.
 4. Editez n'importe lequel des détails de notification.
-5. Cliquez sur **Ok** pour accepter vos modifications. 
+5. Cliquez sur **Ok** pour accepter vos modifications.
 
 ## Suppression d'une notification
-1. Après avoir rejoint le programme bêta, sélectionnez **Unités -> Surveillance**. 
+1. Après avoir rejoint le programme bêta, sélectionnez **Unités -> Surveillance**.
 2. Cliquez sur l'onglet **Notifications**.
 3. Cliquez sur **Actions->Supprimer une notification**.
-4. Cliquez sur **Supprimer** pour confirmer la suppression. 
+4. Cliquez sur **Supprimer** pour confirmer la suppression.
 
 ## Ajout de plusieurs notifications à un périphérique
-1. Sélectionnez **Infrastructure->Liste des unités->*Nom d'unité*** pour accéder aux détails du périphérique. 
+1. Sélectionnez **Infrastructure->Liste des unités->*Nom d'unité*** pour accéder aux détails du périphérique.
 2. Cliquez sur **Actions->Gérer les notifications**.
-4. Cliquez pour affecter ou retirer des notifications pour votre périphérique. 
-
+4. Cliquez pour affecter ou retirer des notifications pour votre périphérique.

@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -69,7 +73,7 @@ Si vous utilisez IBM Cloud Monitoring Service for IaaS Bare Metal Agent, procéd
      </ol>
    </td>
      <td>Entrez les commandes suivantes :
-     <ol>
+  <ol>
     <li>`service monitoring stop`</li>
     <li>`rm -rf /opt/monitoring`</li>
     <li>`rm /etc/rc.d/monitoring`</li>
@@ -86,6 +90,3 @@ Si vous utilisez IBM Cloud Monitoring Service for IaaS Bare Metal Agent, procéd
    </tr>
    </TBODY>
    </table>
-
-
-

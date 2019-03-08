@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -12,9 +16,9 @@ lastupdated: "2018-03-29"
 Dans {{site.data.keyword.cloud}}, vous pouvez utiliser Grafana, une plateforme d'analyse et de visualisation open source, pour surveiller, rechercher, analyser et visualiser vos métriques dans une grande variété de graphiques, tels que des diagrammes et des tableaux. Vous pouvez utiliser Grafana pour effectuer des tâches d'analyse avancées.
 {:shortdesc}
 
-Si vous utilisez Grafana, vous pouvez utiliser le tableau de bord pour créer des graphiques à l'aide de la requête de métrique. 
-1. [Accédez au tableau de bord Grafana](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/navigating_grafana.html#navigating_grafana).
-2. Sélectionnez le domaine `account` et un compte utilisateur avec un IBMid lié au périphérique bare metal.  
+Si vous utilisez Grafana, vous pouvez utiliser le tableau de bord pour créer des graphiques à l'aide de la requête de métrique.
+1. [Accédez au tableau de bord Grafana](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-navigating_grafana#navigating_grafana).
+2. Sélectionnez le domaine `account` et un compte utilisateur avec un IBMid lié au périphérique bare metal.
 3. Utilisez le format suivant pour créer vos requêtes :
 `ibmcloud.public.iaas-telemetry.region.<DATACENTER_BAREMETAL_LIVES_IN>.<MACHINE_GUID>.<METRIC_TYPE>`
 4. Les types de métrique disponibles sont les suivants :
@@ -117,4 +121,4 @@ net-private-out-bps-agg`</td>
    </TBODY>
    </table>
 
-Pour plus d'informations, voir [Configuration d'une requête de métrique dans Grafana](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/define_query.html#define_query).
+Pour plus d'informations, voir [Configuration d'une requête de métrique dans Grafana](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-define_query#define_query).

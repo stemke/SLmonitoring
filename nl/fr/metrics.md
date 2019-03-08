@@ -4,6 +4,8 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
 
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,7 +15,7 @@ lastupdated: "2018-03-29"
 Cette rubrique présente les métriques collectées pour cette version bêta d'application de surveillance sur les serveurs virtuels et les serveurs bare metal.
 {:shortdesc}
 
-Cette rubrique décrit toutes les métriques disponibles via des requêtes Grafana. Pour plus d'informations, voir [Création d'une requête de surveillance avancée (Bêta)](advanced_query.html). Des diagrammes sont disponibles dans l'interface utilisateur uniquement pour les métriques suivantes :
+Cette rubrique décrit toutes les métriques disponibles via des requêtes Grafana. Pour plus d'informations, voir [Création d'une requête de surveillance avancée (Bêta)](/docs/infrastructure/SLmonitoring?topic=slmonitoring-creating-an-advanced-monitoring-query-beta-#creating-an-advanced-monitoring-query-beta-). Des diagrammes sont disponibles dans l'interface utilisateur uniquement pour les métriques suivantes :
 * Utilisation de l'UC
 * Utilisation de la mémoire
 * Lecture et écriture sur disque (octets/secondes et E-S par seconde)
@@ -28,12 +30,12 @@ Cette rubrique décrit toutes les métriques disponibles via des requêtes Grafa
 
 
 ## Métriques d'unité centrale
-  Les métriques d'unité centrale mesurent le pourcentage moyen du temps nécessaire à une unité centrale pour exécuter des instructions pendant une période donnée. Le pourcentage moyen d'inactivité porte sur l'inactivité relative à l'ajout d'utilisateur, à nice, au système, au temps d'attente des E-S, aux interruptions de matériel et aux interruptions logicielles 
+  Les métriques d'unité centrale mesurent le pourcentage moyen du temps nécessaire à une unité centrale pour exécuter des instructions pendant une période donnée. Le pourcentage moyen d'inactivité porte sur l'inactivité relative à l'ajout d'utilisateur, à nice, au système, au temps d'attente des E-S, aux interruptions de matériel et aux interruptions logicielles
 
 ## Métriques de la mémoire
-* Octets utilisés/Moyenne d'utilisation : quantité de mémoire utilisée à un moment donné, disponible en octets et en pourcentage du total. 
-* Octets de permutation utilisés/Moyenne d'utilisation : pourcentage de mémoire de permutation utilisé durant une période donnée. Cette métrique est une indication de la fréquence à laquelle vous devez extraire des données qui ne sont pas en mémoire. Cette métrique est disponible uniquement sur les périphériques bare metal. 
-  
+* Octets utilisés/Moyenne d'utilisation : quantité de mémoire utilisée à un moment donné, disponible en octets et en pourcentage du total.
+* Octets de permutation utilisés/Moyenne d'utilisation : pourcentage de mémoire de permutation utilisé durant une période donnée. Cette métrique est une indication de la fréquence à laquelle vous devez extraire des données qui ne sont pas en mémoire. Cette métrique est disponible uniquement sur les périphériques bare metal.
+
 ## Métriques de disque
 
 * Total disque : nombre total d'octets disponibles sur le disque. Cette métrique doit être constante.
@@ -47,11 +49,8 @@ Cette rubrique décrit toutes les métriques disponibles via des requêtes Grafa
 
  * Réseau public/privé (entrant) : nombre d'octets reçus par le réseau public/privé.
 * Réseau public/privé (sortant) : nombre d'octets envoyés par le réseau public/privé.
-* Paquets entrants dans réseau public/privé : nombre de paquets reçus par l'interface réseau du réseau public/privé. Cette métrique est disponible uniquement sur les périphériques bare metal. 
-* Paquets sortants de réseau public/privé : nombre de paquets envoyés par l'interface réseau du réseau public/privé. Cette métrique est disponible uniquement sur les périphériques bare metal. 
+* Paquets entrants dans réseau public/privé : nombre de paquets reçus par l'interface réseau du réseau public/privé. Cette métrique est disponible uniquement sur les périphériques bare metal.
+* Paquets sortants de réseau public/privé : nombre de paquets envoyés par l'interface réseau du réseau public/privé. Cette métrique est disponible uniquement sur les périphériques bare metal.
 
 ## Métriques de température
-* Température moyenne du système, mesurée en degrés celsius. Cette métrique est disponible uniquement sur certains périphériques bare metal. 
-
-
-
+* Température moyenne du système, mesurée en degrés celsius. Cette métrique est disponible uniquement sur certains périphériques bare metal.
