@@ -4,17 +4,19 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-02"
 
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Exploraciones de vulnerabilidades
-{{site.data.keyword.BluSoftlayer_full}} se asocia con Nessus para ofrecer exploraciones de vulnerabilidades para cualquier dispositivo de la red de {{site.data.keyword.BluSoftlayer_notm}}.  Las exploraciones de vulnerabilidades realizan pruebas para detectar los puntos débiles de un dispositivo y devuelven un informe del análisis, los problemas de seguridad y los arreglos disponibles para el dispositivo de host.  La realización de exploraciones de vulnerabilidades en sus dispositivos garantizan su seguridad en todo momento y también constituyen el primer recurso que utilizar cuando se cree que un dispositivo puede resultar vulnerable.  Las exploraciones de vulnerabilidades se pueden completar mediante el [Portal de clientes ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/) en cualquier dispositivo asociado con su cuenta.
+{{site.data.keyword.BluSoftlayer_full}} se asocia con Nessus para ofrecer exploraciones de vulnerabilidades para cualquier dispositivo de la red de {{site.data.keyword.BluSoftlayer_notm}}.  Las exploraciones de vulnerabilidades realizan pruebas para detectar los puntos débiles de un dispositivo y devuelven un informe del análisis, los problemas de seguridad y los arreglos disponibles para el dispositivo de host.  La realización de exploraciones de vulnerabilidades en sus dispositivos garantizan su seguridad en todo momento y también constituyen el primer recurso que utilizar cuando se cree que un dispositivo puede resultar vulnerable.  Las exploraciones de vulnerabilidades se pueden completar mediante el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} en cualquier dispositivo asociado con su cuenta.
 {:shortdesc}
 
-## Explorador de seguridad de Nessus 
-{{site.data.keyword.BluSoftlayer_notm}} proporciona un explorador de seguridad en línea, basado en la herramienta de código abierto Nessus Scanning. Se puede acceder a este explorador de seguridad desde el separador Seguridad pulsando en **Explorador**. Para obtener más información, consulte el tema sobre la [herramienta Nessus Scanning ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://www.nessus.org/nessus/).
+## Explorador de seguridad de Nessus
+{{site.data.keyword.BluSoftlayer_notm}} proporciona un explorador de seguridad en línea, basado en la herramienta de código abierto Nessus Scanning. Se puede acceder a este explorador de seguridad desde el separador Seguridad pulsando en **Explorador**. Para obtener más información, consulte el tema sobre la [herramienta Nessus Scanning ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://www.nessus.org/nessus/){: new_window}.
 
 La página **Explorador** proporciona una lista del hardware disponible para la herramienta Nessus alojada en {{site.data.keyword.BluSoftlayer_notm}}. Para explorar un servidor, o para ver los resultados de una exploración anterior, pulse el enlace de detalles correspondiente al servidor que desea inspeccionar. La página de detalles de la exploración de vulnerabilidades muestra un breve resumen del servidor (que contiene el nombre del servidor, la dirección IP que se debe explorar y el centro de datos donde se encuentra el servidor). **Iniciar exploración** planifica su servidor con el servidor de exploración de Nessus para realizar una exploración de vulnerabilidades lo antes posible.
 

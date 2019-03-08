@@ -4,6 +4,8 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
 
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,7 +15,7 @@ lastupdated: "2018-03-29"
 Este tema cubre las métricas recopiladas para esta aplicación de supervisión beta en servidores virtuales y nativos.
 {:shortdesc}
 
-Este tema cubre todas las métricas disponibles mediante consultas de Grafana. Para obtener más información, consulte [Creación de una consulta de supervisión avanzada (Beta)](advanced_query.html). Los gráficos están disponibles en la interfaz de usuario solo para las métricas siguientes:
+Este tema cubre todas las métricas disponibles mediante consultas de Grafana. Para obtener más información, consulte [Creación de una consulta de supervisión avanzada (Beta)](/docs/infrastructure/SLmonitoring?topic=slmonitoring-creating-an-advanced-monitoring-query-beta-#creating-an-advanced-monitoring-query-beta-). Los gráficos están disponibles en la interfaz de usuario solo para las métricas siguientes:
 * Utilización de CPU
 * Uso de memoria
 * Lectura y escritura de disco (bytes/segundos y E/S por segundo)
@@ -33,12 +35,12 @@ Este tema cubre todas las métricas disponibles mediante consultas de Grafana. P
 ## Medidas de memoria
 * Bytes utilizados/Promedio utilizado: la cantidad de memoria que se utiliza en un momento dado, disponible tanto en bytes como en porcentaje del total.
 * Bytes de intercambio utilizados/Promedio utilizado: el porcentaje de memoria de intercambio que se utiliza durante un determinado periodo de tiempo. Esta métrica es una indicación de la frecuencia con la que se deben recuperar los datos que no están en la memoria. Esta métrica solo está disponible en dispositivos nativos.
-  
+
 ## Medidas de disco
 
-* Total de disco: la cantidad total de bytes disponibles para el disco. Esta métrica debe ser constante.
-* Disco utilizado (bytes): la cantidad de bytes que utiliza el disco en un determinado momento.
-* Disco utilizado (porcentaje): el porcentaje de la cantidad total de bytes utilizados sobre la cantidad total de bytes disponibles para el disco.
+* Total de disco: el número total de bytes disponibles para el disco. Esta métrica debe ser constante.
+* Disco utilizado (bytes): el número de bytes que utiliza el disco en un determinado momento.
+* Disco utilizado (porcentaje): el porcentaje del número total de bytes utilizados sobre el número total de bytes disponibles para el disco.
 * Lectura/escritura de disco (bytes por segundo): la cantidad media de datos que se están leyendo/escribiendo desde/en disco en bytes durante un periodo de tiempo determinado.
 * Lectura/escritura de disco (operaciones por segundo): operaciones de lectura/escritura por segundo
 * Lectura/escritura de disco (latencia en ms por operación): latencia en ms por lectura/escritura
@@ -52,6 +54,3 @@ Este tema cubre todas las métricas disponibles mediante consultas de Grafana. P
 
 ## Medidas de temperatura
 * Temperatura media del sistema medida en grados Celsius. Esta métrica solo está disponible en determinados dispositivos nativos.
-
-
-

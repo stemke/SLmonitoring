@@ -1,7 +1,11 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-01"
+  years: 2014, 2019
+lastupdated: "2019-02-11"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,13 +23,11 @@ Antes de instalarlo, estos puertos deben estar abiertos en la red privada:
 * tcp/48001
 * tcp/48002
 
-Abra también los puertos de tcp/48003 a tcp/50000 para la red privada para permitir la funcionalidad completa que utiliza la API. Si no abre estos puertos, algunos agentes de supervisión se verán afectados. Si se encuentran errores durante la configuración, asegúrese de que estos puertos estén abiertos antes de abrir una incidencia para que se escale. 
+Abra también los puertos de tcp/48003 a tcp/50000 para la red privada para permitir la funcionalidad completa que utiliza la API. Si no abre estos puertos, algunos agentes de supervisión se verán afectados. Si se encuentran errores durante la configuración, asegúrese de que estos puertos estén abiertos antes de abrir una incidencia para que se escale.
 
 * Se necesita **openjdk** para ciertos agentes de supervisión, como por ejemplo Tomcat Monitoring Agent.
 * Algunas distribuciones Linux de 64 bits necesitan **glibc.i686** y **nss-softtokn-freebl.i686**.
 * El sistema de supervisión no recibe soporte en **FreeBSD**.
-* El sistema de supervisión no recibe soporte en **Ubuntu 16**.
-* El sistema de supervisión no recibe soporte en **Windows 2016**.
 
 Si se produce un error al configurar el servicio de supervisión debido a errores de comunicación con el robot Nimsoft, el proceso de configuración se puede poner en pausa debido a la conectividad limitada. La conectividad limitada suele deberse a un cortafuegos o a otro software de seguridad que bloquea el acceso al sistema desde los servidores de gestión Nimsoft.  Siga estos pasos para reiniciar el suministro del servicio de supervisión:
 
@@ -39,13 +41,13 @@ Si se produce un error al configurar el servicio de supervisión debido a errore
 
 ## Instalación en Windows
 
-1. Consulte http://downloads.service.softlayer.com/nimsoft para descargar la última versión del instalador de Windows en el dispositivo para instalarlo (debe estar conectado a VPN).
+1. Consulte http://downloads.service.softlayer.com/nimsoft/ para descargar la última versión del instalador de Windows en el dispositivo para instalarlo (debe estar conectado al cliente VPN).
 * Ejecute el archivo Nimsoft Monitoring Robot como administrador.
 
 ## Instalación en Linux
 
-1. Conéctese a la red privada a través de VPN.
-* Descargue el instalador de Linux de [32 bits](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz) o de [64 bits](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz) en el dispositivo para instalarlo. Las versiones de Debian y Ubuntu también están disponibles en el [instalador de Nimsoft](http://downloads.service.softlayer.com/nimsoft/).
+1. Conéctese a la red privada a través del cliente VPN.
+* Descargue el instalador de Linux de [32 bits ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz){: new_window} o de [64 bits ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz){: new_window} en el dispositivo para la instalación. Las versiones de Debian y Ubuntu también están disponibles en el [instalador de Nimsoft ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/nimsoft/){: new_window}.
 * Ejecute estos mandatos para completar la instalación y sustituya 32 por 64 si ejecuta una instalación de 64 bits:
 
         $ tar –xzvf NIMSOFT_LINUX_32.tar.gz

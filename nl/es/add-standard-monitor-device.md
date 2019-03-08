@@ -1,7 +1,10 @@
 ---
+
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-06-09"
+
+subcollection: slmonitoring
 ---
 
 {:shortdesc: .shortdesc}
@@ -24,7 +27,7 @@ lastupdated: "2017-06-09"
    <ol>
    <li>En el separador <b>Supervisión</b> de la página Detalles del dispositivo, pulse <b>Gestionar supervisores</b> en la parte derecha de la página para gestionar los supervisores asociados a este dispositivo.</li>
    <li>En la página Supervisores, pulse el separador <b>Añadir supervisor</b>.
-   * **Nota:** las direcciones IP públicas y privadas están disponibles para la supervisión. Cada dirección IP está identificada en el separador **Información del servidor**.</li>
+   * **Nota:** las direcciones IP públicas y privadas están disponibles para la supervisión. Cada dirección IP está identificada en el separador **Información del servidor** en la parte superior de la pantalla.</li>
    <li>Seleccione la dirección IP que desea supervisar en la lista desplegable <b>Dirección IP</b>.</li>
    <li>Seleccione el tipo de supervisor en la lista desplegable <b>Tipo de supervisor</b>.</li>
    <li>Configure las opciones de notificación. En la lista desplegable <b>¿Notificar?</b>, seleccione <b>Notificar a los usuarios</b> para informar a los usuarios sobre los problemas o <b>No hacer nada</b> para omitir la notificación a los usuarios.</li>

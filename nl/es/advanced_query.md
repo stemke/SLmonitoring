@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,12 +13,12 @@ lastupdated: "2018-03-29"
 
 # Creación de una consulta de supervisión avanzada (Beta)
 
-En {{site.data.keyword.cloud}}, puede utilizar Grafana, una plataforma de análisis y visualización de código abierto, para supervisar, buscar, analizar y visualizar las métricas en diversos gráficos, por ejemplo, diagramas y tablas. Puede utilizar Grafana para realizar tareas analíticas avanzadas. 
+En {{site.data.keyword.cloud}}, puede utilizar Grafana, una plataforma de análisis y visualización de código abierto, para supervisar, buscar, analizar y visualizar las métricas en diversos gráficos, por ejemplo, diagramas y tablas. Puede utilizar Grafana para realizar tareas analíticas avanzadas.
 {:shortdesc}
 
 Si utiliza Grafana, puede utilizar el panel de control para crear gráficos utilizando la consulta de métrica.
-1. [Vaya al panel de control de Grafana](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/navigating_grafana.html#navigating_grafana).
-2. Seleccione el dominio `account` y una cuenta de usuario con un IBMid enlazado al dispositivo nativo. 
+1. [Vaya al panel de control de Grafana](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-navigating_grafana#navigating_grafana).
+2. Seleccione el dominio `account` y una cuenta de usuario con un IBMid enlazado al dispositivo nativo.
 3. Utilice este formato para crear las consultas.
 `ibmcloud.public.iaas-telemetry.region.<DATACENTER_BAREMETAL_LIVES_IN>.<MACHINE_GUID>.<METRIC_TYPE>`
 4. Estos son los tipos de métricas disponibles:
@@ -117,4 +121,4 @@ net-private-out-bps-agg`</td>
    </TBODY>
    </table>
 
-Para obtener más información, consulte [Configuración de una consulta métrica en Grafana](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/define_query.html#define_query).
+Para obtener más información, consulte [Configuración de una consulta métrica en Grafana](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-define_query#define_query).

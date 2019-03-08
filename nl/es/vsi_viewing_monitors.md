@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+subcollection: slmonitoring
 
 ---
 
@@ -77,9 +76,9 @@ cancelar la acción.</li>
    </tr>
    </TBODY>
    </table>
-   
+
 ## Siguientes pasos
-   
+
 - Si se añade un nuevo supervisor, el supervisor aparece en el separador **Supervisión**. El supervisor envía un ping al dispositivo cada 5 minutos, esperando una respuesta basada en el tipo de ping seleccionado. Si no se recibe la respuesta esperada, se envía un correo electrónico a la dirección de correo electrónico de notificación correspondiente a la cuenta en el intervalo de tiempo especificado, si se ha seleccionado notificación.
 - Si se edita un supervisor, este continúa funcionando según lo especificado en los detalles del supervisor. Si se modifica el tipo, cambia el intervalo de tiempo para recibir el ping esperado. Si se han cambiado las opciones de notificación, la forma en que se notifica a los usuarios de un intento fallido se modifica en función de las nuevas selecciones. El supervisor sigue estando accesible desde el separador **Supervisión**.
 - Si se elimina un supervisor, este deja de funcionar para el dispositivo. Toda la supervisión asociada con el supervisor eliminado se detiene y el supervisor deja de aparecer en el separador **Supervisión**.

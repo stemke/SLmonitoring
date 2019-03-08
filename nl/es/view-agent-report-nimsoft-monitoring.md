@@ -1,7 +1,11 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-06-09"
+  years: 2014, 2018
+lastupdated: "2018-11-15"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,7 +17,7 @@ Los detalles de supervisión de Nimsoft Monitoring están disponibles en los inf
 
 1. En la **pantalla Supervisión**, seleccione **Ver informes de agente** en el menú **Acciones**.
 2. Seleccione el agente que desea ver en la lista **Agentes**.
-  * ** Nota:** los agentes disponibles varían según el dispositivo y dependen del paquete de supervisión aplicado al dispositivo.
+  * **Nota:** los agentes disponibles varían según el dispositivo y dependen del paquete de supervisión aplicado al dispositivo.
 3. Complete todas las secciones restantes, incluidas una o varias de las acciones siguientes:
   * **Nota:** cada agente es diferente y no incluye cada sección o métrica. Las opciones disponibles en esta pantalla dependen de las opciones de configuración disponibles para cada agente.
   * Seleccione el informe de sección en la lista **Secciones**.

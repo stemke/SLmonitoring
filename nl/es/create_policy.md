@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -30,7 +34,7 @@ Siga estos pasos para trabajar con políticas del sistema.
    <td>
    <ol>
      <li>Pulse <b>Crear notificación</b>.</li>
-     <li>Escriba la información correspondiente a la nueva política del sistema. 
+     <li>Escriba la información correspondiente a la nueva política del sistema.
 
 <table>
   <caption>Detalles de la política del sistema</caption>
@@ -69,7 +73,7 @@ Siga estos pasos para trabajar con políticas del sistema.
    <td>
    <ol>
      <li>Pulse <b>Editar una política</b>.</li>
-    <li>Escriba la información modificada para la política del sistema. 
+    <li>Escriba la información modificada para la política del sistema.
 
 <table>
   <caption>Detalles de la política del sistema</caption>
@@ -99,7 +103,7 @@ Siga estos pasos para trabajar con políticas del sistema.
    <td>Eliminar una política</td>
    <td>
    <ol>
-     <li>Pulse <b>Acciones->Suprimir política</b>.</li> 
+     <li>Pulse <b>Acciones->Suprimir política</b>.</li>
      <li>Pulse <b>Suprimir</b> para confirmar su elección.</li>
    </ol>
    </td>
@@ -110,7 +114,8 @@ Siga estos pasos para trabajar con políticas del sistema.
     <ol>
       <li>Pulse <b>Gestionar dispositivos</b>.</li>
       <li>Seleccione o desmarque los dispositivos que desea asignar a la política.</li>
-      <li>Pulse <b>Aceptar</b> para aceptar los cambios.</li></ol>
+       <li>Pulse <b>Aceptar</b> para aceptar los cambios.</li>
+    </ol>
       </td>
   </tr>
    <tr>
@@ -119,10 +124,10 @@ Siga estos pasos para trabajar con políticas del sistema.
     <ol>
       <li>Pulse <b>Acciones->Duplicar política</b>.</li>
       <li>Escriba la información modificada para la nueva política.</li>
-      <li>Pulse <b>Aceptar</b> para aceptar los cambios.</li></ol>
+       <li>Pulse <b>Aceptar</b> para aceptar los cambios.</li>
+    </ol>
       </td>
   </tr>
-  
+
    </TBODY>
    </table>
-

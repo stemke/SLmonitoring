@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
-lastupdated: "2018-05-18"
+lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,14 +13,14 @@ lastupdated: "2018-05-18"
 
 # Creación y gestión de notificaciones de supervisión (Beta)
 Una notificación describe el método y los detalles que se utilizan para la notificación cuando se activa una alerta. Por ejemplo, para obtener una notificación de aviso y una notificación de error para una métrica, defina una regla que supervise el umbral de aviso y defina una regla que supervise el umbral de error.
-{:shortdesc} 
+{:shortdesc}
 
 ## Crear una notificación
- 
- 1. Una vez que se haya unido a la versión beta, seleccione **Dispositivos -> Supervisión**. 
+
+ 1. Una vez que se haya unido a la versión beta, seleccione **Dispositivos -> Supervisión**.
  2. Pulse el separador **Notificaciones**.
  3. Pulse **Crear notificación**.
- 4. Escriba la información de la nueva notificación. 
+ 4. Escriba la información de la nueva notificación.
 
 <table>
   <caption>Detalles de notificación por correo electrónico</caption>
@@ -94,14 +98,14 @@ Una notificación describe el método y los detalles que se utilizan para la not
 5. Pulse **Aceptar** para crear las nuevas notificaciones con el valor que ha especificado.
 
 ## Editar una notificación
- 1. Una vez que se haya unido a la versión beta, seleccione **Dispositivos -> Supervisión**. 
+ 1. Una vez que se haya unido a la versión beta, seleccione **Dispositivos -> Supervisión**.
  2. Pulse el separador **Notificaciones**.
 3. Pulse **Acciones->Editar notificación**.
 4. Edite cualquiera de los detalles de la notificación.
 5. Pulse **Aceptar** para aceptar los cambios.
 
 ## Suprimir una notificación
-1. Una vez que se haya unido a la versión beta, seleccione **Dispositivos -> Supervisión**. 
+1. Una vez que se haya unido a la versión beta, seleccione **Dispositivos -> Supervisión**.
 2. Pulse el separador **Notificaciones**.
 3. Pulse **Acciones->Suprimir notificación**.
 4. Pulse **Suprimir** para confirmar su elección.
@@ -110,4 +114,3 @@ Una notificación describe el método y los detalles que se utilizan para la not
 1. Seleccione **Infraestructura->Lista de dispositivos>*Nombre de dispositivo*** para acceder a los detalles del dispositivo.
 2. Pulse **Acciones->Gestionar notificaciones**.
 4. Pulse para asignar o eliminar notificaciones correspondientes al dispositivo.
-

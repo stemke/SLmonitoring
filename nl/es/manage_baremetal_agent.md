@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -18,9 +22,9 @@ Si utiliza IBM Cloud Monitoring Service para el agente nativo IaaS, siga estos p
    <THEAD>
    <TR>
    <th>Si la acción que se va a emprender es...</th>
-   <th>Entonces para Linux...</th>
-     <th>Entonces para FreeBSD...</th>
-     <th>Entonces para Windows...</th>
+   <th>Entonces, para Linux...</th>
+     <th>Entonces, para FreeBSD...</th>
+     <th>Entonces, para Windows...</th>
    </TR>
    </THEAD>
    <TBODY>
@@ -86,6 +90,3 @@ Si utiliza IBM Cloud Monitoring Service para el agente nativo IaaS, siga estos p
    </tr>
    </TBODY>
    </table>
-
-
-

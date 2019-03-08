@@ -1,37 +1,40 @@
 ---
+
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-16"
+lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 # Iniciación a IBM Cloud Monitoring (Beta)
-
 {: #gettingstartedbeta}
-Esta aplicación de supervisión beta, que se basa en el servicio de supervisión de {{site.data.keyword.BluSoftlayer_full}}, está disponible para los servidores virtuales y nativos. Para ver las actualizaciones sobre el desarrollo de este programa Beta, consulte el [blog de IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2017/12/beta-release-new-vsi-monitoring-tool-ibm-cloud/){: new_window}.
 
+Esta aplicación de supervisión beta, que se basa en el servicio de supervisión de {{site.data.keyword.BluSoftlayer_full}}, está disponible para los servidores virtuales y nativos. Para ver las actualizaciones sobre el desarrollo de este programa Beta, consulte el [blog de IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://www.ibm.com/blogs/bluemix/2017/12/beta-release-new-vsi-monitoring-tool-ibm-cloud/){: new_window}.
 {:shortdesc}
 
 ## Requisitos previos
 
 Para participar en este programa Beta, debe cumplir con estos requisitos.
-1. La cuenta de SoftLayer debe estar enlazada a una cuenta de IBM BlueMix. Para enlazar una cuenta, el usuario maestro de la cuenta de SoftLayer debe iniciar una sesión en el {{site.data.keyword.slportal_full}} de [ y, desde el menú **Cuenta**, pulsar **Enlazar una cuenta de Bluemix**.
-2. Para poder ver la versión Beta, cada usuario debe estar enlazado a un ID de IBM. Para obtener más información, consulte [Enlace de cuentas de usuario de IBMid](../../account/softlayerlink.html#link_customer_accounts)(https://control.softlayer.com)].
-3. Para poder ver la versión Beta, cada usuario debe tener acceso al servicio de supervisión de IBM Cloud. 
-   1. En la [consola de BlueMix](https://console.bluemix.net), seleccione **Gestionar > Cuenta > Usuarios**.
+1. La cuenta de SoftLayer debe estar enlazada a una cuenta de IBM Cloud con autenticación de IBMid. Para enlazar una cuenta, el usuario maestro de la cuenta de SoftLayer debe iniciar una sesión en [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com){: new_window} y desde el menú **Cuenta**, pulse **Enlazar una cuenta de Bluemix**.
+2. Para poder ver la versión Beta, cada usuario debe estar enlazado a un ID de IBM. Para obtener más información, consulte [Enlace de cuentas de usuario de IBMid](/docs/account?topic=account-unifyingaccounts#link_customer_accounts).
+3. Para poder ver la versión Beta, cada usuario debe tener acceso al servicio de supervisión de IBM Cloud.
+   1. Desde la consola de [IBM Cloud ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://console.bluemix.net){: new_window}, seleccione **Gestionar -> Cuenta -> Usuarios**.
    2. Invite al usuario a la cuenta o seleccione el usuario en la lista.
    3. Seleccione **Asignar acceso a recursos** para el usuario.
-   4. En ** Servicio**, seleccione **Servicio de supervisión de IBM Cloud**. 
+   4. En **Servicio**, seleccione **Servicio de supervisión de IBM Cloud**.
    5. Seleccione el **Rol** que desea asignar al usuario para todas las regiones.
 
 Si no cumple estos requisitos previos, no podrá acceder a la supervisión Beta en este momento.
 
 
-## Cómo unirse a la versión beta 
+## Cómo unirse a la versión beta
 
 Siga estos pasos para empezar a utilizar el programa Beta de supervisión. Unirse a la versión Beta habilita el servicio para todos los servidores virtuales y nativos aptos de su cuenta. El hecho de pulsar Unir no afecta a los datos ni al servicio de supervisión de Nimsoft existentes.
-1. (Solo servidor nativo) [Instale el agente de supervisión en el servidor nativo](install_observer.html). 
+1. (Solo servidor nativo) [Instale el agente de supervisión en el servidor nativo](/docs/infrastructure/SLmonitoring?topic=slmonitoring-installing-ibm-cloud-monitoring-service-for-iaas-bare-metal-agent-beta-).
 <table>
    <CAPTION>Tabla 1. Elija una ubicación de inicio de sesión</CAPTION>
    <THEAD>
@@ -68,10 +71,10 @@ Siga estos pasos para empezar a utilizar el programa Beta de supervisión. Unirs
 2. Seleccione **Dispositivos > Supervisión**. Pulse **Unirse a la versión beta** para ver los separadores de políticas del sistema y notificaciones de la versión beta.
 
 ## Siguientes pasos
-1. Revise los detalles de las [métricas](metrics.html) recopiladas.
-2. [Cree o gestione](create_notification.html) una notificación del supervisor.
-3. [Cree o gestione](create_policy.html) una política del sistema.
-4. [Vea las alertas](view_alerts.html).
+1. Revise los detalles de las [métricas](/docs/infrastructure/SLmonitoring?topic=slmonitoring-metrics-collected-beta-) recopiladas.
+2. [Cree o gestione](/docs/infrastructure/SLmonitoring?topic=slmonitoring-creating-and-managing-monitor-notifications-beta-) una notificación del supervisor.
+3. [Cree o gestione](/docs/infrastructure/SLmonitoring?topic=slmonitoring-creating-and-managing-system-policies-beta-) una política del sistema.
+4. [Vea las alertas](/docs/infrastructure/SLmonitoring?topic=slmonitoring-viewing-monitoring-alerts-beta-).
 5. Revise los datos actualmente disponibles del gráfico de supervisión de la versión Beta para un dispositivo seleccionado.
 
 |              Métricas                                      |  Descripción                                        |
@@ -84,7 +87,7 @@ Siga estos pasos para empezar a utilizar el programa Beta de supervisión. Unirs
 |Temperatura                                                 |Ver la temperatura del dispositivo nativo en grados Celsius. Estos datos no están disponibles para todos los dispositivos.
 {: caption="Tabla 1. Métricas de Beta" caption-side="top"}   
 
-## Limitaciones 
+## Limitaciones
 Si se suprime un dispositivo, las políticas de supervisión asociadas no se suprimen. Tenga en cuenta que debe suprimir manualmente el dispositivo para estas políticas.
 
 Los datos de métricas solo están disponibles durante 15 días.
@@ -92,9 +95,7 @@ Los datos de métricas solo están disponibles durante 15 días.
 Solo pueden existir 10 políticas de supervisión simultáneamente. Sin embargo, una política se puede aplicar a varios dispositivos.
 
 ## Resolución de problemas
-Para ver algunas métricas, como la utilización de memoria, se necesitan las herramientas xen en el servidor. Para obtener información sobre cómo instalar las herramientas xen, consulte [Preparación e importación de imágenes](../image-templates/import-image.html#preparing-and-importing-images).
+Para ver algunas métricas, como la utilización de memoria, se necesitan las herramientas Xen en el servidor. Para obtener información sobre cómo instalar las herramientas Xen, consulte [Preparación e importación de imágenes](/docs/infrastructure/image-templates?topic=image-templates-preparing-and-importing-images#preparing-and-importing-images).
 
-## Comentarios 
-Para proporcionar comentarios sobre esta versión Beta, seleccione **Dispositivos -> Supervisión** o la página de detalles del dispositivo y pulse **Dejar comentarios** para cumplimentar una breve encuesta. Para salir de la versión Beta y volver a la vista estándar, pulse el enlace **Abandonar Beta** en la página **Dispositivos -> Supervisión**.
-
-
+## Comentarios
+Para proporcionar comentarios sobre esta versión Beta, seleccione **Dispositivos -> Supervisión** o la página de detalles del dispositivo y pulse **Dejar comentarios** para cumplimentar una breve encuesta. Para salir de la versión Beta y volver a la vista estándar, pulse el enlace **Abandonar Beta** en la parte inferior de la página **Dispositivos -> Supervisión**.
