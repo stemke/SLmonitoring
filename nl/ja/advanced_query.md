@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,12 +13,12 @@ lastupdated: "2018-03-29"
 
 # 拡張モニタリング照会の作成 (ベータ)
 
-{{site.data.keyword.cloud}} では、分析および視覚化のためのオープン・ソース・プラットフォームである Grafana を使用して、さまざまなグラフ (図表や表など) でメトリックのモニター、検索、分析、および視覚化を行うことができます。Grafana を使用して、高度な分析タスクを実行できます。
+{{site.data.keyword.cloud}} では、オープン・ソースの分析と視覚化用プラットフォームである Grafana を使用して、さまざまなグラフ (図表や表など) でメトリックのモニター、検索、分析、および視覚化を行うことができます。Grafana を使用して、高度な分析タスクを実行できます。
 {:shortdesc}
 
 Grafana を使用する場合は、ダッシュボードでメトリック照会を使用してグラフを作成できます。
-1. [Grafana ダッシュボードにナビゲートします](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/navigating_grafana.html#navigating_grafana)。
-2. ドメインの`アカウント`と、ベア・メタル・デバイスにリンクされた IBM ID を持つユーザー・アカウントを選択します。 
+1. [Grafana ダッシュボードにナビゲートします](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-navigating_grafana#navigating_grafana)。
+2. ドメインの`アカウント`と、ベア・メタル・デバイスにリンクされた IBM ID を持つユーザー・アカウントを選択します。
 3. 次の形式を使用して、照会を作成します。
 `ibmcloud.public.iaas-telemetry.region.<DATACENTER_BAREMETAL_LIVES_IN>.<MACHINE_GUID>.<METRIC_TYPE>`
 4. 使用可能なメトリック・タイプは以下のとおりです。
@@ -117,4 +121,4 @@ net-private-out-bps-agg`</td>
    </TBODY>
    </table>
 
-詳しくは、[Grafana でのメトリック照会の構成](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/define_query.html#define_query)を参照してください。
+詳しくは、[Grafana でのメトリック照会の構成](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-define_query#define_query)を参照してください。
