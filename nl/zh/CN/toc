@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="slmonitoring" audience="compute" href="/docs/infrastructure/slmonitoring/monitoring_index.html"}
-Monitoring
+{: .toc subcollection="slmonitoring" audience="compute" href="docs/infrastructure/SLmonitoring?topic=SLmonitoring-gettingstartedbeta" path="infrastructure/SLmonitoring"}
+监视
 
     {: .navgroup id="learn"}
     monitoring_index.md
@@ -19,8 +19,8 @@ Monitoring
     view-agent-report-nimsoft-monitoring.md
     install_observer.md
     manage_baremetal_agent.md
-    create_notification.md
     create_policy.md
+    create_notification.md
     view_alerts.md
     advanced_query.md
     {: .navgroup-end}

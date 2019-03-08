@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
-lastupdated: "2018-06-28"
+lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -30,7 +34,7 @@ lastupdated: "2018-06-28"
    <td>
    <ol>
      <li>单击<b>创建通知</b>。</li>
-     <li>输入新系统策略的信息。 
+     <li>输入新系统策略的信息。
 
 <table>
   <caption>系统策略详细信息</caption>
@@ -69,7 +73,7 @@ lastupdated: "2018-06-28"
    <td>
    <ol>
      <li>单击<b>编辑策略</b>。</li>
-    <li>输入系统策略的更改信息。 
+    <li>输入系统策略的更改信息。
 
 <table>
   <caption>系统策略详细信息</caption>
@@ -99,7 +103,7 @@ lastupdated: "2018-06-28"
    <td>除去策略</td>
    <td>
    <ol>
-     <li>单击<b>操作 -> 删除策略</b>。</li> 
+     <li>单击<b>操作 -> 删除策略</b>。</li>
      <li>单击<b>删除</b>以确认您的选择。</li>
    </ol>
    </td>
@@ -109,8 +113,9 @@ lastupdated: "2018-06-28"
   <td>
     <ol>
       <li>单击<b>管理设备</b>。</li>
-      <li>选择或清除要分配策略的设备。</li>
-      <li>单击<b>确定</b>以接受更改。</li></ol>
+      <li>选择或取消选择要为其分配策略的设备。</li>
+       <li>单击<b>确定</b>以接受更改。</li>
+    </ol>
       </td>
   </tr>
    <tr>
@@ -119,10 +124,10 @@ lastupdated: "2018-06-28"
     <ol>
       <li>单击<b>操作 -> 复制策略</b>。</li>
       <li>输入新策略的任何更改信息。</li>
-      <li>单击<b>确定</b>以接受更改。</li></ol>
+       <li>单击<b>确定</b>以接受更改。</li>
+    </ol>
       </td>
   </tr>
-  
+
    </TBODY>
    </table>
-

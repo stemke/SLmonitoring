@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,12 +13,12 @@ lastupdated: "2018-03-29"
 
 # 创建高级监视查询 (Beta)
 
-在 {{site.data.keyword.cloud}} 中，可以使用 Grafana 通过各种图形（例如，图表和表格）来监视、搜索、分析和可视化表示度量值。Grafana 是一种开放式源代码分析和可视化平台。您可以使用 Grafana 来执行高级分析任务。
+在 {{site.data.keyword.cloud}} 中，Grafana 是一种开放式源代码分析和可视化平台，可以使用它通过各种图形（例如，图表和表格）来监视、搜索、分析和可视化度量值。您可以使用 Grafana 来执行高级分析任务。
 {:shortdesc}
 
 如果使用 Grafana，那么可以使用仪表板来创建使用度量值查询的图形。
-1. [浏览至 Grafana 仪表板](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/navigating_grafana.html#navigating_grafana)。
-2. 选择域 `account` 和具有链接到裸机设备的 IBM 标识的用户帐户。 
+1. [浏览至 Grafana 仪表板](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-navigating_grafana#navigating_grafana)。
+2. 选择域 `account` 和具有链接到裸机设备的 IBM 标识的用户帐户。
 3. 使用以下格式来创建查询。
 `ibmcloud.public.iaas-telemetry.region.<DATACENTER_BAREMETAL_LIVES_IN>.<MACHINE_GUID>.<METRIC_TYPE>`
 4. 以下是可用的度量值类型：
@@ -115,4 +119,4 @@ lastupdated: "2018-03-29"
    </TBODY>
    </table>
 
-有关更多信息，请参阅[在 Grafana 中配置度量值查询](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/define_query.html#define_query)。
+有关更多信息，请参阅[在 Grafana 中配置度量值查询](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-define_query#define_query)。

@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -17,9 +21,9 @@ lastupdated: "2018-03-29"
    <THEAD>
    <TR>
    <th>如果要执行的操作是...</th>
-   <th>对于 Linux，请执行以下操作...</th>
-     <th>对于 FreeBSD，请执行以下操作...</th>
-     <th>对于 Windows，请执行以下操作...</th>
+   <th>那么对于 Linux...</th>
+     <th>那么对于 FreeBSD...</th>
+     <th>那么对于 Windows...</th>
    </TR>
    </THEAD>
    <TBODY>
@@ -82,6 +86,3 @@ lastupdated: "2018-03-29"
    </tr>
    </TBODY>
    </table>
-
-
-
