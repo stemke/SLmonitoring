@@ -1,7 +1,11 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-06-09"
+  years: 2014, 2018
+lastupdated: "2018-11-15"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}

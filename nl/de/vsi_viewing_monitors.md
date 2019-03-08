@@ -1,11 +1,10 @@
 ---
 
-
-
 copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+subcollection: slmonitoring
 
 ---
 
@@ -18,7 +17,8 @@ lastupdated: "2017-09-28"
 
 # Überwachungen anzeigen und verwalten
 
-Durch die Überwachung eines Geräts können Benutzer Service-Pings und langsame Pings initiieren, um sicherzustellen, dass das Gerät online und betriebsbereit ist.{:shortdesc}
+Durch die Überwachung eines Geräts können Benutzer Service-Pings und langsame Pings initiieren, um sicherzustellen, dass das Gerät online und betriebsbereit ist.
+{:shortdesc}
 
 Wenn im zugewiesenen Zeitrahmen (eine Sekunde für Service-Pings, fünf Sekunden für langsame Pings) kein Echo empfangen wird, wird ein Alert an die E-Mail-Adresse
 im Konto gesendet. Ein aktiver Status **** im Feld **Status** zeigt an, dass ein Echo empfangen wurde, während ein inaktiver Status ****
@@ -77,9 +77,9 @@ angibt, dass kein Echo empfangen wurde. Wenn Sie eine einfache Überwachung konf
    </tr>
    </TBODY>
    </table>
-   
+
 ## Nächste Schritte
-   
+
 - Wenn eine neue Überwachung hinzugefügt wird, wird die Überwachung auf der Registerkarte **Überwachung** angezeigt. Die Überwachung sendet jede fünf Minuten einen Ping an das Gerät und erwartet basierend auf dem ausgewählten Pingtyp eine entsprechende Antwort. Wird die erwartete Antwort nicht empfangen, wird im angegebenen Zeitrahmen eine E-Mail an die Benachrichtigungs-E-Mail-Adresse für das Konto gesendet, wenn die Benachrichtigungsoption ausgewählt ist.
 - Wenn eine Überwachung bearbeitet wird, funktioniert die Überwachung weiterhin, wie in den Überwachungsdetails angegeben. Wenn der Typ geändert wird, ändert sich auch die Zeitdauer für den Empfang des erwarteten Pingsignals. Wenn die Benachrichtigungsoptionen geändert werden, ändert sich basierend auf der neuen Auswahl die Art und Weise, wie Benutzer über einen fehlgeschlagenen Versuch benachrichtigt werden. Die Überwachung bleibt über die Registerkarte **Überwachung** zugänglich.
 - Wenn eine Überwachung entfernt wird, funktioniert die Überwachung für das Gerät nicht mehr. Alle Überwachungsvorgänge, die mit der entfernten Überwachung verknüpft sind, werden gestoppt und und die Überwachung wird nicht mehr auf der Registerkarte **Überwachung** angezeigt.

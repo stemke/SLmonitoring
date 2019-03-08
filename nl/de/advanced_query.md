@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,12 +13,12 @@ lastupdated: "2018-03-29"
 
 # Erweitere Überwachungsabfrage erstellen (Beta)
 
-In {{site.data.keyword.cloud}} können Sie Grafana, eine Open-Source-Plattform für Analysen und Visualisierungen, verwenden, um Ihre Metriken in einer Vielzahl von grafischen Darstellungen, beispielsweise in Diagrammen und Tabellen, zu überwachen, zu durchsuchen, zu analysieren und zu visualisieren. Mit Grafana können Sie erweiterte Analysetasks durchführen.
+In {{site.data.keyword.cloud}} können Sie Grafana, eine Open-Source-Plattform für Analysen und Visualisierungen, verwenden, um Ihre Metriken in verschiedenen grafischen Darstellungen, beispielsweise in Diagrammen und Tabellen, zu überwachen, zu durchsuchen, zu analysieren und zu visualisieren. Mit Grafana können Sie erweiterte Analysetasks durchführen.
 {:shortdesc}
 
 Wenn Sie Grafana verwenden, können Sie mithilfe der Metrikabfrage Diagramme erstellen.
-1. [Navigieren Sie zum Grafana-Dashboard](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/navigating_grafana.html#navigating_grafana).
-2. Wählen Sie die Domäne `account` und ein Benutzerkonto mit einer IBMid aus, die mit dem Bare-Metal-Gerät verknüpft ist. 
+1. [Navigieren Sie zum Grafana-Dashboard](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-navigating_grafana#navigating_grafana).
+2. Wählen Sie die Domäne `account` und ein Benutzerkonto mit einer IBMid aus, die mit dem Bare-Metal-Gerät verknüpft ist.
 3. Verwenden Sie das folgende Format zum Erstellen der Abfragen.
 `ibmcloud.public.iaas-telemetry.region.<DATACENTER_BAREMETAL_LIVES_IN>.<MACHINE_GUID>.<METRIC_TYPE>`
 4. Nachfolgend sind die verfügbaren Metriktypen aufgeführt:
@@ -117,4 +121,4 @@ net-private-out-bps-agg`</td>
    </TBODY>
    </table>
 
-Weitere Informationen finden Sie in [Metrikabfrage in Grafana konfigurieren](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/define_query.html#define_query).
+Weitere Informationen finden Sie in [Metrikabfrage in Grafana konfigurieren](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-define_query#define_query).

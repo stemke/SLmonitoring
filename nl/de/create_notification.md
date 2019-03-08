@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
-lastupdated: "2018-05-18"
+lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,14 +13,14 @@ lastupdated: "2018-05-18"
 
 # Überwachungsbenachrichtigungen erstellen und verwalten (Beta)
 Eine Benachrichtigung beschreibt die verwendete Methode und die entsprechenden Details beim Auslösen eines Alerts. Um beispielsweise eine Warn- oder Fehlerbenachrichtigung für eine Metrik zu erhalten, definieren Sie jeweils eine Regel, die den Warnungsschwellenwert und den Fehlerschwellenwert überwacht.
-{:shortdesc} 
+{:shortdesc}
 
 ## Benachrichtigung erstellen
- 
- 1. Wenn Sie erfolgreich an der Betaversion teilnehmen, wählen Sie **Geräte -> Überwachung** aus. 
+
+ 1. Wenn Sie erfolgreich an der Betaversion teilnehmen, wählen Sie **Geräte -> Überwachung** aus.
  2. Klicken Sie auf die Registerkarte **Benachrichtigungen**.
  3. Klicken Sie auf **Benachrichtigung erstellen**.
- 4. Geben Sie die Informationen für die neue Benachrichtigung ein. 
+ 4. Geben Sie die Informationen für die neue Benachrichtigung ein.
 
 <table>
   <caption>Details einer E-Mail-Benachrichtigung</caption>
@@ -91,17 +95,17 @@ Eine Benachrichtigung beschreibt die verwendete Methode und die entsprechenden D
 </table>
 
 
-5. Klicken Sie auf **OK**, um die neuen Benachrichtigungen mit den von Ihnen angegebenen Einstellungen zu erstellen.
+5. Klicken Sie auf **OK**, um die neuen Benachrichtigungen mit der von Ihnen angegebenen Einstellung zu erstellen.
 
 ## Benachrichtigung bearbeiten
- 1. Wenn Sie erfolgreich an der Betaversion teilnehmen, wählen Sie **Geräte -> Überwachung** aus. 
+ 1. Wenn Sie erfolgreich an der Betaversion teilnehmen, wählen Sie **Geräte -> Überwachung** aus.
  2. Klicken Sie auf die Registerkarte **Benachrichtigungen**.
 3. Klicken Sie auf **Aktionen->Benachrichtigung bearbeiten**.
 4. Bearbeiten Sie die Benachrichtigungsdetails.
 5. Klicken Sie auf **OK**, um die Änderungen zu übernehmen.
 
 ## Benachrichtigung löschen
-1. Wenn Sie erfolgreich an der Betaversion teilnehmen, wählen Sie **Geräte -> Überwachung** aus. 
+1. Wenn Sie erfolgreich an der Betaversion teilnehmen, wählen Sie **Geräte -> Überwachung** aus.
 2. Klicken Sie auf die Registerkarte **Benachrichtigungen**.
 3. Klicken Sie auf **Aktionen->Benachrichtigung löschen**.
 4. Klicken Sie auf **Löschen**, um Ihre Auswahl zu bestätigen.
@@ -110,4 +114,3 @@ Eine Benachrichtigung beschreibt die verwendete Methode und die entsprechenden D
 1. Wählen Sie **Infrastruktur->Geräteliste->*Gerätename*** aus, um auf die Gerätedetails zuzugreifen.
 2. Klicken Sie auf **Aktionen->Benachrichtigungen verwalten**.
 4. Klicken Sie entsprechend, um Benachrichtigungen für das Gerät zuzuweisen oder zu entfernen.
-

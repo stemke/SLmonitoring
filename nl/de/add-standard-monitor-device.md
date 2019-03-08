@@ -1,7 +1,10 @@
 ---
+
 copyright:
-  years: 1994, 2017
+  years: 2014, 2017
 lastupdated: "2017-06-09"
+
+subcollection: slmonitoring
 ---
 
 {:shortdesc: .shortdesc}
@@ -24,7 +27,7 @@ lastupdated: "2017-06-09"
    <ol>
    <li>Klicken Sie auf der Registerkarte <b>Überwachung</b> der Seite mit den Gerätedetails rechts auf der Seite auf <b>Überwachungen verwalten</b>, um mit diesem Gerät verknüpfte Überwachungen zu verwalten.</li>
    <li>Klicken Sie auf der Seite mit den Überwachungen auf die Registerkarte <b>Überwachung hinzufügen</b>.
-   * **Hinweis:** Öffentliche und private IP-Adressen stehen für die Überwachung zur Verfügung. Alle diese IP-Adressen sind auf der Registerkarte **Serverinfo** angegeben.</li>
+   * **Hinweis:** Öffentliche und private IP-Adressen stehen für die Überwachung zur Verfügung. Alle diese IP-Adressen sind auf der Registerkarte **Serverinfo** in der Anzeige oben angegeben.</li>
    <li>Wählen Sie die zu überwachende IP-Adresse aus der Dropdown-Liste <b>IP-Adresse</b> aus.</li>
    <li>Wählen Sie den Überwachungstyp aus der Dropdown-Liste <b>Überwachungstyp</b> aus.</li>
    <li>Richten Sie die Benachrichtigungsoptionen ein. Wählen Sie aus der Dropdown-Liste <b>Benachrichtigen?</b> die Option <b>Benutzer benachrichtigen</b> aus, um Benutzer über Probleme zu informieren, oder <b>Nichts tun</b>, um die Benutzerbenachrichtigung zu umgehen.</li>

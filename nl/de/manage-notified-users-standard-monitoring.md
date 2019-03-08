@@ -1,7 +1,11 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2018-05-18"
+  years: 2014, 2017
+lastupdated: "2017-06-09"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,7 +19,6 @@ Benachrichtige Benutzer für den Standardüberwachungsservice empfangen jedes Ma
 3. Klicken Sie neben **Benachrichtigte Benutzer verwalten** auf das Symbol zum **Erweitern**, um den Abschnitt zu erweitern.
 4. Stellen Sie fest, ob ein **verwalteter Benutzer** hinzugefügt oder entfernt werden sollte.
 
-<caption>Tabelle 1. Verwalteten Benutzer hinzufügen oder entfernen</caption>
 |Gewünschte Aktion für einen verwalteten Benutzer...|Vorgehensweise...|
 |---|---|
 |Hinzufügen |<ul><li>Wählen Sie den neuen **benachrichtigten Benutzer** aus der Dropdown-Liste **Zu benachrichtigende Benutzer** aus.</li><li>Klicken Sie auf **Benutzer hinzufügen**.</li></ul>
@@ -23,4 +26,4 @@ Benachrichtige Benutzer für den Standardüberwachungsservice empfangen jedes Ma
 
 ## Nächste Schritte
 
-Wenn ein benachrichtigter Benutzer anhand dieser Schritte hinzugefügt wurde, wird der Benutzer im Falle einer verpassten Antwort auf ein Pingsignal benachrichtigt. Wenn ein benachrichtigter Benutzer entfernt wurde, empfängt ein Benutzer keine Benachrichtigung mehr bezüglich einer verpassten Reaktion auf ein Pingsignal im Zusammenhang mit dem Gerät. 
+Wenn ein benachrichtigter Benutzer anhand dieser Schritte hinzugefügt wurde, wird der Benutzer im Falle einer verpassten Antwort auf ein Pingsignal benachrichtigt. Wenn ein benachrichtigter Benutzer entfernt wurde, empfängt ein Benutzer keine Benachrichtigung mehr bezüglich einer verpassten Reaktion auf ein Pingsignal im Zusammenhang mit dem Gerät.
