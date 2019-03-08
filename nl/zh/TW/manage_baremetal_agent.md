@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,7 +13,7 @@ lastupdated: "2018-03-29"
 
 # 管理 IBM Cloud Monitoring Service for IaaS Bare Metal Agent（測試版）
 
-{{site.data.keyword.BluSoftlayer_full}} Monitoring Service for IaaS Bare Metal Agent 會從其安裝所在的裝置中收集度量資料，並將它傳送至度量儲存空間。從度量儲存空間中，資料可供使用者介面用於簡單監視，以及可供 Grafana 用於進階查詢。如果您是使用 IBM Cloud Monitoring Service for IaaS Bare Metal Agent，請遵循下列步驟來檢視、停止、啟動或解除安裝伺服器的服務。
+{{site.data.keyword.BluSoftlayer_full}} Monitoring Service for IaaS Bare Metal Agent 會從其安裝所在的裝置中收集度量值資料，並將它傳送至度量值儲存空間。從度量值儲存空間中，資料可供使用者介面用於簡單監視，以及可供 Grafana 用於進階查詢。如果您是使用 IBM Cloud Monitoring Service for IaaS Bare Metal Agent，請遵循下列步驟來檢視、停止、啟動或解除安裝伺服器的服務。
 {:shortdesc}
 
 <table>
@@ -17,9 +21,9 @@ lastupdated: "2018-03-29"
    <THEAD>
    <TR>
    <th>如果要採取的動作是...</th>
-   <th>若是 Linux，則...</th>
-     <th>若是 FreeBSD，則...</th>
-     <th>若是 Windows，則...</th>
+   <th>則針對 Linux...</th>
+     <th>則針對 FreeBSD...</th>
+     <th>則針對 Windows...</th>
    </TR>
    </THEAD>
    <TBODY>
@@ -85,6 +89,3 @@ lastupdated: "2018-03-29"
    </tr>
    </TBODY>
    </table>
-
-
-

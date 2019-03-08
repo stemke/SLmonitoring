@@ -4,17 +4,19 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-02"
 
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 漏洞掃描
-{{site.data.keyword.BluSoftlayer_full}} 與 Nessus 結盟，以針對 {{site.data.keyword.BluSoftlayer_notm}} 網路上的任何裝置提供漏洞掃描。漏洞掃描會測試裝置中是否有弱點區域，並針對您的主機裝置傳回分析、安全問題及修正的報告。在您的裝置上執行漏洞掃描可確保它們隨時都保持安全，而且當您認為裝置可能有漏洞或受損時，這些也是第一個使用的資源。您可以在與帳戶相關聯的任何裝置上使用[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/)，來完成漏洞掃描。
+{{site.data.keyword.BluSoftlayer_full}} 與 Nessus 結盟，以針對 {{site.data.keyword.BluSoftlayer_notm}} 網路上的任何裝置提供漏洞掃描。漏洞掃描會測試裝置中是否有弱點區域，並針對您的主機裝置傳回分析、安全問題及修正的報告。在您的裝置上執行漏洞掃描可確保它們隨時都保持安全，而且當您認為裝置可能有漏洞或受損時，這些也是第一個使用的資源。您可以在與帳戶相關聯的任何裝置上使用 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window}，來完成漏洞掃描。
 {:shortdesc}
 
-## Nessus 安全掃描器 
-{{site.data.keyword.BluSoftlayer_notm}} 提供線上安全掃描器，其採用開放程式碼「Nessus 掃描」工具的技術。您可以在「安全」標籤下，按一下**掃描器**來存取這個安全掃描器。如需相關資訊，請參閱 [Nessus 掃描工具 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www.nessus.org/nessus/)。
+## Nessus 安全掃描器
+{{site.data.keyword.BluSoftlayer_notm}} 提供線上安全掃描器，其採用開放程式碼「Nessus 掃描」工具的技術。您可以在「安全」標籤下，按一下**掃描器**來存取這個安全掃描器。如需相關資訊，請參閱 [Nessus 掃描工具 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://www.nessus.org/nessus/){: new_window}。
 
 **掃描器**頁面提供一份清單，列出 {{site.data.keyword.BluSoftlayer_notm}} 所管理之 Nessus 工具可用的硬體。若要掃描伺服器，或查看先前掃描的結果，請按一下您要檢查之伺服器的詳細資料鏈結。漏洞掃描詳細資料頁面會顯示伺服器的簡短摘要（包含伺服器名稱、要掃描的 IP 位址，以及伺服器所在的資料中心）。**啟動掃描**可排定您的伺服器，讓 Nessus 掃描伺服器盡快掃描漏洞。
 

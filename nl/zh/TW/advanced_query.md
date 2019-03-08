@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
+
+subcollection: slmonitoring
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -12,12 +16,12 @@ lastupdated: "2018-03-29"
 在 {{site.data.keyword.cloud}} 中，您可以使用 Grafana（一種開放程式碼分析與視覺化平台），以各種圖形（例如圖表和表格）監視、搜尋、分析及視覺化您的度量值。您可以使用 Grafana 來執行進階分析作業。
 {:shortdesc}
 
-如果您使用 Grafana，則可以使用儀表板來利用度量查詢建立圖形。
-1. [導覽至 Grafana 儀表板](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/navigating_grafana.html#navigating_grafana)。
-2. 以鏈結至裸機裝置的 IBM ID 來選取網域`帳戶`及使用者帳戶。 
+如果您使用 Grafana，則可以使用儀表板來利用度量值查詢建立圖形。
+1. [導覽至 Grafana 儀表板](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-navigating_grafana#navigating_grafana)。
+2. 以鏈結至裸機裝置的 IBM ID 來選取網域`帳戶`及使用者帳戶。
 3. 使用此格式來建立查詢。
 `ibmcloud.public.iaas-telemetry.region.<DATACENTER_BAREMETAL_LIVES_IN>.<MACHINE_GUID>.<METRIC_TYPE>`
-4. 以下是可用的度量類型：
+4. 以下是可用的度量值類型：
 <table>
    <CAPTION>表 1. IBM Cloud Monitoring Service for IaaS Bare Metal Agent</CAPTION>
    <THEAD>
@@ -29,7 +33,7 @@ lastupdated: "2018-03-29"
    <TBODY>
      <tr>
        <td>`cpu-pct-<id>`<br>`cpu-pct-avg`</td>
-       <td>百分比</td>
+       <td>%</td>
      </tr>
      <tr>
        <td>`memory-used-bytes`</td>
@@ -37,7 +41,7 @@ lastupdated: "2018-03-29"
      </tr>
    <tr>
        <td>`memory-used-percent`</td>
-       <td>百分比</td>
+       <td>%</td>
      </tr>
      <tr>
        <td>`memory-swap-bytes`</td>
@@ -45,7 +49,7 @@ lastupdated: "2018-03-29"
      </tr>
      <tr>
        <td>`memory-swap-percent`</td>
-       <td>百分比</td>
+       <td>%</td>
      </tr>
      <tr>
        <td>`disk-total-bytes-<id>` <br>`disk-total-bytes-agg`</td>
@@ -57,7 +61,7 @@ lastupdated: "2018-03-29"
      </tr>
    <tr>
        <td>`disk-used-percent-<id>`</td>
-       <td>百分比</td>
+       <td>%</td>
      </tr>
      <tr>
        <td>`disk-read-bps-<id>` <br>`disk-read-bps-agg`</td>
@@ -111,10 +115,10 @@ net-private-out-bps-agg`</td>
      </tr>
     <tr>
        <td>`temperature-celsius-<id>` <br>`temperature-celsius-avg`
-         <br>此度量不適用於所有裝置。</td>
+         <br>此度量值不適用於所有裝置。</td>
        <td>度（攝氏）</td>
      </tr>
    </TBODY>
    </table>
 
-如需相關資訊，請參閱[在 Grafana 中配置度量值查詢](https://console.bluemix.net/docs/services/cloud-monitoring/grafana/define_query.html#define_query)。
+如需相關資訊，請參閱[在 Grafana 中配置度量值查詢](/docs/services/cloud-monitoring/grafana?topic=services/cloud-monitoring-define_query#define_query)。
