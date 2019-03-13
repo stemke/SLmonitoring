@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-06-09"
 
+keywords:
+
 subcollection: slmonitoring
 ---
 
@@ -11,6 +13,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Adding and removing monitors
+{: #add-remove-monitors}
 
 <table>
    <CAPTION>Table 1. Adding and removing device monitors</CAPTION>

@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-03-29"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Managing the IBM Cloud Monitoring Service for IaaS Bare Metal Agent (Beta)
+{: #manage-bm-agent}
 
 The {{site.data.keyword.BluSoftlayer_full}} Monitoring Service for IaaS Bare Metal Agent collects metric data from the device on which it's installed and sends it to metric storage. From metric storage, the data is available to the user interface for simple monitoring and Grafana for advanced queries.
 If you are using the IBM Cloud Monitoring Service for IaaS Bare Metal Agent, follow these steps to view, stop, start, or uninstall the service for your server.

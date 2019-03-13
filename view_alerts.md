@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-03-29"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,8 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Viewing monitoring alerts (Beta)
+{: #view-alerts}
+
 To view any warnings or errors triggered by your monitoring policies, complete these steps.
 {:shortdesc}
 

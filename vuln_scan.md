@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-02"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,8 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Vulnerability scans
+{: #vuln-scans}
+
 {{site.data.keyword.BluSoftlayer_full}} partners with Nessus to provide vulnerability scans for any device on the {{site.data.keyword.BluSoftlayer_notm}} network.  Vulnerability scans test for areas of weakness in a device and return a report of the analysis, security issues and fixes for your host device.  Performing vulnerability scans on your devices ensure that they stay secure at all times and are also the first resource to employ when you think a device might be vulnerable or compromised.  Vulnerability scans can be completed using the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} on any device associated with your account.
 {:shortdesc}
 

@@ -4,6 +4,8 @@ copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -16,6 +18,7 @@ subcollection: slmonitoring
 {:table: .aria-labeledby="caption"}
 
 # Viewing and managing monitors
+{: vsi-view-manage-monitors}
 
 Monitoring a device allows users to initiate service and slow pings to ensure that the device is online and responsive.
 {:shortdesc}

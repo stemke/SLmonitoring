@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2019
 lastupdated: "2019-02-11"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Installing and managing the Nimsoft Monitoring Robot
+{: #install-nimsoft}
 
 To allow advanced monitoring to function on existing {{site.data.keyword.baremetal_short}} or {{site.data.keyword.BluVirtServers_short}}, install the Nimsoft Monitoring Robot. The Nimsoft Monitoring Robot allows the monitoring management system to communicate with the bare metal server or virtual server on the private network. After you install the Nimsoft Monitoring Robot, it takes approximately 5 - 10 minutes to become available on the {{site.data.keyword.slportal_full}}. Follow these steps to install the Nimsoft Monitoring Robot in Windows or Linux.
 

@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2018-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -13,6 +15,7 @@ subcollection: slmonitoring
 {:faq: data-hd-content-type='faq'}
 
 # Monitoring FAQ
+{: #monitor-faq}
 
 ## I'm seeing numerous monitoring alert tickets. Does this mean that my server is down?
 {:faq}

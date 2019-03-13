@@ -4,6 +4,8 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Creating an advanced monitoring query (Beta)
+{: #create-adv-monitor-query}
 
 In the {{site.data.keyword.cloud}}, you can use Grafana, an open source analytics and visualization platform to monitor, search, analyze, and visualize your metrics in various graphs, for example charts and tables. You can use Grafana to perform advanced analytical tasks.
 {:shortdesc}

@@ -4,6 +4,8 @@ copyright:
   years: 2017, 2018
 lastupdated: "2018-03-29"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,8 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Metrics collected (Beta)
+{: #metrics}
+
 This topic covers the metrics collected for this beta monitoring application on virtual and bare metal servers.
 {:shortdesc}
 

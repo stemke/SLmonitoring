@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-11-15"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Viewing an agent report for Nimsoft Monitoring
+{: #view-report}
 
 Monitoring details for Nimsoft Monitoring are available in agent reports, which provide the details specific to the way the agent was configured. Follow these steps to view an agent report for Nimsoft Monitoring.
 

@@ -4,6 +4,8 @@ copyright:
   years: 2018
 lastupdated: "2018-04-20"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Installing IBM Cloud Monitoring Service for IaaS Bare Metal Agent (Beta)
+{: #install-service}
 
 To allow advanced monitoring to function on existing {{site.data.keyword.baremetal_short}}, follow these steps to install the {{site.data.keyword.BluSoftlayer_full}} Monitoring Service for IaaS Bare Metal Agent on your bare metal device.
 
