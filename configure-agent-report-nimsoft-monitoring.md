@@ -14,7 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Configuring a Nimsoft Monitoring agent report
-{: #configure-nimsoft}
+{: #configuring-a-nimsoft-monitoring-agent-report}
 
 1. From the monitoring screen, select **Configure Agent Reports** from the **Actions** drop-down menu in the **Advanced** column.
 
