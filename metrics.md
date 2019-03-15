@@ -14,7 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Metrics collected (Beta)
-{: #metrics}
+{: #metrics-collected-beta}
 
 This topic covers the metrics collected for this beta monitoring application on virtual and bare metal servers.
 {:shortdesc}
