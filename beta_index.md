@@ -12,8 +12,9 @@ subcollection: slmonitoring
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+
 # Getting started with IBM Cloud Monitoring (Beta)
-{: #gettingstartedbeta}
+{: #getting-started-with-ibm-cloud-monitoring-beta}
 
 This beta monitoring application, built on the {{site.data.keyword.BluSoftlayer_full}} Monitoring Service is available for virtual and bare metal servers. For updates on the development of this Beta program, see the [IBM Cloud Blog ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2017/12/beta-release-new-vsi-monitoring-tool-ibm-cloud/){: new_window}.
 {:shortdesc}
