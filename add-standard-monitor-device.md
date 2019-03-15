@@ -13,7 +13,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Adding and removing monitors
-{: #add-remove-monitors}
+{: #adding-and-removing-monitors}
 
 <table>
    <CAPTION>Table 1. Adding and removing device monitors</CAPTION>
