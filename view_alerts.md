@@ -14,7 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Viewing monitoring alerts (Beta)
-{: #view-alerts}
+{: #viewing-monitoring-alerts-beta}
 
 To view any warnings or errors triggered by your monitoring policies, complete these steps.
 {:shortdesc}
