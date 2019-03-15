@@ -14,7 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Creating and managing monitor notifications (Beta)
-{: #create-notifications}
+{: #creating-and-managing-monitor-notifications-beta}
 
 A notification describes the method and details that is used to notify when an alert is triggered. For example, to get a warning notification and an error notification for a metric, define a rule that monitors the warning threshold, and define a rule that monitors the error threshold.
 {:shortdesc}
