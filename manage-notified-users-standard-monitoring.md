@@ -14,7 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Managing notified users for standard monitoring
-{: #manage-users}
+{: #managing-notified-users-for-the-standard-monitoring}
 
 Notified users for the standard monitoring service receive automated notifications any time a device does not respond to a ping in the allotted response time. You can add or remove notified users at any time, and notified users must be on the account that is associated with the device to receive a notification. Follow these steps to manage notified users for the standard monitoring service.
 
