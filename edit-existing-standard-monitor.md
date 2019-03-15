@@ -14,7 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Editing an existing monitor
-{: #edit-existing-monitor}
+{: #editing-an-existing-monitor}
 
 After a monitor is added to a device, you can modify or remove it at any time. Modifications to monitors allow for changes to the type and notification options, while removing a monitor cancels the monitor completely. Follow these steps to edit an existing monitor.
 
