@@ -14,7 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Creating and managing system policies (Beta)
-{: #create-system-policies}
+{: #creating-and-managing-system-policies-beta}
 
 You can create policies to trigger notifications when your device reaches a predetermined monitoring threshold. For example, you can notify users if the average CPU usage of your device reaches a warning or error level. Only 10 monitoring policies can exist at one time. However, a policy can be applied to multiple devices.
 {:shortdesc}
