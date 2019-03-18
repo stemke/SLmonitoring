@@ -43,11 +43,13 @@ If there is an error configuring the monitoring service due to communication err
 * Click **Re-Deploy**
 
 ## Installing in Windows
+{: #install-windows}
 
 1. See http://downloads.service.softlayer.com/nimsoft/ to download the latest version of the Windows Installer to the device for installation (You must be connected to the customer VPN).
 * Run the Nimsoft Monitoring Robot file as an Administrator.
 
 ## Installing in Linux
+{: #install-linux}
 
 1. Connect to the private network through the customer VPN.
 * Download the [32-bit ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz){: new_window} or [64-bit ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz){: new_window} Linux Installer to the device for installation. Debian and Ubuntu versions are also available on the [Nimsoft Installer ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://downloads.service.softlayer.com/nimsoft/){: new_window}.
