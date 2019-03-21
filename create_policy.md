@@ -25,7 +25,7 @@ Follow these steps to work with your system policies.
 2. Click the **System Policies** tab.
 
 <table>
-   <CAPTION>Table 1.Create and manage system policies</CAPTION>
+   <CAPTION>Table 1. Create and manage system policies</CAPTION>
    <THEAD>
    <TR>
    <th>If the action to be taken is...</th>
@@ -41,7 +41,7 @@ Follow these steps to work with your system policies.
      <li>Enter the information for your new system policy.
 
 <table>
-  <caption>System policy details</caption>
+  <caption>Table 2. System policy details</caption>
   <tr>
      <th>Field</th>
      <th>Description</th>
@@ -80,7 +80,7 @@ Follow these steps to work with your system policies.
     <li>Enter the changed information for your system policy.
 
 <table>
-  <caption>System policy details</caption>
+  <caption>Table 3. System policy details</caption>
   <tr>
      <th>Field</th>
      <th>Description</th>
