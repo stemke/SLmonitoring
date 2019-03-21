@@ -27,7 +27,7 @@ A notification describes the method and details that is used to notify when an a
  4. Enter the information for your new notification.
 
 <table>
-  <caption>Email notification details</caption>
+  <caption>Table 1. Email notification details</caption>
   <tr>
      <th>Field</th>
      <th>Description</th>
@@ -47,7 +47,7 @@ A notification describes the method and details that is used to notify when an a
 </table>
 
 <table>
-  <caption>Webhook notification details</caption>
+  <caption>Table 2. Webhook notification details</caption>
   <tr>
      <th>Field</th>
      <th>Description</th>
@@ -79,7 +79,7 @@ A notification describes the method and details that is used to notify when an a
 </table>
 
 <table>
-  <caption>Pager duty notification details</caption>
+  <caption>Table 3. Pager duty notification details</caption>
   <tr>
      <th>Field</th>
      <th>Description</th>
