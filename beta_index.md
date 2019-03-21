@@ -88,7 +88,7 @@ Follow these steps to get started with the monitoring Beta program. Joining the 
 |Memory utilization    | View the % of memory utilization for your server     |
 |Disk usage    | View the average amount of data being read or written from or to disk in bytes or the disk latency. Click each metric in the key to turn the data on or off on the graph.    |
 |Temperature                                                 |View the temperature of your bare metal device in degrees Celsius. This data is not available for all devices.
-{: caption="Table 1. Beta metrics" caption-side="top"}   
+{: caption="Table 2. Beta metrics" caption-side="top"}   
 
 ## Limitations
 If a device is deleted, associated monitoring policies are not deleted. Be aware that you must manually delete the device for these policies.
