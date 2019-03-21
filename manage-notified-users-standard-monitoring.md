@@ -26,6 +26,7 @@ Notified users for the standard monitoring service receive automated notificatio
 |---|---|
 |Added |<ul><li>Select the new **Notified User** from the **Users to Notify** drop down list.</li><li>Click **Add User**.</li></ul>
 |Removed|<ul><li>Click the **Remove** icon next to the existing Notified User.</li><li>Click **Yes** in the confirmation box to remove the user.</li><li>Click **No** to cancel the action.</li></ul>|
+{: caption="Table 1. Adding or removing managed user" caption-side="top"}
 
 ## Next steps
 
