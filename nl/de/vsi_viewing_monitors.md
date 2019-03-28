@@ -4,6 +4,8 @@ copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -16,6 +18,7 @@ subcollection: slmonitoring
 {:table: .aria-labeledby="caption"}
 
 # Überwachungen anzeigen und verwalten
+{: viewing-and-managing-monitors}
 
 Durch die Überwachung eines Geräts können Benutzer Service-Pings und langsame Pings initiieren, um sicherzustellen, dass das Gerät online und betriebsbereit ist.
 {:shortdesc}

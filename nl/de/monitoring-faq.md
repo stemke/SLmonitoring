@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2018-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -13,6 +15,7 @@ subcollection: slmonitoring
 {:faq: data-hd-content-type='faq'}
 
 # Überwachung - Häufig gestellte Fragen
+{: #monitoring-faq}
 
 ## Ich sehe eine Vielzahl von Überwachungsalert-Tickets. Bedeutet das, dass mein Server inaktiv ist?
 {:faq}

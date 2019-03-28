@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Nimsoft Monitoring-Agentenbericht konfigurieren
+{: #configuring-a-nimsoft-monitoring-agent-report}
 
 1. Wählen Sie auf der Überwachungsanzeige die Option **Agentenberichte konfigurieren** aus dem Dropdown-Menü **Aktionen** in der Spalte **Erweitert** aus.
 

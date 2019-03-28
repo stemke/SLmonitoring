@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-02"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,8 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Scans auf Sicherheitslücken
+{: #vulnerability-scans}
+
 {{site.data.keyword.BluSoftlayer_full}} stellt in Zusammenarbeit mit Nessus Scans auf Sicherheitslücken für alle Geräte im {{site.data.keyword.BluSoftlayer_notm}}-Netz bereit.  Bei diesen Scans wird nach Schwachstellen bei einem Gerät gesucht und ein Bericht mit der entsprechenden Analyse, den Sicherheitsproblemen und Fixes für Ihr Hostgerät zurückgegeben.  Durch das Durchführen von Scans auf Sicherheitslücken für Ihre Geräte wird sichergestellt, dass diese jederzeit sicher sind. Außerdem sind die Scans die erste zu nutzende Ressource, wenn Sie der Meinung sind, dass ein Gerät gefährdet oder beeinträchtigt ist.  Scans auf Sicherheitslücken können über das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} für jedes Gerät durchgeführt werden, das Ihrem Konto zugeordnet ist.
 {:shortdesc}
 

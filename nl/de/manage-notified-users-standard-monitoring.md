@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-06-09"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Benachrichtige Benutzer für die Standardüberwachung verwalten
+{: #managing-notified-users-for-the-standard-monitoring}
 
 Benachrichtige Benutzer für den Standardüberwachungsservice empfangen jedes Mal automatisierte Benachrichtigungen, wenn ein Gerät nicht in der angegebenen Antwortzeit auf einen Ping reagiert. Sie können benachrichtigte Benutzer jederzeit hinzufügen oder entfernen und diese Benutzer müssen dem Konto angehören, das dem Gerät zugeordnet ist, um eine Benachrichtigung zu erhalten. Führen Sie die folgenden Schritte aus, um benachrichtigte Benutzer für den Standardüberwachungsservice zu verwalten.
 

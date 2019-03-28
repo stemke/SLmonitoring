@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-11-15"
 
+keywords: IBM Cloud Monitoring, Standard Monitoring Services, Nimsoft Monitoring
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,8 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Überwachung
+{: #monitoring}
+
 {{site.data.keyword.BluSoftlayer_full}} bietet sowohl Standardüberwachungsservices als auch Nimsoft Monitoring, um sicherzustellen, dass Sie jederzeit über mögliche Probleme mit Ihren Geräten Bescheid wissen. Die Standardüberwachungsservices umfassen Funktionen wie Ping und IPMI-Statistiken. Nimsoft Monitoring bietet drei Ebenen der Überwachung: Basic, Advanced und Premium. Alle Services sowohl bei der Standardüberwachung als auch bei Nimsoft Monitoring haben bestimmte Vorteile und sind im Rahmen verschiedener Preisoptionen verfügbar, um Ihren Geschäftsanforderungen gerecht zu werden. Weitere Informationen finden Sie in der Veröffentlichung zur [{{site.data.keyword.cloud}}-Infrastrukturüberwachung & -Berichterstellung ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://www.ibm.com/cloud/infrastructure/monitoring){:new_window}.
 
 Durch die Überwachung eines Geräts können Benutzer Service-Pings und langsame Pings initiieren, um sicherzustellen, dass das Gerät online und betriebsbereit ist.

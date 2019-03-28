@@ -1,24 +1,22 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="slautoscale" audience="compute" href="/docs/infrastructure/SLautoscale?topic=SLautoscale-getting-started-with-auto-scaling" path="infrastructure/SLautoscale"}
-Auto Scale
+{: .toc subcollection="slmonitoring" audience="compute" href="docs/infrastructure/SLmonitoring?topic=SLmonitoring-gettingstartedbeta" path="infrastructure/SLmonitoring"}
+Überwachung
 
     {: .navgroup id="learn"}
-    index.md
-    as_about.md
-    user-permissions-required.md
+    monitoring_index.md
+    vuln_scan.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    as_manage_resource.md
-    traffic_spikes.md
-    auto-scale-apache-brooklyn.md
+    vsi_viewing_monitors.md
+    manage-notified-users-standard-monitoring.md
+    install-nimsoft-monitoring-robot.md
+    configure-agent-report-nimsoft-monitoring.md
+    view-agent-report-nimsoft-monitoring.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    autoscale_faq.md
-
-    {: .navgroup id="ref"}
-    auto-scale-terms.md
-{: .navgroup-end}
+    monitoring-faq.md
+    {: .navgroup-end}
