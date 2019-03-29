@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2019
 lastupdated: "2019-02-11"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Nimsoft Monitoring Robot のインストールおよび管理
+{: #installing-and-managing-the-nimsoft-monitoring-robot}
 
 既存の {{site.data.keyword.baremetal_short}} または {{site.data.keyword.BluVirtServers_short}} に対して拡張モニタリングが機能するようにするには、Nimsoft Monitoring Robot をインストールします。 Nimsoft Monitoring Robot は、モニタリング管理システムがプライベート・ネットワーク上でベア・メタル・サーバーまたは仮想サーバーと通信できるようにします。 Nimsoft Monitoring Robot をインストールした後、{{site.data.keyword.slportal_full}}で使用可能になるまでに約 5 分から 10 分かかります。 Nimsoft Monitoring Robot を Windows または Linux にインストールするには、以下の手順に従います。
 
@@ -40,14 +43,16 @@ Nimsoft ロボットとの通信エラーのためにモニタリング・サー
 * **「再デプロイ」**をクリックします。
 
 ## Windows へのインストール
+{: #install-windows}
 
 1. http://downloads.service.softlayer.com/nimsoft/ を参照し、インストールのために、Windows インストーラーの最新バージョンをデバイスにダウンロードします (カスタマー VPN に接続されている必要があります)。
 * Nimsoft Monitoring Robot ファイルを管理者として実行します。
 
 ## Linux へのインストール
+{: #install-linux}
 
 1. カスタマー VPN を介してプライベート・ネットワークに接続します。
-* インストールのために、[32 ビット ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz){: new_window} または [64 ビット ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz){: new_window} の Linux インストーラーをデバイスにダウンロードします。Debian バージョンと Ubuntu バージョンも [Nimsoft Installer ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/nimsoft/){: new_window} で入手できます。
+* インストールのために、[32 ビット ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz){: new_window} または [64 ビット ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz){: new_window} の Linux インストーラーをデバイスにダウンロードします。 Debian バージョンと Ubuntu バージョンも [Nimsoft Installer ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://downloads.service.softlayer.com/nimsoft/){: new_window} で入手できます。
 * 次のコマンドを実行して、インストールを実行します。64 ビット・インストールを実行する場合は、32 を 64 に置き換えてください。
 
         $ tar –xzvf NIMSOFT_LINUX_32.tar.gz

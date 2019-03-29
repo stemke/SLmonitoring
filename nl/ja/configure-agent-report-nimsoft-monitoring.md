@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Nimsoft Monitoring エージェント・レポートの構成
+{: #configuring-a-nimsoft-monitoring-agent-report}
 
 1. モニタリング画面で、**「拡張」**列の**「アクション」**ドロップダウン・メニューから**「エージェント・レポートの構成」**を選択します。
 

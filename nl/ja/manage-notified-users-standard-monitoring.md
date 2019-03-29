@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-06-09"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # 標準モニタリングの通知対象ユーザーの管理
+{: #managing-notified-users-for-the-standard-monitoring}
 
 標準モニタリング・サービスの通知対象ユーザーは、割り当てられた応答時間内にデバイスが ping に応答しない場合に必ず自動通知を受け取ります。 通知対象ユーザーは、いつでも追加または削除できます。また、通知対象ユーザーが通知を受け取るには、そのユーザーのアカウントがデバイスに関連付けられている必要があります。 標準モニタリング・サービスの通知対象ユーザーを管理するには、以下の手順に従います。
 
