@@ -4,6 +4,8 @@ copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -16,6 +18,7 @@ subcollection: slmonitoring
 {:table: .aria-labeledby="caption"}
 
 # 查看和管理监视器
+{: viewing-and-managing-monitors}
 
 通过监视设备，用户可以启动服务 ping 和慢速 ping 来确保设备处于联机状态并且可进行响应。
 {:shortdesc}

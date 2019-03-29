@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-11-15"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # 查看 Nimsoft 监视的代理程序报告
+{: #viewing-an-agent-report-for-nimsoft-monitoring}
 
 有关 Nimsoft 监视的监视详细信息，可查看代理程序报告，其中提供了特定于代理程序配置方式的详细信息。要查看 Nimsoft 监视的代理程序报告，请执行以下步骤。
 

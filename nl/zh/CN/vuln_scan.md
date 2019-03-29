@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-02"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,8 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # 漏洞扫描
+{: #vulnerability-scans}
+
 {{site.data.keyword.BluSoftlayer_full}} 与 Nessus 合作为 {{site.data.keyword.BluSoftlayer_notm}} 网络上的任何设备提供漏洞扫描。漏洞扫描会测试设备中的薄弱区域，并返回有关主机设备的分析、安全问题和修订的报告。在设备上执行漏洞扫描可确保设备始终保持安全，当您认为设备可能受到攻击或威胁时，也可以首先查看漏洞扫描报告来确定是否存在安全问题。通过 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}，可以在与帐户相关联的任何设备上完成漏洞扫描。
 {:shortdesc}
 

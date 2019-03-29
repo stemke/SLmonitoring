@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-11-15"
 
+keywords: IBM Cloud Monitoring, Standard Monitoring Services, Nimsoft Monitoring
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,8 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # 监视
+{: #monitoring}
+
 为了确保您始终都能了解设备发生的任何问题，{{site.data.keyword.BluSoftlayer_full}} 提供了标准监视服务和 Nimsoft 监视。标准监视服务包括 Ping 和 IPMI 统计信息等功能。Nimsoft 监视服务由三个级别的监视组成：基本监视、高级监视和特级监视。标准监视服务和 Nimsoft 监视服务中的每项服务都具有不同的优点，并以不同的定价选项提供，可满足您的各种业务需求。有关更多信息，请参阅 [{{site.data.keyword.cloud}} infrastructure monitoring & reporting ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://www.ibm.com/cloud/infrastructure/monitoring){:new_window}。
 
 通过监视设备，用户可以启动服务 ping 和慢速 ping 来确保设备处于联机状态并且可进行响应。

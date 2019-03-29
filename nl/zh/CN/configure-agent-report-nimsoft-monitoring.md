@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # 配置 Nimsoft 监视的代理程序报告
+{: #configuring-a-nimsoft-monitoring-agent-report}
 
 1. 在监视屏幕上，从**高级**列的**操作**下拉菜单中选择**配置代理程序报告**。
 

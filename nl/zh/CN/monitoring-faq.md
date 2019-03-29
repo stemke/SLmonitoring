@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2018-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -13,6 +15,7 @@ subcollection: slmonitoring
 {:faq: data-hd-content-type='faq'}
 
 # 监视常见问题
+{: #monitoring-faq}
 
 ## 我看到有大量的监视警报凭单。这是否意味着我的服务器已关闭？
 {:faq}

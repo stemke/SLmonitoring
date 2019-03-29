@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-06-09"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # 管理标准监视的通知用户
+{: #managing-notified-users-for-the-standard-monitoring}
 
 如果设备未在分配的响应时间内响应 ping，那么标准监视服务的通知用户会收到系统自动发送的通知。您可以随时添加或除去通知用户，并且通知用户必须位于与设备相关联的帐户上才能接收通知。要管理标准监视服务的通知用户，请执行以下步骤。
 
