@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2019
 lastupdated: "2019-02-11"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Installazione e gestione del Nimsoft Monitoring Robot
+{: #installing-and-managing-the-nimsoft-monitoring-robot}
 
 Per consentire il funzionamento del monitoraggio avanzato su {{site.data.keyword.baremetal_short}} o su {{site.data.keyword.BluVirtServers_short}} esistenti, installa il Nimsoft Monitoring Robot. Il Nimsoft Monitoring Robot consente al sistema di gestione del monitoraggio di comunicare con il server bare metal o il server virtuale sulla rete privata. Dopo che hai installato il Nimsoft Monitoring Robot, ci vogliano circa 5 - 10 minuti perché diventi disponibile nel {{site.data.keyword.slportal_full}}. Attieniti alla seguente procedura per installare il Nimsoft Monitoring Robot in Windows o Linux.
 
@@ -40,11 +43,13 @@ Se si verifica un errore durante la configurazione del servizio di monitoraggio 
 * Fai clic su **Re-Deploy**
 
 ## Installazione in Windows
+{: #install-windows}
 
 1. Consulta http://downloads.service.softlayer.com/nimsoft/ per scaricare la versione più recente del programma di installazione Windows sul dispositivo per l'installazione (devi essere connesso alla VPN del cliente).
 * Esegui il file Nimsoft Monitoring Robot come amministratore.
 
 ## Installazione in Linux
+{: #install-linux}
 
 1. Stabilisci una connessione alla rete privata tramite la VPN del cliente.
 * Scarica il programma di installazione Linux a [32 bit ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz){: new_window} o a [64 bit ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz){: new_window} sul dispositivo per l'installazione. Sono disponibili anche le versioni Debian e Ubuntu nel [Nimsoft Installer ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](http://downloads.service.softlayer.com/nimsoft/){: new_window}.

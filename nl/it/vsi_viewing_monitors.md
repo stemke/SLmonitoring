@@ -4,6 +4,8 @@ copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -16,6 +18,7 @@ subcollection: slmonitoring
 {:table: .aria-labeledby="caption"}
 
 # Visualizzazione e gestione dei monitoraggi
+{: viewing-and-managing-monitors}
 
 Il monitoraggio di un dispositivo consente agli utenti di avviare i ping lenti e del servizio per assicurarsi che il dispositivo sia online e reattivo.
 {:shortdesc}

@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Configurazione di un report agent del monitoraggio Nimsoft
+{: #configuring-a-nimsoft-monitoring-agent-report}
 
 1. Dalla schermata di monitoraggio, seleziona **Configure Agent Reports** dal menu a discesa **Actions** nella colonna **Advanced**.
 

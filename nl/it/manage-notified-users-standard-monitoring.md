@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-06-09"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Gestione degli utenti notificati per il monitoraggio standard
+{: #managing-notified-users-for-the-standard-monitoring}
 
 Gli utenti notificati per il servizio di monitoraggio standard ricevono delle notifiche automatizzate ogni volta che un dispositivo non risponde a un ping nel tempo di risposta allocato. Puoi aggiungere o rimuovere utenti notificati in qualsiasi momento e gli utenti notificati devono trovarsi nell'account associato al dispositivo per ricevere una notifica. Attieniti alla seguente procedura per gestire gli utenti notificati per il servizio di monitoraggio standard.
 

@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-11-15"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Visualizzazione di un report agent per il monitoraggio Nimsoft
+{: #viewing-an-agent-report-for-nimsoft-monitoring}
 
 I dettagli del monitoraggio per il monitoraggio Nimsoft sono disponibili nei report agent, che forniscono i dettagli specifici per il modo in cui l'agent è stato configurato. Attieniti alla seguente procedura per visualizzare un report agent per il monitoraggio Nimsoft.
 
@@ -28,4 +31,4 @@ I dettagli del monitoraggio per il monitoraggio Nimsoft sono disponibili nei rep
 
 ## Passi successivi
 
-Dopo che il grafico per il report agent è stato tracciato, è possibile tracciarlo nuovamente in qualsiasi momento per visualizzare delle metriche differenti ripetendo la procedura indicata. Non c'è alcun limite al numero di report agent che possono essere generati entro uno specifico lasso di tempo. 
+Dopo che il grafico per il report agent è stato tracciato, è possibile tracciarlo nuovamente in qualsiasi momento per visualizzare delle metriche differenti ripetendo la procedura indicata. Non c'è alcun limite al numero di report agent che possono essere generati entro uno specifico lasso di tempo.

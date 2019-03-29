@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2018-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -13,6 +15,7 @@ subcollection: slmonitoring
 {:faq: data-hd-content-type='faq'}
 
 # Domande frequenti sul monitoraggio
+{: #monitoring-faq}
 
 ## Vedo numerosi ticket di avviso del monitoraggio. Questo significa che il mio server è inattivo?
 {:faq}
@@ -36,4 +39,4 @@ La differenza tra un ping del servizio e un ping lento consiste nel lasso di tem
 ## Quando viene aperto un ticket di monitoraggio che mi avvisa del problema, i tecnici vedranno il ticket e risponderanno?
 {:faq}
 
-Con il servizio ping di base, i tecnici di supporto non ricevono notifiche degli errori. Questi ticket vengono aperti quando il sistema di monitoraggio genera un avviso e informano solo gli utenti da te specificati nella schermata di monitoraggio. I tecnici non vengono informati finché non apri un nuovo ticket indicando che il server non sta rispondendo. 
+Con il servizio ping di base, i tecnici di supporto non ricevono notifiche degli errori. Questi ticket vengono aperti quando il sistema di monitoraggio genera un avviso e informano solo gli utenti da te specificati nella schermata di monitoraggio. I tecnici non vengono informati finché non apri un nuovo ticket indicando che il server non sta rispondendo.
