@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-02"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,8 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Varreduras de vulnerabilidade
+{: #vulnerability-scans}
+
 Parceiros do {{site.data.keyword.BluSoftlayer_full}} com o Nessus para fornecer varreduras de vulnerabilidade para qualquer dispositivo na rede do {{site.data.keyword.BluSoftlayer_notm}}.  As varreduras de vulnerabilidade testam áreas de fraqueza em um dispositivo e retornam um relatório da análise, dos problemas de segurança e das correções para seu dispositivo host.  A execução de varreduras de vulnerabilidade nos dispositivos assegura que eles fiquem sempre seguros e também sejam o primeiro recurso a ser empregado quando você acha que um dispositivo pode estar vulnerável ou comprometido.  As varreduras de vulnerabilidade podem ser concluídas usando o
 [{{site.data.keyword.slportal}}
 ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} em qualquer dispositivo associado à sua conta.

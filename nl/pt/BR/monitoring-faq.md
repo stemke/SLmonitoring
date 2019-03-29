@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2018-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -13,6 +15,7 @@ subcollection: slmonitoring
 {:faq: data-hd-content-type='faq'}
 
 # Pergunta mais frequente de monitoramento
+{: #monitoring-faq}
 
 ## Estou vendo vários chamados de alerta de monitoramento. Isso significa que meu servidor está inativo?
 {:faq}

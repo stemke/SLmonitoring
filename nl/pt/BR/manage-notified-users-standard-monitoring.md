@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-06-09"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Gerenciando usuários notificados para o monitoramento padrão
+{: #managing-notified-users-for-the-standard-monitoring}
 
 Os usuários notificados para o serviço de monitoramento padrão receberão notificações automatizadas sempre que um dispositivo não responder a um ping no tempo de resposta atribuído. É possível incluir ou remover usuários notificados a qualquer momento e os usuários notificados deverão estar na conta associada ao dispositivo para receber uma notificação. Siga estas etapas para gerenciar usuários notificados para o serviço de monitoramento padrão.
 

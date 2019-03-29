@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2019
 lastupdated: "2019-02-11"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Instalando e gerenciando o Nimsoft Monitoring Robot
+{: #installing-and-managing-the-nimsoft-monitoring-robot}
 
 Para permitir que o monitoramento avançado funcione no {{site.data.keyword.baremetal_short}} ou {{site.data.keyword.BluVirtServers_short}} existentes, instale o Nimsoft Monitoring Robot. O Nimsoft Monitoring Robot permite que o sistema de gerenciamento de monitoramento se comunique com o servidor bare metal ou servidor virtual na rede privada. Após a instalação do Nimsoft Monitoring Robot, ele leva aproximadamente de 5 a 10 minutos para se tornar disponível no {{site.data.keyword.slportal_full}}. Siga estas etapas para instalar o Nimsoft Monitoring Robot no Windows ou Linux.
 
@@ -40,11 +43,13 @@ Se houver um erro ao configurar o serviço de monitoramento devido a erros de co
 * Clique em **Reimplementar**
 
 ## Instalando no Windows
+{: #install-windows}
 
 1. Consulte http://downloads.service.softlayer.com/nimsoft/ para fazer download da versão mais recente do Windows Installer para o dispositivo a ser instalado (deve-se estar conectado à VPN do cliente).
 * Execute o arquivo Nimsoft Monitoring Robot como um Administrador.
 
 ## Instalando no Linux
+{: #install-linux}
 
 1. Conecte-se à rede privada por meio da VPN do cliente.
 * Faça download do [de 32 bits ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz){: new_window} ou do [ ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz){: new_window} Linux Installer de 64 bits para o dispositivo a ser instalado. As versões Debian e Ubuntu também estão disponíveis no [Nimsoft Installer ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://downloads.service.softlayer.com/nimsoft/){: new_window}.

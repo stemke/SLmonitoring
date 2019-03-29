@@ -4,6 +4,8 @@ copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -16,6 +18,7 @@ subcollection: slmonitoring
 {:table: .aria-labeledby="caption"}
 
 # Visualizando e gerenciando monitores
+{: viewing-and-managing-monitors}
 
 Monitorar um dispositivo permite que os usuários iniciem o serviço e diminuam os pings para assegurar
 que o dispositivo esteja on-line e responsivo.
