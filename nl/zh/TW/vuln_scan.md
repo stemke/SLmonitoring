@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-02"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,8 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # 漏洞掃描
+{: #vulnerability-scans}
+
 {{site.data.keyword.BluSoftlayer_full}} 與 Nessus 結盟，以針對 {{site.data.keyword.BluSoftlayer_notm}} 網路上的任何裝置提供漏洞掃描。漏洞掃描會測試裝置中是否有弱點區域，並針對您的主機裝置傳回分析、安全問題及修正的報告。在您的裝置上執行漏洞掃描可確保它們隨時都保持安全，而且當您認為裝置可能有漏洞或受損時，這些也是第一個使用的資源。您可以在與帳戶相關聯的任何裝置上使用 [{{site.data.keyword.slportal}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window}，來完成漏洞掃描。
 {:shortdesc}
 

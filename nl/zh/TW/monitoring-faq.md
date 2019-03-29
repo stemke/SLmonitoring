@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2018-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -13,6 +15,7 @@ subcollection: slmonitoring
 {:faq: data-hd-content-type='faq'}
 
 # 監視常見問題
+{: #monitoring-faq}
 
 ## 我看到數個監視警示問題單。這表示我的伺服器已關閉嗎？
 {:faq}

@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-06-09"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # 管理已通知使用者進行標準監視
+{: #managing-notified-users-for-the-standard-monitoring}
 
 只要裝置未在分配的回應時間內回應連線測試，標準監視服務的已通知使用者就會收到自動化通知。您可以隨時新增或移除已通知使用者，而且已通知使用者必須位於與裝置相關聯的帳戶上，才能收到通知。請遵循下列步驟來管理標準監視服務的已通知使用者。
 

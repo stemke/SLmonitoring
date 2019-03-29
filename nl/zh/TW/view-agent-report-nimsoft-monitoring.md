@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-11-15"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # 檢視 Nimsoft 監視的代理程式報告
+{: #viewing-an-agent-report-for-nimsoft-monitoring}
 
 可在代理程式報告中取得「Nimsoft 監視」的監視詳細資料，其會提供代理程式配置方式的特定詳細資料。請遵循下列步驟，以檢視「Nimsoft 監視」的代理程式報告。
 

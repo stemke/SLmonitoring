@@ -4,6 +4,8 @@ copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -16,6 +18,7 @@ subcollection: slmonitoring
 {:table: .aria-labeledby="caption"}
 
 # 檢視及管理監視器
+{: viewing-and-managing-monitors}
 
 監視裝置可讓使用者起始服務及慢速連線測試，以確保裝置處於線上且可回應。
 {:shortdesc}

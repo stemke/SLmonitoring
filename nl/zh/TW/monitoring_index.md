@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-11-15"
 
+keywords: IBM Cloud Monitoring, Standard Monitoring Services, Nimsoft Monitoring
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,8 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # 監視
+{: #monitoring}
+
 {{site.data.keyword.BluSoftlayer_full}} 同時提供「標準監視服務」及「Nimsoft 監視」，以確保您隨時都知道任何裝置問題。「標準監視服務」包括「連線測試」及「IPMI 統計資料」之類的特性。「Nimsoft 監視」由三個監視層次組成，包括基本、進階及高階監視。同時具有「標準監視」及「Nimsoft 監視」供應項目的每一個服務，提供各種權益，且有各種定價選項可供選擇，以符合您的商業需要。如需相關資訊，請參閱 [{{site.data.keyword.cloud}} infrastructure monitoring & reporting ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://www.ibm.com/cloud/infrastructure/monitoring){:new_window}。
 
 監視裝置可讓使用者起始服務及慢速連線測試，以確保裝置處於線上且可回應。
