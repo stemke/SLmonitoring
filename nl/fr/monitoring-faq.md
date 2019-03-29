@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2018-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -13,6 +15,7 @@ subcollection: slmonitoring
 {:faq: data-hd-content-type='faq'}
 
 # Foire aux questions relatives à la surveillance
+{: #monitoring-faq}
 
 ## Je vois de nombreux tickets d'alerte de surveillance. Cela signifie-t-il que mon serveur est en panne ?
 {:faq}
@@ -36,4 +39,4 @@ La différence entre une demande ping de service et une demande ping lente rési
 ## Lorsqu'un ticket de surveillance est ouvert et me prévient qu'un problème s'est produit, ce ticket est-il visible par les techniciens et ces derniers peuvent-ils y répondre ?
 {:faq}
 
-Avec le service ping de base, les techniciens de support ne sont pas avertis des incidents. Ces tickets sont ouverts lorsque le système de surveillance émet une alerte, mais ils n'avertissent que les utilisateurs indiqués sur l'écran de surveillance. Les techniciens ne sont avertis que si vous ouvrez un nouveau ticket pour indiquer que le serveur ne répond pas. 
+Avec le service ping de base, les techniciens de support ne sont pas avertis des incidents. Ces tickets sont ouverts lorsque le système de surveillance émet une alerte, mais ils n'avertissent que les utilisateurs indiqués sur l'écran de surveillance. Les techniciens ne sont avertis que si vous ouvrez un nouveau ticket pour indiquer que le serveur ne répond pas.

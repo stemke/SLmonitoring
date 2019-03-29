@@ -4,6 +4,8 @@ copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -16,6 +18,7 @@ subcollection: slmonitoring
 {:table: .aria-labeledby="caption"}
 
 # Affichage et gestion des moniteurs
+{: viewing-and-managing-monitors}
 
 La surveillance d'un périphérique permet aux utilisateurs d'initier des demandes ping de service et des demandes ping lentes de sorte que ce périphérique soit en ligne et réactif.
 {:shortdesc}

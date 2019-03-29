@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Configuration d'un rapport d'agent de surveillance Nimsoft
+{: #configuring-a-nimsoft-monitoring-agent-report}
 
 1. A partir de l'écran de surveillance, sélectionnez **Configurer les rapports d'agent** dans le menu déroulant **Actions** dans la colonne **Avancé**.
 

@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-06-09"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Gestion des utilisateurs avertis pour la surveillance standard
+{: #managing-notified-users-for-the-standard-monitoring}
 
 Les utilisateurs avertis pour le service de surveillance standard reçoivent des notifications automatisées chaque fois qu'un périphérique ne répond pas à une demande ping dans le délai imparti. Vous pouvez ajouter ou retirer des utilisateurs avertis à tout moment, et les utilisateurs avertis doivent figurer sur le compte qui est associé au périphérique pour recevoir une notification. Procédez comme indiqué ci-après afin de gérer les utilisateurs avertis pour le service de surveillance standard.
 

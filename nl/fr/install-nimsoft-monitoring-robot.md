@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2019
 lastupdated: "2019-02-11"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Installation et gestion de Nimsoft Monitoring Robot
+{: #installing-and-managing-the-nimsoft-monitoring-robot}
 
 Afin de permettre à la surveillance avancée de fonctionner sur un périphérique {{site.data.keyword.baremetal_short}} ou {{site.data.keyword.BluVirtServers_short}} existant, installez Nimsoft Monitoring Robot. Nimsoft Monitoring Robot permet au système de gestion de la surveillance de communiquer avec le serveur bare metal ou le serveur virtuel sur le réseau privé. Une fois Nimsoft Monitoring Robot installé, il faut environ 5 à 10 minutes pour qu'il devienne disponible sur le portail {{site.data.keyword.slportal_full}}. Procédez comme indiqué ci-après pour installer Nimsoft Monitoring Robot sous Windows ou Linux.
 
@@ -40,13 +43,15 @@ Si une erreur se produit lors de la configuration du service de surveillance en 
 * Cliquez sur **Redéployer**
 
 ## Installation sous Windows
+{: #install-windows}
 
 1. Accédez à http://downloads.service.softlayer.com/nimsoft/ pour télécharger la dernière version de Windows Installer sur le périphérique pour installation (vous devez être connecté au réseau privé virtuel du client).
 * Exécutez le fichier Nimsoft Monitoring Robot en tant qu'administrateur.
 
 ## Installation sous Linux
+{: #install-linux}
 
-1. Connectez-vous au réseau privé via le réseau privé virtuel du client. 
+1. Connectez-vous au réseau privé via le réseau privé virtuel du client.
 * Téléchargez le programme d'installation Linux [32 bits ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz){: new_window} ou [64 bits ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz){: new_window} sur le périphérique pour installation. Les versions Debian et Ubuntu sont également disponibles sur [Nimsoft Installer ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://downloads.service.softlayer.com/nimsoft/){: new_window}.
 * Exécutez les commandes suivantes pour effectuer l'installation, en remplaçant 32 par 64, si vous exécutez une installation 64 bits :
 

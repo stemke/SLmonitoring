@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-11-15"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Affichage d'un rapport d'agent pour la surveillance Nimsoft
+{: #viewing-an-agent-report-for-nimsoft-monitoring}
 
 Les détails de la surveillance Nimsoft sont disponibles dans des rapports d'agent. Ces derniers contiennent des détails relatifs à la façon dont l'agent a été configuré. Pour afficher un rapport d'état pour la surveillance Nimsoft, procédez comme suit :
 
