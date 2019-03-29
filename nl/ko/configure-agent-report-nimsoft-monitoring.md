@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Nimsoft Monitoring 에이전트 보고서 구성
+{: #configuring-a-nimsoft-monitoring-agent-report}
 
 1. 모니터링 화면에서 **고급** 열에 있는 **조치** 드롭 다운 메뉴에서 **에이전트 보고서 구성**을 선택하십시오.
 

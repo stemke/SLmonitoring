@@ -4,6 +4,8 @@ copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -16,6 +18,7 @@ subcollection: slmonitoring
 {:table: .aria-labeledby="caption"}
 
 # 모니터 보기 및 관리
+{: viewing-and-managing-monitors}
 
 디바이스를 모니터하면 사용자가 서비스 및 저속 ping을 시작하여 디바이스가 온라인 상태이며 응답하는지 확인할 수 있습니다.
 {:shortdesc}

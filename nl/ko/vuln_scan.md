@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-02"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,8 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # 취약성 스캔
+{: #vulnerability-scans}
+
 {{site.data.keyword.BluSoftlayer_full}}는 Nessus와 협력하여 {{site.data.keyword.BluSoftlayer_notm}} 네트워크의 디바이스에 대한 취약성 스캔을 제공합니다.  취약성 스캔은 디바이스의 취약한 영역을 테스트하고 호스트 디바이스에 대한 분석, 보안 문제 및 수정사항의 보고서를 리턴합니다.  디바이스에 대한 취약성 스캔을 수행하면 해당 디바이스가 항상 안전한 상태로 유지되며 디바이스가 취약하거나 손상될 수 있다고 판단되는 경우 사용할 첫 번째 리소스가 됩니다.  계정과 연관된 디바이스에서 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}을 사용하여 취약성 스캔을 완료할 수 있습니다.
 {:shortdesc}
 

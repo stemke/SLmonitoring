@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2018-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -13,6 +15,7 @@ subcollection: slmonitoring
 {:faq: data-hd-content-type='faq'}
 
 # 모니터링 FAQ
+{: #monitoring-faq}
 
 ## 수많은 모니터링 경보 티켓이 표시됩니다. 이는 내 서버가 작동 중지되었음을 의미합니까?
 {:faq}

@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-06-09"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # 표준 모니터링에 대한 알림을 받는 사용자 관리
+{: #managing-notified-users-for-the-standard-monitoring}
 
 표준 모니터링 서비스에 대한 알림을 받는 사용자는 디바이스가 할당된 응답 시간 내에 ping에 응답하지 않는 경우 자동화된 알림을 수신합니다. 언제든지 알림을 받는 사용자를 추가하거나 제거할 수 있으며 알림을 수신하려면 알림을 받는 사용자가 디바이스와 연관된 계정에 있어야 합니다. 표준 모니터링 서비스에 대한 알림을 받는 사용자를 관리하려면 다음 단계를 따르십시오.
 

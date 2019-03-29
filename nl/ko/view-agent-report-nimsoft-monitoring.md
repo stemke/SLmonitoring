@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-11-15"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Nimsoft Monitoring에 대한 에이전트 보고서 보기
+{: #viewing-an-agent-report-for-nimsoft-monitoring}
 
 Nimsoft Monitoring에 대한 모니터링 세부사항은 에이전트 보고서에서 볼 수 있으며, 에이전트가 구성된 방식에 특정한 세부사항을 제공합니다. Nimsoft Monitoring에 대한 에이전트 보고서를 보려면 다음 단계를 따르십시오.
 

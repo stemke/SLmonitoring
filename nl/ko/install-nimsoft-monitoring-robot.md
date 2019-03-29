@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2019
 lastupdated: "2019-02-11"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Nimsoft Monitoring Robot 설치 및 관리
+{: #installing-and-managing-the-nimsoft-monitoring-robot}
 
 기존 {{site.data.keyword.baremetal_short}} 또는 {{site.data.keyword.BluVirtServers_short}}에서 고급 모니터링이 작동하도록 하려면 Nimsoft Monitoring Robot을 설치하십시오. Nimsoft Monitoring Robot을 사용하면 모니터링 관리 시스템이 프라이빗 네트워크에서 베어메탈 서버 또는 가상 서버와 통신할 수 있습니다. Nimsoft Monitoring Robot을 설치한 후 {{site.data.keyword.slportal_full}}에서 사용 가능하게 될 때까지 약 5 - 10분이 소요됩니다. Windows 또는 Linux에서 Nimsoft Monitoring Robot을 설치하려면 다음 단계에 따르십시오.
 
@@ -40,11 +43,13 @@ Nimsoft 로봇의 통신 오류 때문에 모니터링 서비스를 구성하는
 * **재배치**를 클릭하십시오.
 
 ## Windows에서 설치
+{: #install-windows}
 
 1. http://downloads.service.softlayer.com/nimsoft/를 참조하여 설치할 디바이스에 최신 버전의 Windows 설치 프로그램을 다운로드하십시오(고객 VPN에 연결되어 있어야 함).
 * 관리자로 Nimsoft Monitoring Robot 파일을 실행하십시오.
 
 ## Linux에서 설치
+{: #install-linux}
 
 1. 고객 VPN을 통해 프라이빗 네트워크에 연결하십시오.
 * [32비트 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz){: new_window} 또는 [64비트 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz){: new_window} Linux 설치 프로그램을 설치용 디바이스에 다운로드하십시오. Debian 및 Ubuntu 버전은 [Nimsoft 설치 프로그램 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://downloads.service.softlayer.com/nimsoft/){: new_window}에서도 사용할 수 있습니다.
