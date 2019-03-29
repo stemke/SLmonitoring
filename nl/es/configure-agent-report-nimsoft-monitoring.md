@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Configuración de un informe de agente de Nimsoft Monitoring
+{: #configuring-a-nimsoft-monitoring-agent-report}
 
 1. En la pantalla de supervisión, seleccione **Configurar informes de agente** en el menú desplegable **Acciones** en la columna **Avanzado**.
 

@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2019
 lastupdated: "2019-02-11"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Instalación y gestión de Nimsoft Monitoring Robot
+{: #installing-and-managing-the-nimsoft-monitoring-robot}
 
 Para que la supervisión avanzada funciones en {{site.data.keyword.baremetal_short}} o {{site.data.keyword.BluVirtServers_short}} existente, instale Nimsoft Monitoring Robot. Nimsoft Monitoring Robot permite que el sistema de gestión de supervisión se comunique con el servidor nativo o con el servidor virtual de la red privada. Después de instalar Nimsoft Monitoring Robot, tarda aproximadamente entre 5 y 10 minutos en estar disponible en el {{site.data.keyword.slportal_full}}. Siga estos pasos para instalar Nimsoft Monitoring Robot en Windows o Linux.
 
@@ -40,11 +43,13 @@ Si se produce un error al configurar el servicio de supervisión debido a errore
 * Pulse **Volver a desplegar**
 
 ## Instalación en Windows
+{: #install-windows}
 
 1. Consulte http://downloads.service.softlayer.com/nimsoft/ para descargar la última versión del instalador de Windows en el dispositivo para instalarlo (debe estar conectado al cliente VPN).
 * Ejecute el archivo Nimsoft Monitoring Robot como administrador.
 
 ## Instalación en Linux
+{: #install-linux}
 
 1. Conéctese a la red privada a través del cliente VPN.
 * Descargue el instalador de Linux de [32 bits ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz){: new_window} o de [64 bits ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz){: new_window} en el dispositivo para la instalación. Las versiones de Debian y Ubuntu también están disponibles en el [instalador de Nimsoft ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://downloads.service.softlayer.com/nimsoft/){: new_window}.

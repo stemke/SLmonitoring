@@ -4,6 +4,8 @@ copyright:
   years: 2017
 lastupdated: "2017-09-28"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -16,6 +18,7 @@ subcollection: slmonitoring
 {:table: .aria-labeledby="caption"}
 
 # Visualización y gestión de supervisores
+{: viewing-and-managing-monitors}
 
 La supervisión de un dispositivo permite a los usuarios iniciar operaciones ping de servicio y lentas para asegurarse de que el dispositivo está en línea y responde.
 {:shortdesc}

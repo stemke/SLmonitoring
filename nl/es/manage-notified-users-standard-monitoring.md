@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2017-06-09"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Gestión de usuarios notificados para la supervisión estándar
+{: #managing-notified-users-for-the-standard-monitoring}
 
 Los usuarios notificados para el servicio de supervisión estándar reciben notificaciones automáticas cuando un dispositivo no responde a un ping en el tiempo de respuesta asignado. Puede añadir o eliminar usuarios notificados en cualquier momento, y los usuarios notificados deben estar en la cuenta asociada con el dispositivo para recibir una notificación. Siga estos pasos para gestionar los usuarios notificados para el servicio de supervisión estándar.
 

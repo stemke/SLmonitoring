@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-02"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -12,6 +14,8 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Exploraciones de vulnerabilidades
+{: #vulnerability-scans}
+
 {{site.data.keyword.BluSoftlayer_full}} se asocia con Nessus para ofrecer exploraciones de vulnerabilidades para cualquier dispositivo de la red de {{site.data.keyword.BluSoftlayer_notm}}.  Las exploraciones de vulnerabilidades realizan pruebas para detectar los puntos débiles de un dispositivo y devuelven un informe del análisis, los problemas de seguridad y los arreglos disponibles para el dispositivo de host.  La realización de exploraciones de vulnerabilidades en sus dispositivos garantizan su seguridad en todo momento y también constituyen el primer recurso que utilizar cuando se cree que un dispositivo puede resultar vulnerable.  Las exploraciones de vulnerabilidades se pueden completar mediante el [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} en cualquier dispositivo asociado con su cuenta.
 {:shortdesc}
 

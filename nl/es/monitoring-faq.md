@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2017
 lastupdated: "2018-10-30"
 
+keywords:
+
 subcollection: slmonitoring
 
 ---
@@ -13,6 +15,7 @@ subcollection: slmonitoring
 {:faq: data-hd-content-type='faq'}
 
 # Preguntas frecuentes sobre supervisión
+{: #monitoring-faq}
 
 ## Veo varias incidencias de alertas de supervisión. ¿Significa esto que mi servidor está inactivo?
 {:faq}
