@@ -10,6 +10,7 @@ Monitoring
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    /vsi/virtual-servers-navigating-devices
     vsi_viewing_monitors.md
     manage-notified-users-standard-monitoring.md
     install-nimsoft-monitoring-robot.md
