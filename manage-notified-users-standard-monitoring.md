@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2017
-lastupdated: "2017-06-09"
+  years: 2014, 2019
+lastupdated: "2019-06-21"
 
 keywords:
 
@@ -14,20 +14,40 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 
 # Managing notified users for standard monitoring
-{: #managing-notified-users-for-the-standard-monitoring}
+{: #managing-notified-users-for-standard-monitoring}
 
 Notified users for the standard monitoring service receive automated notifications any time a device does not respond to a ping in the allotted response time. You can add or remove notified users at any time, and notified users must be on the account that is associated with the device to receive a notification. Follow these steps to manage notified users for the standard monitoring service.
+{:shortdesc}
 
-1. From the **Monitoring** screen, click **Monitor Status** in the **Basic** column to view the **Monitors** screen for the device.
-3. Click the **Expand** icon next to **Manage Notified users** to expand the section.
-4. Determine whether a **Managed User** should be added or removed.
+## Before you begin
+First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
 
-|If a Managed user should be...|Then...|
-|---|---|
-|Added |<ul><li>Select the new **Notified User** from the **Users to Notify** drop down list.</li><li>Click **Add User**.</li></ul>
-|Removed|<ul><li>Click the **Remove** icon next to the existing Notified User.</li><li>Click **Yes** in the confirmation box to remove the user.</li><li>Click **No** to cancel the action.</li></ul>|
-{: caption="Table 1. Adding or removing managed user" caption-side="top"}
+* Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/infrastructure/SLmonitoring?topic=virtual-servers-navigating-devices).
+* Ensure you have any necessary account permissions and device access. Only the account owner, or a user with the **Manage Users** classic infrastructure permission, can adjust the permissions.
+
+For more information about permissions, see [Classic infrastructure permissions](/docs/iam?topic=iam-infrapermission#infrapermission) and [Managing device access](/docs/vsi?topic=virtual-servers-managing-device-access).
+
+## Adding notified users
+{: #adding-notified-users}
+
+Complete the following steps to add notified users for the standard monitoring service.
+1. From the **Device** menu, select **Device List**.
+2. Click the device name to access the device.
+3. Click the **Monitoring** tab, and select **Manage monitors**.
+4. Select **Manage Notified Users**.
+5. From the **Users to Notify** drop-down list, select the new user to notify.
+6. Select **Add User**.
+
+## Removing notified users
+{: #removing-notified-users}
+
+Complete the following steps to remove notified users for the standard monitoring service.
+1. From the **Device** menu, select **Device List**.
+2. Click the device name to access the device.
+3. Click the **Monitoring** tab, and select **Manage monitors**.
+4. Select **Manage Notified Users**.
+5. Click the **Remove** icon to remove the existing notified user, then select **Yes** to remove the user. 
 
 ## Next steps
 
-If a notified user was added with these steps, the user is notified in the event of a missed ping response. If a notified user was removed, the user no longer receives a notification regarding a missed ping response that is associated with the device.
+If you add a notified user, the user is notified in the event of a missed ping response. If you removed a notified user, the user no longer receives a notification regarding a missed ping response that is associated with the device.
