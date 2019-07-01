@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2017
-lastupdated: "2018-10-30"
+  years: 2014, 2019
+lastupdated: "2019-06-21"
 
 keywords:
 
@@ -14,21 +14,21 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
 
-# Foire aux questions relatives à la surveillance
+# Foires aux questions (FAQ)
 {: #monitoring-faq}
 
 ## Je vois de nombreux tickets d'alerte de surveillance. Cela signifie-t-il que mon serveur est en panne ?
-{:faq}
+{: faq}
 
 Chaque périphérique est livré avec un service de notification et de ping de surveillance gratuit. Ce service crée automatiquement un ticket d'alerte si des paramètres définis échouent. Des faux positifs peuvent être générés par le service de surveillance et se voir attribuer une limitation de taux par un pare-feu logiciel sur le serveur, pour la disponibilité d'application et de service et les interruptions de service dans l'infrastructure de surveillance. Vérifiez les paramètres par défaut en vue de réduire le nombre de fausses alertes de surveillance possibles.
 
 ## Puis-je faire en sorte que le système de surveillance exécute un redémarrage automatique et envoie une alerte à un technicien de support si le serveur ne répond plus ?
-{:faq}
+{: faq}
 
 Oui, le service **Redémarrage automatisé en cas d'échec de la surveillance** vous permet de configurer le système de surveillance pour redémarrer automatiquement le serveur et envoyer un ticket au technicien de support si une alerte de surveillance est émise.
 
 ## Quelle est la différence entre la surveillance avec une "demande ping lente" et la surveillance avec une "demande ping de service" ?
-{:faq}
+{: faq}
 
 La différence entre une demande ping de service et une demande ping lente réside dans délai pendant lequel une réponse provenant du périphérique est attendue. Par défaut, une demande ping de service est utilisé, mais vous pouvez choisir d'utiliser une demande ping lente à la place.
 
@@ -37,6 +37,12 @@ La différence entre une demande ping de service et une demande ping lente rési
 
 
 ## Lorsqu'un ticket de surveillance est ouvert et me prévient qu'un problème s'est produit, ce ticket est-il visible par les techniciens et ces derniers peuvent-ils y répondre ?
-{:faq}
+{: faq}
+
+Avec le service ping de base, les techniciens de support ne sont pas avertis des incidents. Ces tickets sont ouverts lorsque le système de surveillance émet une alerte, mais ils n'avertissent que les utilisateurs indiqués sur l'écran de surveillance. Les techniciens ne sont avertis que si vous ouvrez un nouveau ticket pour indiquer que le serveur ne répond pas.
+
+
+## Lorsqu'un ticket de surveillance est ouvert et me prévient qu'un problème s'est produit, ce ticket est-il visible par les techniciens et ces derniers peuvent-ils y répondre ?
+{: faq}
 
 Avec le service ping de base, les techniciens de support ne sont pas avertis des incidents. Ces tickets sont ouverts lorsque le système de surveillance émet une alerte, mais ils n'avertissent que les utilisateurs indiqués sur l'écran de surveillance. Les techniciens ne sont avertis que si vous ouvrez un nouveau ticket pour indiquer que le serveur ne répond pas.
