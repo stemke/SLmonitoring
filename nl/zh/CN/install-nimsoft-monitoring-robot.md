@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-02-11"
+lastupdated: "2019-06-21"
 
 keywords:
 
@@ -16,7 +16,7 @@ subcollection: slmonitoring
 # 安装和管理 Nimsoft Monitoring Robot
 {: #installing-and-managing-the-nimsoft-monitoring-robot}
 
-要在现有 {{site.data.keyword.baremetal_short}} 或 {{site.data.keyword.BluVirtServers_short}} 上运行高级监视，请安装 Nimsoft Monitoring Robot。Nimsoft Monitoring Robot 允许监视管理系统与专用网络上的裸机服务器或虚拟服务器进行通信。安装 Nimsoft Monitoring Robot 之后，大约需要 5-10 分钟才能在 {{site.data.keyword.slportal_full}} 上使用该应用程序。要在 Windows 或 Linux 中安装 Nimsoft Monitoring Robot，请执行以下步骤。
+要在现有 {{site.data.keyword.baremetal_short}} 或 {{site.data.keyword.BluVirtServers_short}} 上运行高级监视，请安装 Nimsoft Monitoring Robot。Nimsoft Monitoring Robot 允许监视管理系统与专用网络上的裸机服务器或虚拟服务器进行通信。安装 Nimsoft Monitoring Robot 之后，大约需要 5-10 分钟才能在 {{site.data.keyword.cloud}} 控制台上使用该应用程序。要在 Windows 或 Linux 中安装 Nimsoft Monitoring Robot，请完成以下步骤。
 
 ## 先决条件
 
@@ -35,25 +35,28 @@ subcollection: slmonitoring
 如果由于与 Nimsoft Robot 的通信错误而导致配置监视服务时出错，那么配置过程可能会由于连接受限而暂停。连接受限通常是由防火墙或其他安全软件造成的，因为此类软件会阻止从 Nimsoft 管理服务器访问系统。要重新供应监视服务，请执行以下步骤：
 
 ## 重新供应监视代理程序
+{: #restarting-provisioning-of-a-monitoring-agent}
 
-1. 转至**设备**菜单，然后选择**监视**。
-* 找到要为其配置监视服务的系统。
-* 在右侧列的**高级**下拉菜单下，选择**“重新部署所有代理程序”**。
-* 在**弹出窗口**页面上选择监视模板。
-* 单击**重新部署**。
+要重新开始供应监视服务，请完成以下步骤。
+1. 导航至控制台的设备菜单。有关更多信息，请参阅[导航至设备](https://test.cloud.ibm.com/docs/infrastructure/SLmonitoring?topic=virtual-servers-navigating-devices)。
+2. 从**设备**菜单中，选择**监视**。
+3. 找到要为其配置监视服务的系统。
+4. 在**高级**部分中，选择**“重新部署所有代理程序”**。
+5. 在**弹出窗口**页面上选择监视模板。
+6. 单击**重新部署**。
 
 ## 在 Windows 中安装
 {: #install-windows}
 
 1. 要将最新版本的 Windows 安装程序下载到设备上以便进行安装，请访问 http://downloads.service.softlayer.com/nimsoft/（您必须已连接到客户 VPN）。
-* 以管理员身份运行 Nimsoft Monitoring Robot 文件。
+2. 以管理员身份运行 Nimsoft Monitoring Robot 文件。
 
 ## 在 Linux 中安装
 {: #install-linux}
 
 1. 通过客户 VPN 连接到专用网络。
-* 将 [32 位 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz){: new_window} 或 [64 位 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz){: new_window} Linux 安装程序下载到设备上以便进行安装。[Nimsoft 安装程序 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/nimsoft/){: new_window} 上还有 Debian 和 Ubuntu 版本。
-* 运行以下命令来完成安装，如果运行 64 位安装，需要将 32 替换为 64：
+2. 将 [32 位 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_32.tar.gz){: new_window} 或 [64 位 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/nimsoft/NIMSOFT_LINUX_64.tar.gz){: new_window} Linux 安装程序下载到设备上以便进行安装。[Nimsoft 安装程序 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://downloads.service.softlayer.com/nimsoft/){: new_window} 上还有 Debian 和 Ubuntu 版本。
+3. 运行以下命令来完成安装，如果运行 64 位安装，需要将 32 替换为 64：
 
         $ tar –xzvf NIMSOFT_LINUX_32.tar.gz
         $ cd NIMSOFT_LINUX_32
@@ -62,3 +65,4 @@ subcollection: slmonitoring
 ## 后续步骤
 
 在您运行安装后，系统会自动完成安装过程。在 Windows 中，会显示一条消息，其中包含安装成功的确认信息，或有关所发生错误的信息。
+
