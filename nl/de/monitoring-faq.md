@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2017
-lastupdated: "2018-10-30"
+  years: 2014, 2019
+lastupdated: "2019-06-21"
 
 keywords:
 
@@ -14,21 +14,21 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
 
-# Überwachung - Häufig gestellte Fragen
+# Häufig gestellte Fragen
 {: #monitoring-faq}
 
 ## Ich sehe eine Vielzahl von Überwachungsalert-Tickets. Bedeutet das, dass mein Server inaktiv ist?
-{:faq}
+{: faq}
 
 Jedes Gerät verfügt über eine kostenlose Ping-Überwachung und einen entsprechenden Benachrichtigungsservice. Dieser Service erstellt automatisch beim Fehlschlagen festgelegter Parameter ein Überwachungsalert-Ticket. Fehlalarme sind bei dem Überwachungsservice möglich und können auf eine Übertragungsbegrenzung durch eine Software-Firewall auf dem Server, eine bestimmte Service- und Anwendungsverfügbarkeit und Serviceunterbrechungen in der Überwachungsinfrastruktur zurückgeführt werden. Überprüfen Sie die Standardeinstellungen, um die Möglichkeit falscher Überwachungsalerts zu verringern.
 
 ## Kann ich das Überwachungssystem so konfigurieren, dass ein automatischer Warmstart durchgeführt und ein Support-Techniker benachrichtigt wird, falls der Server ausfällt?
-{:faq}
+{: faq}
 
 Ja. Mit dem Service **Automatischer Warmstart nach Überwachungsfehler** könne Sie das Überwachungssystem so konfigurieren, dass der Server automatisch neu gestartet und ein Ticket für einen Support-Techniker geöffnet wird, wenn ein Überwachungsalert ausgegeben wird.
 
 ## Was ist der Unterschied zwischen einer Überwachung mit einem 'langsamen Ping' und einem 'Service-Ping'?
-{:faq}
+{: faq}
 
 Der Unterschied zwischen einem Service-Ping und einem langsamen Ping ist die Zeitspanne, innerhalb der eine Antwort von einem Gerät erwartet wird. Standardmäßig wird der Service-Ping verwendet, Sie können aber die Einstellung auch so ändern, dass ein langsamer Ping verwendet wird.
 
@@ -37,6 +37,12 @@ Der Unterschied zwischen einem Service-Ping und einem langsamen Ping ist die Zei
 
 
 ## Sehen Techniker, wenn ein Überwachungsticket geöffnet wird und mich auf das Problem aufmerksam macht, dieses Ticket und reagieren darauf?
-{:faq}
+{: faq}
+
+Mit dem einfachen Ping-Service werden Support-Techniker nicht über Ausfälle informiert. Diese Tickets werden geöffnet, wenn das Überwachungssystem einen Alert ausgibt, und es werden nur die Benutzer benachrichtigt, die Sie in der Überwachungsanzeige angeben. Techniker werden nur dann benachrichtigt, wenn Sie ein neues Ticket mit dem Hinweis öffnen, dass der Server nicht antwortet.
+
+
+## Sehen Techniker, wenn ein Überwachungsticket geöffnet wird und mich auf das Problem aufmerksam macht, dieses Ticket und reagieren darauf?
+{: faq}
 
 Mit dem einfachen Ping-Service werden Support-Techniker nicht über Ausfälle informiert. Diese Tickets werden geöffnet, wenn das Überwachungssystem einen Alert ausgibt, und es werden nur die Benutzer benachrichtigt, die Sie in der Überwachungsanzeige angeben. Techniker werden nur dann benachrichtigt, wenn Sie ein neues Ticket mit dem Hinweis öffnen, dass der Server nicht antwortet.
