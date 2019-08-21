@@ -27,6 +27,8 @@ Monitoring a device allows you to initiate service and slow pings to ensure that
 If an echo is not received in the allotted time frame (1 second for service pings, 5 seconds for slow pings) an alert is sent to the email address on the account. A status of **Up** in the **Status** field indicates that an echo was received, while **Down** indicates that the echo was not received. If you have a configured basic monitor, follow these steps to view and manage monitoring for a device.
 
 ## Before you begin
+{: #before-you-begin-monitors}
+
 First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/infrastructure/SLmonitoring?topic=virtual-servers-navigating-devices).
@@ -76,6 +78,7 @@ The **Monitoring** tab is only visible if at least one monitor is configured.
 5. Select **Yes** to remove the monitor.
 
 ## Next steps
+{: #next-steps-managing-monitors}
 
 - If a new monitor is added, the monitor appears on the **Monitoring** tab. The monitor sends a ping to the device every 5 minutes, expecting a response based on the selected ping type. If the expected response is not received, an email is sent to the notification email address for the account in the specified time frame, if notification is selected.
 - If a monitor is edited, the monitor continues to function as specified in the monitor details. If type is changed, the amount of time to receive the expected ping is different. If notification options changed, the way users are notified of a failed attempt is changed based on the new selections. The monitor remains accessible from the **Monitoring** tab.
