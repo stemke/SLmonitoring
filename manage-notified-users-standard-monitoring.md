@@ -16,7 +16,7 @@ subcollection: slmonitoring
 # Managing notified users for standard monitoring
 {: #managing-notified-users-for-standard-monitoring}
 
-Notified users for the standard monitoring service receive automated notifications any time a device does not respond to a ping in the allotted response time. You can add or remove notified users at any time, and notified users must be on the account that is associated with the device to receive a notification. Follow these steps to manage notified users for the standard monitoring service.
+Notified users for the standard monitoring service receive automated notifications any time a device does not respond to a ping in the allotted response time. You can add or remove notified users at anytime, and notified users must be on the account that is associated with the device to receive a notification. Follow these steps to manage notified users for the standard monitoring service.
 {:shortdesc}
 
 ## Before you begin
@@ -53,4 +53,4 @@ Complete the following steps to remove notified users for the standard monitorin
 ## Next steps
 {: #ns-notified-users}
 
-If you add a notified user, the user is notified in the event of a missed ping response. If you removed a notified user, the user no longer receives a notification regarding a missed ping response that is associated with the device.
+If you add a notified user, the user is notified of any missed ping responses. If you removed a notified user, the user no longer receives a notification of missed ping responses associated with the device.
