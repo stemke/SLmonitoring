@@ -20,7 +20,7 @@ subcollection: slmonitoring
 ## I'm seeing numerous monitoring alert tickets. Does this mean that my server is down?
 {: faq}
 
-Each device comes with a complimentary monitoring ping and notify service. This service automatically creates a monitoring alert ticket upon failing set parameters. False positives are possible with the monitoring service and can be attributed to rate limiting by a software firewall on the server, service and application availability, and service interruptions within the monitoring infrastructure. Review the default settings to mitigate possible false monitoring alerts.
+Each device comes with a complimentary monitoring ping and notify service. This service automatically creates a monitoring alert ticket upon failing set parameters. False positives are possible with the monitoring service and can be attributed to software firewall rate limits on the server, service and application availability, service and application availability, and service interruptions within the monitoring infrastructure. Review the default settings to mitigate possible false monitoring alerts.
 
 ## Can I have the monitoring system issue an automatic reboot and alert a support technician if the server stops responding?
 {: faq}
