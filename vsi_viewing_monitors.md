@@ -4,7 +4,7 @@ copyright:
   years: 2017, 2019
 lastupdated: "2019-06-21"
 
-keywords:
+keywords: monitoring, monitor
 
 subcollection: slmonitoring
 
