@@ -2,9 +2,9 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-21"
+lastupdated: "2019-08-23"
 
-keywords:
+keywords: monitoring, Nimsoft, Nimsoft Monitoring agent report
 
 subcollection: slmonitoring
 
@@ -18,6 +18,7 @@ subcollection: slmonitoring
 {: #configuring-a-nimsoft-monitoring-agent-report}
 
 ## Before you begin
+{: #byb-configuring-a-nimsoft-monitoring-agent-report}
 
 First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
 
@@ -58,5 +59,6 @@ Complete the following steps to configure a Nimsoft Monitoring agent report.
   {:note}
 
 ## Next steps
+{: #ns-configuring-a-nimsoft-monitoring-agent-report}
 
 After you successfully save the configuration, a confirmation message appears. If the configuration was unsuccessful, an error message appears with details about the error that occurred and how to fix the error. You can reconfigure agents at any time by repeating these steps.
