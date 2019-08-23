@@ -4,7 +4,7 @@ copyright:
   years: 2014, 2019
 lastupdated: "2019-06-21"
 
-keywords:
+keywords: slmonitoring, Nimsoft Monitoring Robot, Nimsoft
 
 subcollection: slmonitoring
 
@@ -63,6 +63,7 @@ Complete the following steps to restart provisioning of the monitoring service.
         $ ./install.sh
 
 ## Next steps
+{: #ns-nimsoft-robot}
 
 After you run the installation, the system automatically completes the process. In Windows, a message appears with a confirmation of a successful install or with information about any errors that occurred.
 
