@@ -2,9 +2,9 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-21"
+lastupdated: "2019-08-23"
 
-keywords:
+keywords: monitoring, notified users
 
 subcollection: slmonitoring
 
@@ -20,6 +20,8 @@ Notified users for the standard monitoring service receive automated notificatio
 {:shortdesc}
 
 ## Before you begin
+{: #byb-notified-users}
+
 First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/infrastructure/SLmonitoring?topic=virtual-servers-navigating-devices).
@@ -49,5 +51,6 @@ Complete the following steps to remove notified users for the standard monitorin
 5. Click the **Remove** icon to remove the existing notified user, then select **Yes** to remove the user. 
 
 ## Next steps
+{: #ns-notified-users}
 
 If you add a notified user, the user is notified in the event of a missed ping response. If you removed a notified user, the user no longer receives a notification regarding a missed ping response that is associated with the device.
