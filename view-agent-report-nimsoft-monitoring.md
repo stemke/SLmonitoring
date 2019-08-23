@@ -2,9 +2,9 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-21"
+lastupdated: "2019-08-23"
 
-keywords:
+keywords: monitoring, Nimsoft Monitoring, agent report
 
 subcollection: slmonitoring
 
@@ -21,6 +21,8 @@ Monitoring details for Nimsoft Monitoring are available in agent reports, which 
 {:shortdesc}
 
 ## Before you begin
+{: #byb-viewing-an-agent-report-for-nimsoft-monitoring}
+
 First, navigate to the device menu and ensure you have the correct account permissions to complete the tasks.
 
 * Navigate to your console's device menu. For more information, see [Navigating to devices](/docs/infrastructure/SLmonitoring?topic=virtual-servers-navigating-devices).
@@ -53,5 +55,6 @@ Complete the following steps to view an agent report for Nimsoft Monitoring.
 4. Click **Draw Graph** to draw the graph.
 
 ## Next steps
+{: #ns-viewing-an-agent-report-for-nimsoft-monitoring}
 
 After drawing the graph for the agent report, the graph can be redrawn at any time to view different metrics by repeating these steps. There's no limit to the number of agent reports that can be generated within a set amount of time.
