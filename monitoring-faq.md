@@ -2,9 +2,9 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-21"
+lastupdated: "2019-08-23"
 
-keywords:
+keywords: monitoring faq
 
 subcollection: slmonitoring
 
