@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-06-21"
+  years: 2014, 2020
+lastupdated: "2020-02-20"
 
 keywords: slmonitoring, Nimsoft Monitoring Robot, Nimsoft
 
@@ -11,10 +11,21 @@ subcollection: slmonitoring
 ---
 
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:external: target="_blank" .external}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:important: .important}
+{:note: .note}
+{:tip: .tip}
+{:deprecated: .deprecated}
 
 # Installing and managing the Nimsoft Monitoring Robot
 {: #installing-and-managing-the-nimsoft-monitoring-robot}
+
+Nimsoft Monitor is no longer available for purchase as {{site.data.keyword.cloud}} transitions to IBM Cloud Monitoring with Sysdig. For more information about Monitoring with Sysdig, see [IBM Cloud Monitoring with Sysdig](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-about). For existing Nimsoft customers, Nimsoft support continues until the transition is complete. To continue monitoring after this date, you need to move to Sysdig. 
+{: important}
 
 To allow advanced monitoring to function on existing {{site.data.keyword.baremetal_short}} or {{site.data.keyword.BluVirtServers_short}}, install the Nimsoft Monitoring Robot. The Nimsoft Monitoring Robot allows the monitoring management system to communicate with the bare metal server or virtual server on the private network. After you install the Nimsoft Monitoring Robot, it takes approximately 5 - 10 minutes to become available on the {{site.data.keyword.cloud}} console. Complete the following steps to install the Nimsoft Monitoring Robot in Windows or Linux.
 
