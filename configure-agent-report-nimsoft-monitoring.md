@@ -10,12 +10,22 @@ subcollection: slmonitoring
 
 ---
 
-{:note: .note}
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:external: target="_blank" .external}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:important: .important}
+{:note: .note}
+{:tip: .tip}
+{:deprecated: .deprecated}
 
 # Configuring a Nimsoft Monitoring agent report
 {: #configuring-a-nimsoft-monitoring-agent-report}
+
+Nimsoft Monitor is no longer available for purchase as {{site.data.keyword.cloud}} transitions to IBM Cloud Monitoring with Sysdig. For more information about Monitoring with Sysdig, see [IBM Cloud Monitoring with Sysdig](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-about). For existing Nimsoft customers, Nimsoft support continues until the transition is complete. To continue monitoring after this date, you need to move to Sysdig. 
+{: important}
 
 ## Before you begin
 {: #byb-configuring-a-nimsoft-monitoring-agent-report}
