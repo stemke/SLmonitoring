@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-08-23"
+  years: 2014, 2020
+lastupdated: "2020-02-20"
 
 keywords: monitoring, Nimsoft Monitoring, agent report
 
@@ -10,12 +10,22 @@ subcollection: slmonitoring
 
 ---
 
-{:note: .note}
 {:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{:codeblock: .codeblock}
+{:screen: .screen}
+{:external: target="_blank" .external}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:important: .important}
+{:note: .note}
+{:tip: .tip}
+{:deprecated: .deprecated}
 
 # Viewing an agent report for Nimsoft Monitoring
 {: #viewing-an-agent-report-for-nimsoft-monitoring}
+
+Nimsoft Monitor is no longer available for purchase as {{site.data.keyword.cloud}} transitions to IBM Cloud Monitoring with Sysdig. For more information about Monitoring with Sysdig, see [IBM Cloud Monitoring with Sysdig](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-about). For existing Nimsoft customers, Nimsoft support continues until the transition is complete. To continue monitoring after this date, you need to move to Sysdig. 
+{: important}
 
 Monitoring details for Nimsoft Monitoring are available in agent reports, which provide the details specific to the way the agent was configured. 
 {:shortdesc}
