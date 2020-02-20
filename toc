@@ -16,6 +16,7 @@ Monitoring
     install-nimsoft-monitoring-robot.md
     configure-agent-report-nimsoft-monitoring.md
     view-agent-report-nimsoft-monitoring.md
+    /docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started
     {: .navgroup-end}
 
     {: .navgroup id="help"}
