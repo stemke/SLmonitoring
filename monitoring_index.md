@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2020
-lastupdated: "2020-02-20"
+lastupdated: "2020-03-09"
 
 keywords: IBM Cloud Monitoring, Standard Monitoring Services, Nimsoft, Sysdig, monitoring
 
