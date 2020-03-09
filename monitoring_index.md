@@ -24,7 +24,7 @@ subcollection: slmonitoring
 # Getting started tutorial
 {: #monitoring}
 
-Nimsoft Monitor is no longer available for purchase as {{site.data.keyword.cloud}} transitions to IBM Cloud Monitoring with Sysdig. For more information about Monitoring with Sysdig, see [IBM Cloud Monitoring with Sysdig](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-about). For existing Nimsoft customers, Nimsoft support continues until the transition is complete. To continue monitoring after this date, you need to move to Sysdig. 
+{{site.data.keyword.cloud}} is transitioning to IBM Cloud Monitoring with Sysdig. Nimsoft Monitor is available for purchase until the transition occurs. For more information about Monitoring with Sysdig, see [IBM Cloud Monitoring with Sysdig](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-about). <!--For existing Nimsoft customers, Nimsoft support continues until the transition is complete. To continue monitoring after this date, you need to move to Sysdig.-->
 {: important}
 
 {{site.data.keyword.cloud}} offers Sysdig monitoring to keep you aware of any issues with your devices. Sysdig gives you insight into the performance and health of your applications, services, and platforms. Your administrators, DevOps teams, and developers have full stack telemetry with advanced features to help them monitor and troubleshoot, define alerts, and design custom dashboards.
