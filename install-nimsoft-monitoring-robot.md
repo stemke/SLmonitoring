@@ -49,7 +49,7 @@ If there is an error configuring the monitoring service due to communication err
 {: #restarting-provisioning-of-a-monitoring-agent}
 
 Complete the following steps to restart provisioning of the monitoring service.
-1. Navigate to your console's device menu. For more information, see [Navigating to devices](https://test.cloud.ibm.com/docs//SLmonitoring?topic=virtual-servers-navigating-devices).
+1. Navigate to your console's device menu. For more information, see [Navigating to devices](https://test.cloud.ibm.com/docs/SLmonitoring?topic=virtual-servers-navigating-devices).
 2. From the **Devices** menu, select **Monitoring**.
 3. Find the system for which monitoring is being configured.
 4. Select **"Redeploy all agents"** in the **Advanced** section.
