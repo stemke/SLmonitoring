@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2020
-lastupdated: "2020-02-18"
+lastupdated: "2020-03-31"
 
 keywords: Nessus, Security, Nessus Security Scanner, scanner, vulnerability
 
@@ -46,4 +46,4 @@ For all successfully completed Nessus scans listed in this table, a report can b
 
 The open source Nessus tool is plug-in based, which allows new tests to be developed as vulnerabilities are found. {{site.data.keyword.cloud_notm}} updates the internal Nessus tool regularly, so regular scanning with the security scanner is recommended to keep up to date with new threats.
 
-For a successful scan, connections from `173.192.255.232`, `172.17.19.38`, and `172.22.211.38` need to be allowed access to your server.
+For a successful scan, connections from `169.48.118.71`, `173.192.255.232`, `172.17.19.38`, and `172.22.211.38` need to be allowed access to your server.
