@@ -22,4 +22,5 @@ Monitoring
 
     {: .navgroup id="help"}
     monitoring-faq.md
+    [FAQs: IBM Cloud Monitoring with Sysdig](/vsi/virtual-servers-faq-sysdig-monitoring)
     {: .navgroup-end}
