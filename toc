@@ -19,6 +19,10 @@ Monitoring
     uninstall-nimsoft.md
     /services/Monitoring-with-Sysdig?topic=Sysdig-getting-started
     {: .navgroup-end}
+    
+    {: .navgroup id="reference"}
+    sysdig-metrics.md
+    {: navgroup-end}
 
     {: .navgroup id="help"}
     monitoring-faq.md
