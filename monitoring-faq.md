@@ -14,7 +14,7 @@ subcollection: slmonitoring
 {:new_window: target="_blank"}
 {:faq: data-hd-content-type='faq'}
 
-# FAQs
+# FAQs: Monitoring 
 {: #monitoring-faq}
 
 ## I'm seeing numerous monitoring alert tickets. Does this mean that my server is down?
