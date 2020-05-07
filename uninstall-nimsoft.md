@@ -2,9 +2,9 @@
 
 copyright:
   years: 2020
-lastupdated: "2020-05-06"
+lastupdated: "2020-05-07"
 
-keywords: uninstall nimsoft
+keywords: uninstall advanced monitoring, uninstall nimsoft
 
 subcollection: SLmonitoring
 
@@ -58,9 +58,3 @@ To remove a robot that was installed by `nimldr`, use the following commands.
 
 `service nimbus stop`
 `/opt/nimsoft/bin/inst_init.sh remove`
-
-
-
-
-
- 
