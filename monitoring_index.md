@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2020
-lastupdated: "2020-03-09"
+lastupdated: "2020-05-13"
 
 keywords: IBM Cloud Monitoring, Standard Monitoring Services, Nimsoft, Sysdig, monitoring
 
@@ -24,14 +24,11 @@ subcollection: slmonitoring
 # Getting started tutorial
 {: #monitoring}
 
-{{site.data.keyword.cloud}} is transitioning to IBM Cloud Monitoring with Sysdig. Nimsoft Monitor is available for purchase until the transition occurs. For more information about Monitoring with Sysdig, see [IBM Cloud Monitoring with Sysdig](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-about). <!--For existing Nimsoft customers, Nimsoft support continues until the transition is complete. To continue monitoring after this date, you need to move to Sysdig.-->
+{{site.data.keyword.cloud}} is transitioning to I{{site.data.keyword.mon_full_notm}}. Nimsoft Monitor is available for purchase until the transition occurs. For more information about {{site.data.keyword.mon_full_notm}}, see [{{site.data.keyword.mon_full_notm}}](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-about). <!--For existing Nimsoft customers, Nimsoft support continues until the transition is complete. To continue monitoring after this date, you need to move to Sysdig.-->
 {: important}
 
-{{site.data.keyword.cloud}} offers Sysdig monitoring to keep you aware of any issues with your devices. Sysdig gives you insight into the performance and health of your applications, services, and platforms. Your administrators, DevOps teams, and developers have full stack telemetry with advanced features to help them monitor and troubleshoot, define alerts, and design custom dashboards.
+{{site.data.keyword.cloud}} offers {{site.data.keyword.mon_full_notm}} to keep you aware of any issues with your devices. {{site.data.keyword.mon_full_notm}} gives you insight into the performance and health of your applications, services, and platforms. Your administrators, DevOps teams, and developers have full stack telemetry with advanced features to help them monitor and troubleshoot, define alerts, and design custom dashboards.
 {:shortdesc}
-
-Windows Sysdig support is coming soon!
-{:note}
 
 ## Initiate service and slow pings
 
@@ -47,7 +44,7 @@ To view configured monitors, follow these steps:
 
 ## Getting started with Sysdig
 
-For information about setting up a Sysdig IBM Cloud monitoring agent, see [Getting started with Sysdig](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started).
+For information about setting up an {{site.data.keyword.mon_full_notm}} monitoring agent, see [Getting started with {{site.data.keyword.mon_full_notm}}](/docs/services/Monitoring-with-Sysdig?topic=Sysdig-getting-started).
 
 The **Monitoring** tab is only visible if at least one monitor is configured.
 {:note}
