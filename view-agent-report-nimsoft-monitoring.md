@@ -6,7 +6,7 @@ lastupdated: "2020-02-20"
 
 keywords: monitoring, Nimsoft Monitoring, agent report
 
-subcollection: slmonitoring
+subcollection: SLmonitoring
 
 ---
 

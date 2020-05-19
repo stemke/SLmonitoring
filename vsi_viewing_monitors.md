@@ -6,7 +6,7 @@ lastupdated: "2019-08-23"
 
 keywords: monitoring, monitor
 
-subcollection: slmonitoring
+subcollection: SLmonitoring
 
 ---
 

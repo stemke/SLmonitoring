@@ -6,7 +6,7 @@ lastupdated: "2019-08-23"
 
 keywords: monitoring faq
 
-subcollection: slmonitoring
+subcollection: SLmonitoring
 
 ---
 

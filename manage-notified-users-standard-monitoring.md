@@ -6,7 +6,7 @@ lastupdated: "2019-08-23"
 
 keywords: monitoring, notified users
 
-subcollection: slmonitoring
+subcollection: SLmonitoring
 
 ---
 

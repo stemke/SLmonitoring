@@ -6,7 +6,7 @@ lastupdated: "2020-02-20"
 
 keywords: slmonitoring, Nimsoft Monitoring Robot, Nimsoft
 
-subcollection: slmonitoring
+subcollection: SLmonitoring
 
 ---
 

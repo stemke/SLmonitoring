@@ -6,7 +6,7 @@ lastupdated: "2020-05-13"
 
 keywords: IBM Cloud Monitoring, Standard Monitoring Services, Nimsoft, Sysdig, monitoring
 
-subcollection: slmonitoring
+subcollection: SLmonitoring
 
 ---
 
